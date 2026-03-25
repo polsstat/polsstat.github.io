@@ -1,0 +1,856 @@
+{
+  "Sağlık": {
+    "toplam_onerge": 7550,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        1045
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        353
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        327
+      ],
+      [
+        "Mahmut TANAL",
+        266
+      ],
+      [
+        "Ali KARAOBA",
+        183
+      ],
+      [
+        "Öznur BARTİN",
+        122
+      ],
+      [
+        "Serhat EREN",
+        115
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        106
+      ],
+      [
+        "Kayıhan PALA",
+        103
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        93
+      ],
+      [
+        "Uğur BAYRAKTUTAN",
+        82
+      ],
+      [
+        "Hüseyin OLAN",
+        77
+      ],
+      [
+        "Nevroz UYSAL ASLAN",
+        74
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        72
+      ],
+      [
+        "Deniz YAVUZYILMAZ",
+        72
+      ],
+      [
+        "Nermin YILDIRIM KARA",
+        68
+      ],
+      [
+        "Heval BOZDAĞ",
+        66
+      ],
+      [
+        "Aliye TİMİSİ ERSEVER",
+        66
+      ],
+      [
+        "Beritan GÜNEŞ ALTIN",
+        63
+      ],
+      [
+        "Yüksel Selçuk TÜRKOĞLU",
+        60
+      ]
+    ]
+  },
+  "Ekonomi": {
+    "toplam_onerge": 8824,
+    "en_aktif_mvler": [
+      [
+        "Mustafa Sezgin TANRIKULU",
+        491
+      ],
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        463
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        334
+      ],
+      [
+        "Mahmut TANAL",
+        327
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        210
+      ],
+      [
+        "Aliye TİMİSİ ERSEVER",
+        165
+      ],
+      [
+        "Deniz YAVUZYILMAZ",
+        159
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        148
+      ],
+      [
+        "Uğur BAYRAKTUTAN",
+        132
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        129
+      ],
+      [
+        "Ali KARAOBA",
+        119
+      ],
+      [
+        "Mustafa BİLİCİ",
+        115
+      ],
+      [
+        "Hüseyin OLAN",
+        107
+      ],
+      [
+        "Aykut KAYA",
+        90
+      ],
+      [
+        "Burhanettin KOCAMAZ",
+        86
+      ],
+      [
+        "Serhat EREN",
+        86
+      ],
+      [
+        "Rahmi Aşkın TÜRELİ",
+        84
+      ],
+      [
+        "Nermin YILDIRIM KARA",
+        79
+      ],
+      [
+        "Asu KAYA",
+        76
+      ],
+      [
+        "Yüksel Selçuk TÜRKOĞLU",
+        74
+      ]
+    ]
+  },
+  "Eğitim": {
+    "toplam_onerge": 5754,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        443
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        170
+      ],
+      [
+        "Mahmut TANAL",
+        163
+      ],
+      [
+        "Ali KARAOBA",
+        162
+      ],
+      [
+        "Yüksel Selçuk TÜRKOĞLU",
+        135
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        90
+      ],
+      [
+        "Yüksel TAŞKIN",
+        88
+      ],
+      [
+        "Suat ÖZÇAĞDAŞ",
+        75
+      ],
+      [
+        "Ayhan BARUT",
+        74
+      ],
+      [
+        "Nurhayat ALTACA KAYIŞOĞLU",
+        72
+      ],
+      [
+        "Serhat EREN",
+        70
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        68
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        63
+      ],
+      [
+        "Kayıhan PALA",
+        62
+      ],
+      [
+        "Öznur BARTİN",
+        60
+      ],
+      [
+        "İskender BAYHAN",
+        56
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        55
+      ],
+      [
+        "Sevda KARACA DEMİR",
+        53
+      ],
+      [
+        "Mehmet Satuk Buğra KAVUNCU",
+        51
+      ],
+      [
+        "İbrahim AKIN",
+        50
+      ]
+    ]
+  },
+  "Çevre": {
+    "toplam_onerge": 7072,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        323
+      ],
+      [
+        "Ömer Faruk HÜLAKÜ",
+        294
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        192
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        174
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        161
+      ],
+      [
+        "İbrahim AKIN",
+        157
+      ],
+      [
+        "Mahmut TANAL",
+        130
+      ],
+      [
+        "Nermin YILDIRIM KARA",
+        129
+      ],
+      [
+        "Deniz YAVUZYILMAZ",
+        106
+      ],
+      [
+        "Ayhan BARUT",
+        100
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        98
+      ],
+      [
+        "Serhat EREN",
+        97
+      ],
+      [
+        "Öznur BARTİN",
+        91
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        79
+      ],
+      [
+        "Ali KARAOBA",
+        73
+      ],
+      [
+        "İnan Akgün ALP",
+        69
+      ],
+      [
+        "Asu KAYA",
+        66
+      ],
+      [
+        "Mehmet Emin EKMEN",
+        65
+      ],
+      [
+        "Mehmet Satuk Buğra KAVUNCU",
+        63
+      ],
+      [
+        "Elvan IŞIK GEZMİŞ",
+        62
+      ]
+    ]
+  },
+  "Tarım": {
+    "toplam_onerge": 6998,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        376
+      ],
+      [
+        "Hüseyin OLAN",
+        373
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        259
+      ],
+      [
+        "İnan Akgün ALP",
+        254
+      ],
+      [
+        "Mahmut TANAL",
+        228
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        223
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        182
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        170
+      ],
+      [
+        "Aliye TİMİSİ ERSEVER",
+        141
+      ],
+      [
+        "Uğur BAYRAKTUTAN",
+        134
+      ],
+      [
+        "Ali KARAOBA",
+        111
+      ],
+      [
+        "Öznur BARTİN",
+        108
+      ],
+      [
+        "Ömer Faruk HÜLAKÜ",
+        102
+      ],
+      [
+        "İzzet AKBULUT",
+        90
+      ],
+      [
+        "Mustafa BİLİCİ",
+        89
+      ],
+      [
+        "Serhat EREN",
+        89
+      ],
+      [
+        "Aykut KAYA",
+        87
+      ],
+      [
+        "İbrahim AKIN",
+        81
+      ],
+      [
+        "Özgür Erdem İNCESU",
+        81
+      ],
+      [
+        "Elvan IŞIK GEZMİŞ",
+        69
+      ]
+    ]
+  },
+  "Güvenlik": {
+    "toplam_onerge": 7261,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        2146
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        271
+      ],
+      [
+        "Serhat EREN",
+        200
+      ],
+      [
+        "Nevroz UYSAL ASLAN",
+        183
+      ],
+      [
+        "Öznur BARTİN",
+        179
+      ],
+      [
+        "Beritan GÜNEŞ ALTIN",
+        129
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        122
+      ],
+      [
+        "Mahmut TANAL",
+        115
+      ],
+      [
+        "Mustafa ADIGÜZEL",
+        100
+      ],
+      [
+        "Murat BAKAN",
+        89
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        78
+      ],
+      [
+        "Gülcan KAÇMAZ SAYYİĞİT",
+        71
+      ],
+      [
+        "Gülderen VARLİ",
+        70
+      ],
+      [
+        "Ferit ŞENYAŞAR",
+        68
+      ],
+      [
+        "Ömer Faruk HÜLAKÜ",
+        64
+      ],
+      [
+        "Kamuran TANHAN",
+        59
+      ],
+      [
+        "Ceylan AKÇA CUPOLO",
+        58
+      ],
+      [
+        "Uğur BAYRAKTUTAN",
+        56
+      ],
+      [
+        "Meral DANIŞ BEŞTAŞ",
+        55
+      ],
+      [
+        "Numan KURTULMUŞ",
+        55
+      ]
+    ]
+  },
+  "Altyapı": {
+    "toplam_onerge": 15570,
+    "en_aktif_mvler": [
+      [
+        "Mahmut TANAL",
+        913
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        804
+      ],
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        600
+      ],
+      [
+        "Hüseyin OLAN",
+        382
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        272
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        265
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        264
+      ],
+      [
+        "İnan Akgün ALP",
+        224
+      ],
+      [
+        "Uğur BAYRAKTUTAN",
+        216
+      ],
+      [
+        "Öznur BARTİN",
+        215
+      ],
+      [
+        "Mehmet TAHTASIZ",
+        206
+      ],
+      [
+        "Ali KARAOBA",
+        197
+      ],
+      [
+        "Nermin YILDIRIM KARA",
+        194
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        168
+      ],
+      [
+        "Ayhan BARUT",
+        158
+      ],
+      [
+        "Aykut KAYA",
+        154
+      ],
+      [
+        "Meral DANIŞ BEŞTAŞ",
+        152
+      ],
+      [
+        "İbrahim AKIN",
+        146
+      ],
+      [
+        "Serhat EREN",
+        140
+      ],
+      [
+        "Süleyman BÜLBÜL",
+        134
+      ]
+    ]
+  },
+  "Dış Politika": {
+    "toplam_onerge": 6237,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        572
+      ],
+      [
+        "Numan KURTULMUŞ",
+        194
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        161
+      ],
+      [
+        "Cevdet AKAY",
+        149
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        132
+      ],
+      [
+        "Mahmut TANAL",
+        131
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        115
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        108
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        90
+      ],
+      [
+        "Murat BAKAN",
+        87
+      ],
+      [
+        "Sibel SUİÇMEZ",
+        79
+      ],
+      [
+        "Yüksel Selçuk TÜRKOĞLU",
+        67
+      ],
+      [
+        "Turhan ÇÖMEZ",
+        66
+      ],
+      [
+        "Öznur BARTİN",
+        66
+      ],
+      [
+        "Ali KARAOBA",
+        62
+      ],
+      [
+        "Deniz YAVUZYILMAZ",
+        62
+      ],
+      [
+        "Meral DANIŞ BEŞTAŞ",
+        58
+      ],
+      [
+        "Kürşad ZORLU",
+        56
+      ],
+      [
+        "Mehmet Satuk Buğra KAVUNCU",
+        56
+      ],
+      [
+        "Serhat EREN",
+        55
+      ]
+    ]
+  },
+  "Adalet": {
+    "toplam_onerge": 12414,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        2547
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        820
+      ],
+      [
+        "Mahmut TANAL",
+        698
+      ],
+      [
+        "Öznur BARTİN",
+        495
+      ],
+      [
+        "Nevroz UYSAL ASLAN",
+        261
+      ],
+      [
+        "Serhat EREN",
+        260
+      ],
+      [
+        "Numan KURTULMUŞ",
+        207
+      ],
+      [
+        "Beritan GÜNEŞ ALTIN",
+        165
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        153
+      ],
+      [
+        "Meral DANIŞ BEŞTAŞ",
+        151
+      ],
+      [
+        "Süleyman BÜLBÜL",
+        128
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        124
+      ],
+      [
+        "Selma Aliye KAVAF",
+        116
+      ],
+      [
+        "Gülüstan KILIÇ KOÇYİĞİT",
+        99
+      ],
+      [
+        "Ceylan AKÇA CUPOLO",
+        95
+      ],
+      [
+        "Onur DÜŞÜNMEZ",
+        95
+      ],
+      [
+        "Gülcan KAÇMAZ SAYYİĞİT",
+        86
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        85
+      ],
+      [
+        "Selçuk ÖZDAĞ",
+        83
+      ],
+      [
+        "Sezai TEMELLİ",
+        81
+      ]
+    ]
+  },
+  "Sosyal": {
+    "toplam_onerge": 7226,
+    "en_aktif_mvler": [
+      [
+        "Ömer Faruk GERGERLİOĞLU",
+        503
+      ],
+      [
+        "Mustafa Sezgin TANRIKULU",
+        291
+      ],
+      [
+        "Mahmut TANAL",
+        214
+      ],
+      [
+        "Beritan GÜNEŞ ALTIN",
+        191
+      ],
+      [
+        "Sümeyye BOZ ÇAKI",
+        163
+      ],
+      [
+        "Kamuran TANHAN",
+        129
+      ],
+      [
+        "Ömer Fethi GÜRER",
+        117
+      ],
+      [
+        "Öznur BARTİN",
+        116
+      ],
+      [
+        "Ali KARAOBA",
+        115
+      ],
+      [
+        "Zeynep ODUNCU KUTEVİ",
+        114
+      ],
+      [
+        "Serhat EREN",
+        103
+      ],
+      [
+        "Gülderen VARLİ",
+        101
+      ],
+      [
+        "Nevroz UYSAL ASLAN",
+        96
+      ],
+      [
+        "Yasin ÖZTÜRK",
+        96
+      ],
+      [
+        "Salihe AYDENİZ",
+        85
+      ],
+      [
+        "Gülüstan KILIÇ KOÇYİĞİT",
+        83
+      ],
+      [
+        "Meral DANIŞ BEŞTAŞ",
+        82
+      ],
+      [
+        "Hakan Şeref OLGUN",
+        81
+      ],
+      [
+        "Selma Aliye KAVAF",
+        79
+      ],
+      [
+        "Asu KAYA",
+        73
+      ]
+    ]
+  },
+  "Diğer": {
+    "toplam_onerge": 6708,
+    "en_aktif_mvler": []
+  }
+}
