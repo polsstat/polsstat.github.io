@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>PoliticsStat — Türkiye Parlamenter Analitik Platformu</title>
 <meta name="description" content="600 milletvekili, 150.000+ faaliyet kaydı. Türkiye'nin ilk parlamenter şeffaflık platformu.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
+
+/* LIGHT = default */
 :root{
+  --bg0:#f5f5f0;--bg1:#ffffff;--bg2:#f0f0eb;--bg3:#e6e6e0;--bg4:#d8d8d2;
+  --border:#e0e0d8;--border2:#c8c8c0;
+  --t0:#0a0a0a;--t1:#1a1a1a;--t2:#444444;--t3:#888888;--t4:#bbbbbb;
+  --green:#2a7d2a;--green-bg:#eaf5ea;--green-bd:#b8d8b8;
+  --amber:#8a6000;--amber-bg:#fff8e0;
+  --blue:#1a50a0;--blue-bg:#e0ecff;
+  --red:#b02020;--red-bg:#ffecec;
+  --purple:#6a1080;--purple-bg:#f5e0ff;
+  --teal:#007080;--teal-bg:#d8f5f8;
+  --orange:#c05000;--orange-bg:#fff0e0;
+  --lime:#3a6810;--lime-bg:#edf5d8;
+  --mhp-red:#990000;--mhp-bg:#ffe8e8;
+}
+[data-theme=dark]{
   --bg0:#0a0a0a;--bg1:#111111;--bg2:#161616;--bg3:#1e1e1e;--bg4:#252525;
   --border:#1e1e1e;--border2:#2a2a2a;
-  --t0:#ffffff;--t1:#cccccc;--t2:#888888;--t3:#444444;--t4:#2a2a2a;
+  --t0:#ffffff;--t1:#cccccc;--t2:#888888;--t3:#505050;--t4:#303030;
   --green:#5cb85c;--green-bg:#0a1f0a;--green-bd:#1a3a1a;
   --amber:#d4a017;--amber-bg:#1f1500;
   --blue:#5b9bd5;--blue-bg:#0a0f20;
@@ -23,20 +39,10 @@
   --lime:#8bc34a;--lime-bg:#141f0a;
   --mhp-red:#cc0000;--mhp-bg:#1a0000;
 }
-[data-theme=light]{
-  --bg0:#f4f4ef;--bg1:#ffffff;--bg2:#f0f0ea;--bg3:#e8e8e0;--bg4:#ddddd5;
-  --border:#e0e0d8;--border2:#ccccC4;
-  --t0:#0a0a0a;--t1:#1a1a1a;--t2:#555555;--t3:#999999;--t4:#cccccc;
-  --green:#2d7a2d;--green-bg:#e8f5e8;--green-bd:#b8ddb8;
-  --amber:#8a6000;--amber-bg:#fff8e0;
-  --blue:#1550a0;--blue-bg:#e0ecff;
-  --red:#b02020;--red-bg:#ffeaea;
-  --purple:#5a1080;--purple-bg:#f5e0ff;
-  --teal:#006070;--teal-bg:#d8f5f8;
-  --orange:#c05000;--orange-bg:#fff0e0;
-  --lime:#3a6010;--lime-bg:#eaf5d8;
-  --mhp-red:#990000;--mhp-bg:#ffe0e0;
-}
+
+/* Başlık fontu: Inter (daha kompakt, modern) */
+.font-head{font-family:'Inter',sans-serif;font-weight:800}
+
 body{background:var(--bg0);color:var(--t1);font-family:'DM Sans',sans-serif;font-size:14px;line-height:1.6;transition:background .2s,color .2s}
 ::-webkit-scrollbar{width:5px}
 ::-webkit-scrollbar-track{background:var(--bg0)}
@@ -48,7 +54,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .logo-icon{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--green);display:flex;align-items:flex-end;justify-content:center;gap:2px;padding:4px 4px 3px;flex-shrink:0}
 .lb{border-radius:1px;background:var(--green)}
 .lbd{border-radius:1px;background:var(--bg3)}
-.logo-text{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--t0);letter-spacing:-.3px}
+.logo-text{font-family:'Inter',sans-serif;font-size:16px;font-weight:800;color:var(--t0);letter-spacing:-.3px}
 .logo-text span{color:var(--green)}
 .nav-links{display:flex;gap:2px;margin-right:12px}
 .nbtn{background:none;border:none;padding:6px 12px;font-size:12px;font-weight:500;color:var(--t3);cursor:pointer;border-radius:6px;font-family:'DM Sans',sans-serif;transition:all .15s;white-space:nowrap}
@@ -60,7 +66,8 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .search-input::placeholder{color:var(--t3)}
 .search-input:focus{border-color:var(--green)}
 .search-icon{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--t3);font-size:12px;pointer-events:none}
-#search-results{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--bg1);border:1px solid var(--border2);border-radius:8px;max-height:280px;overflow-y:auto;display:none;z-index:300;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+#search-results{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--bg1);border:1px solid var(--border2);border-radius:8px;max-height:280px;overflow-y:auto;display:none;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+[data-theme=dark] #search-results{box-shadow:0 8px 24px rgba(0,0,0,.5)}
 .sr-item{padding:10px 14px;cursor:pointer;border-bottom:1px solid var(--border);transition:background .1s}
 .sr-item:last-child{border:none}
 .sr-item:hover{background:var(--bg2)}
@@ -77,7 +84,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .hero{padding:72px 24px 56px;text-align:center;max-width:820px;margin:0 auto}
 .hero-badge{display:inline-flex;align-items:center;gap:6px;background:var(--green-bg);color:var(--green);font-size:11px;font-weight:500;padding:5px 14px;border-radius:20px;border:1px solid var(--green-bd);margin-bottom:28px;letter-spacing:.04em}
 .hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
-.hero h1{font-family:'Syne',sans-serif;font-size:50px;font-weight:800;color:var(--t0);line-height:1.06;letter-spacing:-1.5px;margin-bottom:20px}
+.hero h1{font-family:'Inter',sans-serif;font-size:46px;font-weight:800;color:var(--t0);line-height:1.08;letter-spacing:-1px;margin-bottom:20px}
 .hero h1 em{color:var(--green);font-style:normal}
 .hero p{font-size:16px;color:var(--t2);max-width:540px;margin:0 auto 36px;font-weight:300;line-height:1.75}
 .hero-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
@@ -90,7 +97,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .stats-bar{display:flex;background:var(--bg1);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .sc{flex:1;padding:20px 12px;text-align:center;border-right:1px solid var(--border)}
 .sc:last-child{border-right:none}
-.sc-num{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--t0);line-height:1}
+.sc-num{font-family:'Inter',sans-serif;font-size:26px;font-weight:800;color:var(--t0);line-height:1}
 .sc-num.green{color:var(--green)}
 .sc-lbl{font-size:10px;color:var(--t3);margin-top:4px;letter-spacing:.04em}
 
@@ -99,22 +106,15 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .section-label{font-size:10px;color:var(--t3);letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
 .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .how-card{background:var(--bg1);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative;overflow:hidden}
-.how-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--green);opacity:.4}
-.how-n{font-family:'Syne',sans-serif;font-size:44px;font-weight:800;color:var(--bg3);line-height:1;margin-bottom:14px}
-.how-t{font-family:'Syne',sans-serif;font-size:14px;font-weight:800;color:var(--t0);margin-bottom:8px}
+.how-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--green);opacity:.5}
+.how-n{font-family:'Inter',sans-serif;font-size:40px;font-weight:800;color:var(--bg3);line-height:1;margin-bottom:14px}
+.how-t{font-family:'Inter',sans-serif;font-size:14px;font-weight:700;color:var(--t0);margin-bottom:8px}
 .how-d{font-size:12px;color:var(--t3);line-height:1.65}
 
-/* PARTI STRIP ON LANDING */
-.parti-strip{background:var(--bg1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 24px;overflow:hidden;margin-bottom:0}
-.parti-strip-inner{display:flex;gap:32px;align-items:center;justify-content:center;flex-wrap:wrap}
-.psi{display:flex;flex-direction:column;align-items:center;gap:4px}
-.psi-name{font-size:11px;font-weight:500}
-.psi-ort{font-size:10px;color:var(--t3)}
-
 /* SECTION HEADER */
-.sec-hdr{display:flex;align-items:center;gap:12px;padding:28px 0 16px;border-bottom:1px solid var(--border);margin-bottom:20px}
-.sec-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--t0)}
-.sec-sub{font-size:11px;color:var(--t3);margin-left:auto}
+.sec-hdr{display:flex;align-items:flex-start;gap:12px;padding:28px 0 16px;border-bottom:1px solid var(--border);margin-bottom:20px}
+.sec-title{font-family:'Inter',sans-serif;font-size:17px;font-weight:800;color:var(--t0)}
+.sec-sub{font-size:11px;color:var(--t3);margin-left:auto;padding-top:4px}
 .sec-desc{font-size:12px;color:var(--t2);margin-top:6px;max-width:600px}
 
 /* FILTERS */
@@ -131,13 +131,13 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .lb-row td{padding:11px 14px;border-bottom:1px solid var(--bg2);vertical-align:middle;transition:background .1s}
 .lb-row:last-child td{border-bottom:none}
 .lb-row:hover td{background:var(--bg2)}
-.rank{font-family:'Syne',sans-serif;font-size:15px;font-weight:800;color:var(--t4);width:36px;text-align:center}
-.rank.gold{color:#c9a84c}.rank.silver{color:#909090}.rank.bronze{color:#8b6040}
-.mv-name-link{color:var(--t0);text-decoration:none;font-weight:500;font-size:13px;transition:color .15s}
+.rank{font-family:'Inter',sans-serif;font-size:14px;font-weight:800;color:var(--t4);width:36px;text-align:center}
+.rank.gold{color:#b8860b}.rank.silver{color:#707070}.rank.bronze{color:#7a4f30}
+.mv-name-link{color:var(--t0);text-decoration:none;font-weight:600;font-size:13px;transition:color .15s;cursor:pointer}
 .mv-name-link:hover{color:var(--green)}
 .mv-meta{font-size:10px;color:var(--t3);margin-top:2px}
 .skor-cell{text-align:right}
-.skor-big{font-family:'Syne',sans-serif;font-size:19px;font-weight:800;color:var(--t0);line-height:1}
+.skor-big{font-family:'Inter',sans-serif;font-size:18px;font-weight:800;color:var(--t0);line-height:1}
 .skor-sub{font-size:9px;color:var(--t3);margin-top:2px;text-align:right}
 .mini-act{display:flex;flex-direction:column;gap:3px;min-width:70px}
 .mini-row{display:flex;align-items:center;gap:4px}
@@ -148,7 +148,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .tbmm-link:hover{color:var(--green);border-color:var(--green)}
 
 /* TAGS */
-.tag{display:inline-block;font-size:9px;padding:2px 7px;border-radius:4px;font-weight:500;margin:1px;white-space:nowrap}
+.tag{display:inline-block;font-size:9px;padding:2px 7px;border-radius:4px;font-weight:600;margin:1px;white-space:nowrap}
 .t-Sağlık{background:var(--red-bg);color:var(--red)}
 .t-Ekonomi{background:var(--amber-bg);color:var(--amber)}
 .t-Çevre{background:var(--green-bg);color:var(--green)}
@@ -157,36 +157,21 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .t-Tarım{background:var(--lime-bg);color:var(--lime)}
 .t-Altyapı{background:var(--teal-bg);color:var(--teal)}
 .t-Adalet{background:var(--orange-bg);color:var(--orange)}
-.t-Sosyal{background:#1a0a1a;color:#d080d0}
-.t-Dış{background:#0a101a;color:#6090d0}
+.t-Sosyal{background:#f0e0f0;color:#7a2090}
+[data-theme=dark] .t-Sosyal{background:#1a0a1a;color:#d080d0}
+.t-Dış{background:#e0eaf8;color:#1a40a0}
+[data-theme=dark] .t-Dış{background:#0a101a;color:#6090d0}
 .t-Diğer{background:var(--bg3);color:var(--t3)}
 
-/* PARTİ COLORS */
-.p-CHP{color:#e05c5c}.p-AK{color:#ffa500}.p-MHP{color:var(--mhp-red)}
-.p-DEM{color:#a06cc0}.p-IYI{color:#5b9bd5}.p-YENIYOL{color:#5cb85c}
-.p-TIP{color:#e05c5c}.p-BAG{color:#888}.p-HUDA{color:#2e7d32}
-.p-YENIDEN{color:#d4a017}.p-EMEP{color:#e06020}.p-DSP{color:#1060d0}
-.p-DBP{color:#a06cc0}.p-SAADET{color:#209040}.p-DP{color:#205090}
-
-.pb{display:inline-block;font-size:9px;padding:2px 6px;border-radius:3px;font-weight:500;margin-left:4px;vertical-align:middle}
-.pb-CHP{background:var(--red-bg);color:#e05c5c}
-.pb-AK{background:#1f1000;color:#ffa500}
-.pb-MHP{background:var(--mhp-bg);color:var(--mhp-red)}
-.pb-DEM{background:var(--purple-bg);color:#a06cc0}
-.pb-IYI{background:var(--blue-bg);color:#5b9bd5}
-.pb-YENIYOL{background:var(--green-bg);color:#5cb85c}
-.pb-TIP{background:var(--red-bg);color:#e05c5c}
-.pb-BAG{background:var(--bg3);color:#888}
-.pb-HUDA{background:#0a1a0a;color:#2e7d32}
-.pb-YENIDEN{background:var(--amber-bg);color:#d4a017}
-.pb-other{background:var(--bg3);color:var(--t3)}
+/* PARTİ badge */
+.pb{display:inline-block;font-size:9px;padding:2px 6px;border-radius:3px;font-weight:600;margin-left:4px;vertical-align:middle}
 
 /* PARTİ SAYFASI */
 .parti-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .parti-card{background:var(--bg1);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:border-color .15s}
 .parti-card:hover{border-color:var(--border2)}
 .parti-head{padding:16px 18px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start}
-.parti-name{font-family:'Syne',sans-serif;font-size:14px;font-weight:800}
+.parti-name{font-family:'Inter',sans-serif;font-size:14px;font-weight:800}
 .parti-mv-count{font-size:11px;color:var(--t3);margin-top:2px}
 .parti-body{padding:14px 18px}
 .pstat-row{display:flex;justify-content:space-between;padding:5px 0;font-size:11px;border-bottom:1px solid var(--bg2)}
@@ -198,26 +183,13 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .pbar-bg{height:4px;background:var(--bg3);border-radius:2px}
 .pbar-fill{height:4px;border-radius:2px;transition:width .6s}
 
-/* EN AKTİF PARTİ MV */
-.parti-detail-section{background:var(--bg1);border:1px solid var(--border);border-radius:12px;margin-top:14px}
-.pds-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
-.pds-title{font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--t0)}
-.pds-body{padding:0}
-.pds-row{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--bg2);transition:background .1s;cursor:pointer}
-.pds-row:last-child{border:none}
-.pds-row:hover{background:var(--bg2)}
-.pds-rank{font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--t4);width:24px;text-align:center}
-.pds-name{font-size:13px;color:var(--t0);font-weight:500;flex:1}
-.pds-sehir{font-size:10px;color:var(--t3)}
-.pds-skor{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--t0)}
-
 /* KONU SAYFASI */
 .konu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:24px}
 .konu-card{background:var(--bg1);border:1px solid var(--border);border-radius:10px;padding:14px;position:relative;overflow:hidden;cursor:pointer;transition:border-color .15s}
 .konu-card:hover{border-color:var(--border2)}
 .konu-card.active{border-color:var(--green)}
 .konu-top{height:2px;position:absolute;top:0;left:0;right:0}
-.konu-name{font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--t0);margin:6px 0 3px}
+.konu-name{font-family:'Inter',sans-serif;font-size:13px;font-weight:700;color:var(--t0);margin:6px 0 3px}
 .konu-count{font-size:10px;color:var(--t3)}
 .konu-bar-bg{height:3px;background:var(--bg3);border-radius:2px;margin-top:10px}
 .konu-bar-fill{height:3px;border-radius:2px}
@@ -225,7 +197,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 /* METODOLOJİ */
 .metod-section{padding:32px 0 60px}
 .metod-card{background:var(--bg1);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:14px}
-.metod-title{font-family:'Syne',sans-serif;font-size:15px;font-weight:800;color:var(--t0);margin-bottom:12px}
+.metod-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--t0);margin-bottom:12px}
 .metod-body{font-size:13px;color:var(--t2);line-height:1.75}
 .metod-body p{margin-bottom:10px}
 .metod-body p:last-child{margin:0}
@@ -233,35 +205,81 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .weight-table th{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.08em;padding:8px 14px;border-bottom:1px solid var(--border);text-align:left;background:var(--bg2)}
 .weight-table td{padding:10px 14px;border-bottom:1px solid var(--bg2);font-size:12px;color:var(--t2)}
 .weight-table tr:last-child td{border:none}
-.weight-table td:last-child{font-family:'Syne',sans-serif;font-weight:800;color:var(--t0);text-align:right}
+.weight-table td:last-child{font-family:'Inter',sans-serif;font-weight:800;color:var(--t0);text-align:right}
+
+/* MV MODAL */
+.modal-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:500;
+  display:none;align-items:flex-start;justify-content:center;padding:40px 16px;
+  overflow-y:auto;
+}
+[data-theme=dark] .modal-overlay{background:rgba(0,0,0,.65)}
+.modal-overlay.open{display:flex}
+.mv-modal{
+  background:var(--bg1);border:1px solid var(--border);border-radius:16px;
+  width:100%;max-width:680px;overflow:hidden;margin:auto;
+  box-shadow:0 8px 40px rgba(0,0,0,.15);
+}
+[data-theme=dark] .mv-modal{box-shadow:0 8px 40px rgba(0,0,0,.6)}
+.modal-head{padding:20px 24px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:16px}
+.modal-avatar{width:52px;height:52px;border-radius:50%;background:var(--bg3);border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-family:'Inter',sans-serif;font-size:15px;font-weight:800;color:var(--t2);flex-shrink:0}
+.modal-name{font-family:'Inter',sans-serif;font-size:18px;font-weight:800;color:var(--t0);line-height:1.1;margin-bottom:4px}
+.modal-meta{font-size:12px;color:var(--t3)}
+.modal-close{margin-left:auto;background:none;border:none;font-size:20px;color:var(--t3);cursor:pointer;padding:4px 8px;border-radius:6px;transition:all .15s;flex-shrink:0;line-height:1}
+.modal-close:hover{background:var(--bg2);color:var(--t1)}
+.modal-body{padding:20px 24px}
+.modal-skor-row{display:flex;gap:12px;margin-bottom:20px}
+.modal-skor-card{flex:1;background:var(--bg2);border-radius:10px;padding:14px;text-align:center}
+.msc-num{font-family:'Inter',sans-serif;font-size:24px;font-weight:800;color:var(--t0);line-height:1}
+.msc-lbl{font-size:10px;color:var(--t3);margin-top:3px}
+.modal-section-title{font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;margin-top:16px}
+.modal-akt-row{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--bg2)}
+.modal-akt-row:last-child{border:none}
+.modal-akt-lbl{font-size:12px;color:var(--t2);flex:1}
+.modal-akt-bar{width:120px;height:4px;background:var(--bg3);border-radius:2px;flex-shrink:0}
+.modal-akt-fill{height:4px;border-radius:2px}
+.modal-akt-val{font-size:12px;font-weight:600;color:var(--t1);width:50px;text-align:right;flex-shrink:0}
+.modal-kom{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.modal-kom-item{font-size:10px;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:3px 9px;color:var(--t2)}
+.modal-footer{padding:16px 24px;border-top:1px solid var(--border);display:flex;gap:10px;justify-content:flex-end}
 
 /* FOOTER */
 footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24px;text-align:center}
-.footer-logo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--t0);margin-bottom:8px}
+.footer-logo{font-family:'Inter',sans-serif;font-size:16px;font-weight:800;color:var(--t0);margin-bottom:8px}
 .footer-logo span{color:var(--green)}
 .footer-text{font-size:11px;color:var(--t3);line-height:1.7}
 .footer-links{display:flex;gap:20px;justify-content:center;margin-top:12px}
 .footer-link{font-size:11px;color:var(--t3);text-decoration:none;transition:color .15s}
 .footer-link:hover{color:var(--green)}
 
-/* EMPTY / LOADING */
 .loading{text-align:center;padding:60px 24px;color:var(--t3);font-size:13px}
 .empty{text-align:center;padding:40px 24px;color:var(--t3);font-size:13px}
 
-/* RESPONSIVE */
 @media(max-width:768px){
   .how-grid{grid-template-columns:1fr}
   .parti-grid{grid-template-columns:1fr 1fr}
   .konu-grid{grid-template-columns:repeat(2,1fr)}
   nav{padding:0 16px}
   .nav-links{display:none}
-  .search-input{width:140px}
-  .hero h1{font-size:34px}
+  .search-input{width:130px}
+  .hero h1{font-size:32px}
   .hero{padding:48px 16px 40px}
+  .modal-overlay{padding:0}
+  .mv-modal{border-radius:0;min-height:100vh}
+  .modal-skor-row{flex-wrap:wrap}
 }
 </style>
 </head>
 <body>
+
+<!-- MV MODAL -->
+<div class="modal-overlay" id="mv-modal-overlay" onclick="closeModal(event)">
+  <div class="mv-modal" id="mv-modal-content">
+    <div class="modal-head" id="modal-head"></div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-footer" id="modal-footer"></div>
+  </div>
+</div>
 
 <!-- NAV -->
 <nav>
@@ -282,17 +300,16 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
   </div>
   <div class="nav-right">
     <div class="search-wrap">
-      <span class="search-icon">&#9906;</span>
+      <span class="search-icon">⌕</span>
       <input class="search-input" id="searchInput" placeholder="Milletvekili ara..." autocomplete="off">
       <div id="search-results"></div>
     </div>
-    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀</button>
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☾</button>
   </div>
 </nav>
 
 <!-- LANDING -->
 <div class="page active" id="page-landing">
-
   <div class="hero">
     <div class="hero-badge">
       <div class="hero-badge-dot"></div>
@@ -306,11 +323,11 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
     </div>
   </div>
 
-  <div class="stats-bar" id="stats-bar">
+  <div class="stats-bar">
     <div class="sc"><div class="sc-num green">600</div><div class="sc-lbl">Milletvekili</div></div>
     <div class="sc"><div class="sc-num" id="s-soru">–</div><div class="sc-lbl">Yazılı Soru</div></div>
     <div class="sc"><div class="sc-num" id="s-kanun">–</div><div class="sc-lbl">Kanun Teklifi</div></div>
-    <div class="sc"><div class="sc-num" id="s-arastirma">–</div><div class="sc-lbl">Araştırma Önergesi</div></div>
+    <div class="sc"><div class="sc-num" id="s-arastirma">–</div><div class="sc-lbl">Araştırma</div></div>
     <div class="sc"><div class="sc-num" id="s-faaliyet">–</div><div class="sc-lbl">Toplam Faaliyet</div></div>
   </div>
 
@@ -334,13 +351,11 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
       </div>
     </div>
 
-    <!-- Parti özeti -->
     <div style="margin-top:48px">
       <div class="section-label">Parti bazlı özet</div>
       <div id="landing-parti-strip" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px"></div>
     </div>
 
-    <!-- Top 5 Preview -->
     <div style="margin-top:48px">
       <div class="section-label">Bu dönemin en aktif 5 milletvekili</div>
       <div class="lb-wrap" id="landing-top5"></div>
@@ -352,10 +367,7 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
 
   <footer>
     <div class="footer-logo">Pols<span>Stat</span></div>
-    <div class="footer-text">
-      Türkiye'nin parlamenter şeffaflık platformu.<br>
-      Veriler TBMM resmi kayıtlarından alınmaktadır. Bağımsız, tarafsız, ücretsiz.
-    </div>
+    <div class="footer-text">Türkiye'nin parlamenter şeffaflık platformu.<br>Veriler TBMM resmi kayıtlarından alınmaktadır. Bağımsız, tarafsız, ücretsiz.</div>
     <div class="footer-links">
       <a class="footer-link" href="#" onclick="showPage('metodoloji');return false">Metodoloji</a>
       <a class="footer-link" href="https://www.tbmm.gov.tr" target="_blank">TBMM</a>
@@ -374,7 +386,7 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
       </div>
       <div class="sec-sub" id="siralama-count"></div>
     </div>
-    <div class="filter-bar" id="filter-bar">
+    <div class="filter-bar">
       <button class="chip active" data-filter="parti" data-val="all" onclick="setFilter('parti','all',this)">Tüm partiler</button>
       <button class="chip" data-filter="parti" data-val="CHP" onclick="setFilter('parti','CHP',this)">CHP</button>
       <button class="chip" data-filter="parti" data-val="AK Parti" onclick="setFilter('parti','AK Parti',this)">AK Parti</button>
@@ -440,11 +452,8 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
 <!-- METODOLOJİ -->
 <div class="page" id="page-metodoloji">
   <div class="container">
-    <div class="sec-hdr">
-      <div class="sec-title">Metodoloji</div>
-    </div>
+    <div class="sec-hdr"><div class="sec-title">Metodoloji</div></div>
     <div class="metod-section">
-
       <div class="metod-card">
         <div class="metod-title">Veri Kaynağı</div>
         <div class="metod-body">
@@ -452,7 +461,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
           <p>Toplanan faaliyet türleri: yazılı soru önergeleri, kanun teklifleri (ilk imza ve imzalı), meclis araştırması önergeleri, genel görüşme önergeleri, genel kurul konuşmaları ve komisyon konuşmaları.</p>
         </div>
       </div>
-
       <div class="metod-card">
         <div class="metod-title">Skor Hesaplama — Ağırlıklı Aktivite İndeksi</div>
         <div class="metod-body">
@@ -473,7 +481,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
           </table>
         </div>
       </div>
-
       <div class="metod-card">
         <div class="metod-title">Konu Kategorileri</div>
         <div class="metod-body">
@@ -481,7 +488,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
           <p>Mevcut sürümde kategorizasyon anahtar kelime eşleştirmesi ile yapılmaktadır. Yakın dönemde yapay zeka destekli daha hassas kategorizasyona geçilecektir.</p>
         </div>
       </div>
-
       <div class="metod-card">
         <div class="metod-title">Sınırlılıklar ve Önemli Notlar</div>
         <div class="metod-body">
@@ -490,51 +496,37 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
           <p>Veriler TBMM sistemine yansıdıkça güncellenmektedir. Eksik veya hatalı veri tespit ederseniz lütfen iletişime geçin.</p>
         </div>
       </div>
-
       <div class="metod-card">
         <div class="metod-title">Güncellenme Sıklığı</div>
         <div class="metod-body">
           <p>Veriler <strong>haftalık olarak</strong> güncellenmektedir. Her güncelleme dönemsel karşılaştırma yapılmasına olanak tanır. Son güncelleme tarihi sitenin alt kısmında görüntülenmektedir.</p>
         </div>
       </div>
-
     </div>
   </div>
 </div>
 
 <script>
-// ── DATA ─────────────────────────────────────────────────────────
-let MV_DATA = [];
-let GENEL = {};
-let PARTI_DATA = {};
-let KONU_DATA = {};
-let activeFilters = { parti: 'all', konu: 'all' };
-let currentPage = 'landing';
-let showCount = 50;
+let MV_DATA=[], GENEL={}, PARTI_DATA={}, KONU_DATA={};
+let activeFilters={parti:'all',konu:'all'};
+let showCount=50;
 
-// ── FETCH DATA ────────────────────────────────────────────────────
-async function loadData() {
-  try {
-    const [mvRes, genelRes, partiRes, konuRes] = await Promise.all([
-      fetch('mv_listesi.json'),
-      fetch('genel.json'),
-      fetch('partiler.json'),
-      fetch('konular.json'),
+async function loadData(){
+  try{
+    const [a,b,c,d]=await Promise.all([
+      fetch('mv_listesi.json'),fetch('genel.json'),
+      fetch('partiler.json'),fetch('konular.json')
     ]);
-    MV_DATA    = await mvRes.json();
-    GENEL      = await genelRes.json();
-    PARTI_DATA = await partiRes.json();
-    KONU_DATA  = await konuRes.json();
+    MV_DATA=await a.json(); GENEL=await b.json();
+    PARTI_DATA=await c.json(); KONU_DATA=await d.json();
     initSite();
-  } catch(e) {
-    console.error('Veri yüklenemedi:', e);
-    document.getElementById('lb-body').innerHTML =
-      '<tr><td colspan="6" class="loading">Veri yüklenirken hata oluştu. Lütfen sayfayı yenileyin.</td></tr>';
+  }catch(e){
+    document.getElementById('lb-body').innerHTML=
+      '<tr><td colspan="6" class="loading">Veri yüklenemedi. Sayfayı yenileyin.</td></tr>';
   }
 }
 
-// ── INIT ──────────────────────────────────────────────────────────
-function initSite() {
+function initSite(){
   fillStats();
   renderLandingParti();
   renderLandingTop5();
@@ -544,411 +536,401 @@ function initSite() {
   initSearch();
 }
 
-// ── STATS ─────────────────────────────────────────────────────────
-function fillStats() {
-  const fmt = n => n ? n.toLocaleString('tr-TR') : '–';
-  document.getElementById('s-soru').textContent      = fmt(GENEL.toplam_yazili_soru);
-  document.getElementById('s-kanun').textContent     = fmt(GENEL.toplam_kanun_teklifi);
-  document.getElementById('s-arastirma').textContent = fmt(GENEL.toplam_arastirma);
-  document.getElementById('s-faaliyet').textContent  = fmt(GENEL.toplam_faaliyet);
+function fillStats(){
+  const f=n=>n?n.toLocaleString('tr-TR'):'–';
+  document.getElementById('s-soru').textContent=f(GENEL.toplam_yazili_soru);
+  document.getElementById('s-kanun').textContent=f(GENEL.toplam_kanun_teklifi);
+  document.getElementById('s-arastirma').textContent=f(GENEL.toplam_arastirma);
+  document.getElementById('s-faaliyet').textContent=f(GENEL.toplam_faaliyet);
 }
 
-// ── PARTİ RENK ────────────────────────────────────────────────────
-function partiRenk(parti) {
-  const map = {
-    'CHP':'#e05c5c','AK Parti':'#ffa500','MHP':'#cc0000',
-    'DEM PARTİ':'#a06cc0','İYİ Parti':'#5b9bd5','YENİ YOL':'#5cb85c',
-    'TİP':'#e05c5c','BAĞIMSIZ':'#888888','HÜDA PAR':'#2e7d32',
-    'YENİDEN REFAH':'#d4a017','EMEP':'#e06020','DSP':'#1060d0',
-    'DBP':'#a06cc0','SAADET Partisi':'#209040','DP':'#205090',
-  };
-  return map[parti] || '#888888';
+function partiRenk(p){
+  return({'CHP':'#d13030','AK Parti':'#e07800','MHP':'#aa0000',
+    'DEM PARTİ':'#8a50b0','İYİ Parti':'#2060b0','YENİ YOL':'#2a7d2a',
+    'TİP':'#c02020','BAĞIMSIZ':'#707070','HÜDA PAR':'#1a6020',
+    'YENİDEN REFAH':'#907000','EMEP':'#c04010','DSP':'#0840b0',
+    'DBP':'#8040a0','SAADET Partisi':'#106830','DP':'#103870'}[p]||'#707070');
 }
 
-function partiBadgeClass(parti) {
-  const map = {
-    'CHP':'CHP','AK Parti':'AK','MHP':'MHP','DEM PARTİ':'DEM',
-    'İYİ Parti':'IYI','YENİ YOL':'YENIYOL','TİP':'TIP',
-    'BAĞIMSIZ':'BAG','HÜDA PAR':'HUDA','YENİDEN REFAH':'YENIDEN',
-  };
-  return map[parti] || 'other';
+function partiBg(p){
+  return({'CHP':'#ffecec','AK Parti':'#fff4e0','MHP':'#ffe8e8',
+    'DEM PARTİ':'#f5e8ff','İYİ Parti':'#e8f0ff','YENİ YOL':'#eaf5ea',
+    'TİP':'#ffecec','BAĞIMSIZ':'#f0f0f0','HÜDA PAR':'#e8f5e8',
+    'YENİDEN REFAH':'#fff8e0','EMEP':'#fff0e8','DSP':'#e8eeff',
+    'DBP':'#f5e8ff','SAADET Partisi':'#e8f5ee','DP':'#e8eeff'}[p]||'#f0f0f0');
 }
 
-// ── LANDING PARTİ ─────────────────────────────────────────────────
-function renderLandingParti() {
-  const container = document.getElementById('landing-parti-strip');
-  const sorted = Object.entries(PARTI_DATA)
-    .filter(([k]) => k !== 'Bilinmiyor')
-    .sort((a,b) => b[1].toplam_skor - a[1].toplam_skor)
-    .slice(0, 8);
+// dark mode için parti bg
+function partiBgDark(p){
+  return({'CHP':'#2a0808','AK Parti':'#2a1800','MHP':'#1a0000',
+    'DEM PARTİ':'#1a0828','İYİ Parti':'#080820','YENİ YOL':'#081808',
+    'TİP':'#2a0808','BAĞIMSIZ':'#181818','HÜDA PAR':'#081808',
+    'YENİDEN REFAH':'#1a1200'}[p]||'#141414');
+}
 
-  const max = sorted[0][1].ort_skor;
-  container.innerHTML = sorted.map(([parti, d]) => `
-    <div style="background:var(--bg1);border:1px solid var(--border);border-radius:10px;padding:14px;position:relative;overflow:hidden;">
-      <div style="height:2px;position:absolute;top:0;left:0;right:0;background:${partiRenk(parti)}"></div>
-      <div style="font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:${partiRenk(parti)};margin-bottom:6px;margin-top:4px">${parti}</div>
+function isDark(){return document.documentElement.getAttribute('data-theme')==='dark'}
+
+// ── LANDING ────────────────────────────────────────────────
+function renderLandingParti(){
+  const el=document.getElementById('landing-parti-strip');
+  const sorted=Object.entries(PARTI_DATA)
+    .filter(([k])=>k!=='Bilinmiyor')
+    .sort((a,b)=>b[1].toplam_skor-a[1].toplam_skor).slice(0,8);
+  const max=sorted[0][1].ort_skor;
+  el.innerHTML=sorted.map(([p,d])=>{
+    const renk=partiRenk(p);
+    return`<div style="background:var(--bg1);border:1px solid var(--border);border-radius:10px;padding:14px;position:relative;overflow:hidden;">
+      <div style="height:2px;position:absolute;top:0;left:0;right:0;background:${renk}"></div>
+      <div style="font-family:'Inter',sans-serif;font-size:12px;font-weight:800;color:${renk};margin:6px 0 4px">${p}</div>
       <div style="font-size:10px;color:var(--t3);margin-bottom:8px">${d.mv_sayisi} MV</div>
       <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:4px">
         <span style="color:var(--t3)">Ort. skor</span>
-        <span style="color:var(--t1);font-weight:500">${d.ort_skor.toLocaleString('tr-TR')}</span>
+        <span style="color:var(--t1);font-weight:600">${d.ort_skor.toLocaleString('tr-TR')}</span>
       </div>
       <div style="height:3px;background:var(--bg3);border-radius:2px">
-        <div style="height:3px;border-radius:2px;background:${partiRenk(parti)};width:${Math.round(d.ort_skor/max*100)}%"></div>
+        <div style="height:3px;border-radius:2px;background:${renk};width:${Math.round(d.ort_skor/max*100)}%"></div>
       </div>
-    </div>
-  `).join('');
+    </div>`}).join('');
 }
 
-// ── LANDING TOP 5 ─────────────────────────────────────────────────
-function renderLandingTop5() {
-  const top5 = MV_DATA.slice(0, 5);
-  const maxSkor = top5[0].skor;
-  document.getElementById('landing-top5').innerHTML = `
+function renderLandingTop5(){
+  const top5=MV_DATA.slice(0,5);
+  const maxS=top5[0].skor;
+  document.getElementById('landing-top5').innerHTML=`
     <table class="lb-table">
       <thead><tr class="lb-thead">
-        <td style="width:44px">#</td>
-        <td>Milletvekili</td>
-        <td>Konu odakları</td>
-        <td style="text-align:right">Skor</td>
-        <td style="text-align:right">TBMM</td>
+        <td style="width:44px">#</td><td>Milletvekili</td>
+        <td>Konu odakları</td><td style="text-align:right">Skor</td><td style="text-align:right">TBMM</td>
       </tr></thead>
-      <tbody>${top5.map((mv,i) => lbRowHTML(mv, i, maxSkor, true)).join('')}</tbody>
+      <tbody>${top5.map((mv,i)=>lbRowHTML(mv,i,maxS,true)).join('')}</tbody>
     </table>`;
 }
 
-// ── LEADERBOARD ───────────────────────────────────────────────────
-function getFilteredMVs() {
-  return MV_DATA.filter(mv => {
-    if (activeFilters.parti !== 'all' && mv.parti !== activeFilters.parti) return false;
-    if (activeFilters.konu !== 'all') {
-      const cats = mv.ana_kategoriler || [];
-      if (!cats.includes(activeFilters.konu)) return false;
+// ── LEADERBOARD ────────────────────────────────────────────
+function getFiltered(){
+  return MV_DATA.filter(mv=>{
+    if(activeFilters.parti!=='all'&&mv.parti!==activeFilters.parti)return false;
+    if(activeFilters.konu!=='all'){
+      if(!(mv.ana_kategoriler||[]).includes(activeFilters.konu))return false;
     }
     return true;
   });
 }
 
-function renderLeaderboard() {
-  const filtered = getFilteredMVs();
-  const shown    = filtered.slice(0, showCount);
-  const maxSkor  = filtered.length ? filtered[0].skor : 1;
-
-  document.getElementById('siralama-count').textContent =
-    `${filtered.length} milletvekili`;
-
-  const tbody = document.getElementById('lb-body');
-  if (!filtered.length) {
-    tbody.innerHTML = '<tr><td colspan="6" class="empty">Bu filtreye uyan milletvekili bulunamadı.</td></tr>';
-    return;
-  }
-  tbody.innerHTML = shown.map((mv, i) => lbRowHTML(mv, i, maxSkor, false)).join('');
-
-  const moreEl = document.getElementById('lb-more');
-  if (filtered.length > showCount) {
-    moreEl.innerHTML = `<button class="btn-s" style="margin:0 auto" onclick="loadMore()">Daha fazla göster (${filtered.length - showCount} kaldı)</button>`;
-  } else {
-    moreEl.innerHTML = '';
-  }
+function renderLeaderboard(){
+  const filtered=getFiltered();
+  const shown=filtered.slice(0,showCount);
+  const maxS=filtered.length?filtered[0].skor:1;
+  document.getElementById('siralama-count').textContent=`${filtered.length} milletvekili`;
+  const tb=document.getElementById('lb-body');
+  if(!filtered.length){tb.innerHTML='<tr><td colspan="6" class="empty">Bu filtreye uyan milletvekili bulunamadı.</td></tr>';return;}
+  tb.innerHTML=shown.map((mv,i)=>lbRowHTML(mv,i,maxS,false)).join('');
+  const mEl=document.getElementById('lb-more');
+  if(filtered.length>showCount){
+    mEl.innerHTML=`<button class="btn-s" style="margin:0 auto" onclick="loadMore()">Daha fazla göster (${filtered.length-showCount} kaldı)</button>`;
+  }else mEl.innerHTML='';
 }
 
-function loadMore() {
-  showCount += 50;
-  renderLeaderboard();
-}
+function loadMore(){showCount+=50;renderLeaderboard();}
 
-function lbRowHTML(mv, i, maxSkor, compact) {
-  const rankClass = i === 0 ? 'gold' : i === 1 ? 'silver' : i === 2 ? 'bronze' : '';
-  const badgeClass = partiBadgeClass(mv.parti);
-  const renk = partiRenk(mv.parti);
-  const cats = (mv.ana_kategoriler || []).slice(0, 3);
-  const akt = mv.aktivite || {};
-  const maxAkt = Math.max(akt.yazili_soru||0, (akt.ilk_imza_kanun||0)*5, 1);
-
-  const tbmmUrl = mv.tbmm_url || '';
-
-  const miniAkt = compact ? '' : `
+function lbRowHTML(mv,i,maxS,compact){
+  const rc=i===0?'gold':i===1?'silver':i===2?'bronze':'';
+  const renk=partiRenk(mv.parti);
+  const bg=isDark()?partiBgDark(mv.parti):partiBg(mv.parti);
+  const cats=(mv.ana_kategoriler||[]).slice(0,3);
+  const akt=mv.aktivite||{};
+  const maxA=Math.max(akt.yazili_soru||0,(akt.ilk_imza_kanun||0)*5,1);
+  const miniAkt=compact?'':
+    `<td><div class="mini-act">
+      <div class="mini-row"><span class="mini-label">Soru</span><div class="mini-bg"><div class="mini-fill" style="width:${Math.round((akt.yazili_soru||0)/maxA*100)}%;background:#d13030"></div></div></div>
+      <div class="mini-row"><span class="mini-label">Kanun</span><div class="mini-bg"><div class="mini-fill" style="width:${Math.round(((akt.ilk_imza_kanun||0)*5)/maxA*100)}%;background:${renk}"></div></div></div>
+      <div class="mini-row"><span class="mini-label">Araş.</span><div class="mini-bg"><div class="mini-fill" style="width:${Math.round(((akt.ilk_imza_arastirma||0)*4)/maxA*100)}%;background:#8a6000"></div></div></div>
+    </div></td>`;
+  return`<tr class="lb-row">
+    <td><div class="rank ${rc}">${i+1}</div></td>
     <td>
-      <div class="mini-act">
-        <div class="mini-row">
-          <span class="mini-label">Soru</span>
-          <div class="mini-bg"><div class="mini-fill" style="width:${Math.round((akt.yazili_soru||0)/maxAkt*100)}%;background:var(--red)"></div></div>
-        </div>
-        <div class="mini-row">
-          <span class="mini-label">Kanun</span>
-          <div class="mini-bg"><div class="mini-fill" style="width:${Math.round(((akt.ilk_imza_kanun||0)*5)/maxAkt*100)}%;background:var(--green)"></div></div>
-        </div>
-        <div class="mini-row">
-          <span class="mini-label">Araş.</span>
-          <div class="mini-bg"><div class="mini-fill" style="width:${Math.round(((akt.ilk_imza_arastirma||0)*4)/maxAkt*100)}%;background:var(--amber)"></div></div>
-        </div>
-      </div>
-    </td>`;
-
-  return `<tr class="lb-row">
-    <td><div class="rank ${rankClass}">${i+1}</div></td>
-    <td>
-      <div><span class="mv-name-link" onclick="showPage('siralama')" style="cursor:pointer">${mv.isim}</span>
-        <span class="pb pb-${badgeClass}" style="border:1px solid ${renk}33;color:${renk}">${mv.parti}</span>
-      </div>
-      <div class="mv-meta">${mv.sehir || '–'}</div>
+      <span class="mv-name-link" onclick="openModal('${mv.slug}')">${mv.isim}</span>
+      <span class="pb" style="background:${bg};color:${renk};border:1px solid ${renk}30">${mv.parti}</span>
+      <div class="mv-meta">${mv.sehir||'–'}</div>
     </td>
-    <td>${cats.map(c => `<span class="tag t-${c}">${c}</span>`).join('')}</td>
+    <td>${cats.map(c=>`<span class="tag t-${c}">${c}</span>`).join('')}</td>
     ${miniAkt}
     <td class="skor-cell">
       <div class="skor-big">${(mv.skor||0).toLocaleString('tr-TR')}</div>
       <div class="skor-sub">${(mv.toplam_faaliyet||0).toLocaleString('tr-TR')} faaliyet</div>
     </td>
-    <td style="text-align:right">${tbmmUrl ? `<a class="tbmm-link" href="${tbmmUrl}" target="_blank">TBMM ↗</a>` : ''}</td>
+    <td style="text-align:right">${mv.tbmm_url?`<a class="tbmm-link" href="${mv.tbmm_url}" target="_blank">TBMM ↗</a>`:''}</td>
   </tr>`;
 }
 
-function setFilter(type, val, btn) {
-  activeFilters[type] = val;
-  showCount = 50;
-  // Aynı gruptaki chip'leri reset
-  document.querySelectorAll(`.chip[data-filter="${type}"]`).forEach(c => c.classList.remove('active'));
+function setFilter(type,val,btn){
+  activeFilters[type]=val;showCount=50;
+  document.querySelectorAll(`.chip[data-filter="${type}"]`).forEach(c=>c.classList.remove('active'));
   btn.classList.add('active');
   renderLeaderboard();
 }
 
-// ── PARTİLER ──────────────────────────────────────────────────────
-function renderPartiler() {
-  const sorted = Object.entries(PARTI_DATA)
-    .filter(([k]) => k !== 'Bilinmiyor')
-    .sort((a,b) => b[1].toplam_skor - a[1].toplam_skor);
+// ── MV MODAL ───────────────────────────────────────────────
+function openModal(slug){
+  const mv=MV_DATA.find(m=>m.slug===slug);
+  if(!mv)return;
+  const renk=partiRenk(mv.parti);
+  const akt=mv.aktivite||{};
+  const initials=mv.isim.split(' ').map(w=>w[0]).filter((_,i,a)=>i===0||i===a.length-1).join('').toUpperCase();
 
-  const maxOrt = Math.max(...sorted.map(([,d]) => d.ort_skor));
-  const maxToplam = sorted[0][1].toplam_skor;
+  document.getElementById('modal-head').innerHTML=`
+    <div class="modal-avatar" style="border-color:${renk};color:${renk}">${initials}</div>
+    <div style="flex:1">
+      <div class="modal-name">${mv.isim}</div>
+      <div class="modal-meta">
+        <span style="color:${renk};font-weight:600">${mv.parti}</span>
+        ${mv.sehir?' · '+mv.sehir:''}
+        ${mv.email?' · <a href="mailto:'+mv.email+'" style="color:var(--t3);text-decoration:none">'+mv.email+'</a>':''}
+      </div>
+      <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">
+        ${(mv.ana_kategoriler||[]).map(c=>`<span class="tag t-${c}">${c}</span>`).join('')}
+      </div>
+    </div>
+    <button class="modal-close" onclick="closeModal()">✕</button>`;
 
-  const grid = document.getElementById('partiler-grid');
-  grid.className = 'parti-grid';
-  grid.innerHTML = sorted.map(([parti, d]) => {
-    const renk = partiRenk(parti);
-    // O partinin top MVleri
-    const partiMVs = MV_DATA.filter(mv => mv.parti === parti).slice(0, 3);
+  const maxAkt=Math.max(
+    akt.yazili_soru||0,
+    (akt.ilk_imza_kanun||0)*5,
+    (akt.ilk_imza_arastirma||0)*4,
+    1
+  );
 
-    return `
-    <div class="parti-card" onclick="showPartiDetail('${parti}')">
+  const aktifRows=[
+    ['Yazılı Soru',akt.yazili_soru||0,'#d13030',(akt.yazili_soru||0)],
+    ['Kanun — İlk İmza',akt.ilk_imza_kanun||0,renk,(akt.ilk_imza_kanun||0)*5],
+    ['Kanun — İmzalı',akt.imzali_kanun||0,renk+'80',(akt.imzali_kanun||0)*2],
+    ['Araştırma — İlk',akt.ilk_imza_arastirma||0,'#8a6000',(akt.ilk_imza_arastirma||0)*4],
+    ['Araştırma — İmzalı',akt.imzali_arastirma||0,'#8a600060',akt.imzali_arastirma||0],
+    ['Genel Görüşme — İlk',akt.ilk_imza_genel_gorusme||0,'#6a1080',(akt.ilk_imza_genel_gorusme||0)*3],
+    ['Genel Kurul Konuşması',akt.genel_kurul_konus||0,'#007080',(akt.genel_kurul_konus||0)*2],
+    ['Komisyon Konuşması',akt.komisyon_konus||0,'#007080',(akt.komisyon_konus||0)],
+  ].filter(r=>r[1]>0);
+
+  const komList=(mv.komisyonlar||[]).filter(k=>k.length>5).slice(0,6);
+
+  document.getElementById('modal-body').innerHTML=`
+    <div class="modal-skor-row">
+      <div class="modal-skor-card">
+        <div class="msc-num" style="color:${renk}">${(mv.skor||0).toLocaleString('tr-TR')}</div>
+        <div class="msc-lbl">Toplam Skor</div>
+      </div>
+      <div class="modal-skor-card">
+        <div class="msc-num">${(mv.toplam_faaliyet||0).toLocaleString('tr-TR')}</div>
+        <div class="msc-lbl">Toplam Faaliyet</div>
+      </div>
+      <div class="modal-skor-card">
+        <div class="msc-num">#${mv.rank||'–'}</div>
+        <div class="msc-lbl">Genel Sıralama</div>
+      </div>
+    </div>
+
+    <div class="modal-section-title">Faaliyet dağılımı</div>
+    <div>${aktifRows.map(([lbl,val,renk2,weighted])=>`
+      <div class="modal-akt-row">
+        <span class="modal-akt-lbl">${lbl}</span>
+        <div class="modal-akt-bar"><div class="modal-akt-fill" style="width:${Math.round(weighted/maxAkt*100)}%;background:${renk2}"></div></div>
+        <span class="modal-akt-val">${val.toLocaleString('tr-TR')}</span>
+      </div>`).join('')}
+    </div>
+
+    ${komList.length?`
+    <div class="modal-section-title">Komisyonlar</div>
+    <div class="modal-kom">
+      ${komList.map(k=>`<span class="modal-kom-item">${k.replace(' Üyesi','').replace(' Komisyonu','').trim()}</span>`).join('')}
+    </div>`:''}`;
+
+  document.getElementById('modal-footer').innerHTML=`
+    ${mv.tbmm_url?`<a class="tbmm-link" href="${mv.tbmm_url}" target="_blank" style="font-size:12px;padding:8px 16px">TBMM Profili ↗</a>`:''}
+    <button class="btn-s" style="padding:8px 16px;font-size:12px" onclick="closeModal()">Kapat</button>`;
+
+  document.getElementById('mv-modal-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function closeModal(e){
+  if(e&&e.target!==document.getElementById('mv-modal-overlay'))return;
+  document.getElementById('mv-modal-overlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closeModal();
+});
+
+// ── PARTİLER ──────────────────────────────────────────────
+function renderPartiler(){
+  const sorted=Object.entries(PARTI_DATA)
+    .filter(([k])=>k!=='Bilinmiyor')
+    .sort((a,b)=>b[1].toplam_skor-a[1].toplam_skor);
+  const maxOrt=Math.max(...sorted.map(([,d])=>d.ort_skor));
+  const maxT=sorted[0][1].toplam_skor;
+  const grid=document.getElementById('partiler-grid');
+  grid.className='parti-grid';
+  grid.innerHTML=sorted.map(([p,d])=>{
+    const renk=partiRenk(p);
+    const partiMVs=MV_DATA.filter(mv=>mv.parti===p).slice(0,3);
+    return`<div class="parti-card" onclick="showPartiDetail('${p}')">
       <div class="parti-head">
         <div>
-          <div class="parti-name" style="color:${renk}">${parti}</div>
+          <div class="parti-name" style="color:${renk}">${p}</div>
           <div class="parti-mv-count">${d.mv_sayisi} milletvekili</div>
         </div>
         <div style="text-align:right">
-          <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--t0)">${d.toplam_skor.toLocaleString('tr-TR')}</div>
+          <div style="font-family:'Inter',sans-serif;font-size:20px;font-weight:800;color:var(--t0)">${d.toplam_skor.toLocaleString('tr-TR')}</div>
           <div style="font-size:9px;color:var(--t3)">toplam puan</div>
         </div>
       </div>
       <div class="parti-body">
         <div class="pstat-row"><span class="pstat-lbl">Ortalama skor</span><span class="pstat-val" style="color:${renk}">${d.ort_skor.toLocaleString('tr-TR')}</span></div>
-        <div class="pstat-row"><span class="pstat-lbl">MV başına aktivite</span><span class="pstat-val">${Math.round(d.toplam_skor/d.mv_sayisi).toLocaleString('tr-TR')}</span></div>
-        <div class="pstat-row" style="border:none;padding-top:8px">
+        <div class="pstat-row" style="border:none">
           <span class="pstat-lbl">En aktif 3 MV</span>
         </div>
-        ${partiMVs.map((mv,i) => `
-          <div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:11px">
+        ${partiMVs.map((mv,i)=>`
+          <div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:11px;cursor:pointer" onclick="event.stopPropagation();openModal('${mv.slug}')">
             <span style="color:var(--t4);font-weight:800;width:14px">${i+1}</span>
-            <span style="color:var(--t1);flex:1">${mv.isim.split(' ').slice(-1)[0]}, ${mv.isim.split(' ')[0]}</span>
+            <span style="color:var(--t1);flex:1;font-weight:500">${mv.isim.split(' ').pop()}, ${mv.isim.split(' ')[0]}</span>
             <span style="color:var(--t3)">${mv.skor.toLocaleString('tr-TR')}</span>
           </div>`).join('')}
-        <div class="pbar-wrap">
-          <div class="pbar-label"><span>Toplam puan oranı</span><span>${Math.round(d.toplam_skor/maxToplam*100)}%</span></div>
-          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.toplam_skor/maxToplam*100)}%;background:${renk}"></div></div>
+        <div class="pbar-wrap" style="margin-top:12px">
+          <div class="pbar-label"><span>Toplam puan oranı</span><span>${Math.round(d.toplam_skor/maxT*100)}%</span></div>
+          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.toplam_skor/maxT*100)}%;background:${renk}"></div></div>
         </div>
         <div class="pbar-wrap" style="margin-top:8px">
           <div class="pbar-label"><span>Ortalama skor oranı</span><span>${Math.round(d.ort_skor/maxOrt*100)}%</span></div>
-          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.ort_skor/maxOrt*100)}%;background:${renk};opacity:.6"></div></div>
+          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.ort_skor/maxOrt*100)}%;background:${renk};opacity:.5"></div></div>
         </div>
       </div>
-    </div>`;
-  }).join('');
+    </div>`}).join('');
 }
 
-function showPartiDetail(parti) {
-  const renk = partiRenk(parti);
-  const partiMVs = MV_DATA.filter(mv => mv.parti === parti);
-  const maxSkor = partiMVs.length ? partiMVs[0].skor : 1;
-
-  const detailEl = document.getElementById('partiler-mv-list');
-  detailEl.innerHTML = `
-    <div class="parti-detail-section" style="border-color:${renk}44">
-      <div class="pds-head">
-        <div class="pds-title" style="color:${renk}">${parti}</div>
-        <div style="font-size:11px;color:var(--t3);margin-left:auto">${partiMVs.length} milletvekili · skor sıralaması</div>
-      </div>
-      <div class="pds-body">
-        <table class="lb-table">
-          <thead><tr class="lb-thead">
-            <td style="width:44px">#</td>
-            <td>Milletvekili</td>
-            <td>Konu odakları</td>
-            <td>Aktivite</td>
-            <td style="text-align:right">Skor</td>
-            <td style="text-align:right">TBMM</td>
-          </tr></thead>
-          <tbody>${partiMVs.map((mv,i) => lbRowHTML(mv, i, maxSkor, false)).join('')}</tbody>
-        </table>
-      </div>
-    </div>`;
-  detailEl.scrollIntoView({behavior:'smooth', block:'start'});
-}
-
-// ── KONULAR ───────────────────────────────────────────────────────
-const KONU_RENKLER = {
-  'Sağlık':'#e05c5c','Ekonomi':'#d4a017','Eğitim':'#5b9bd5',
-  'Çevre':'#5cb85c','Güvenlik':'#a06cc0','Tarım':'#8bc34a',
-  'Altyapı':'#00bcd4','Adalet':'#ff9800','Sosyal':'#d080d0',
-  'Dış Politika':'#6090d0','Diğer':'#888888',
-};
-
-function renderKonular(aktifKonu) {
-  const grid = document.getElementById('konu-grid');
-
-  const konular = Object.entries(KONU_DATA)
-    .filter(([k]) => k !== 'Diğer')
-    .sort((a,b) => b[1].toplam_onerge - a[1].toplam_onerge);
-
-  const max = konular[0][1].toplam_onerge;
-
-  grid.innerHTML = konular.map(([konu, d]) => {
-    const renk = KONU_RENKLER[konu] || '#888';
-    const isActive = aktifKonu === konu;
-    return `
-      <div class="konu-card ${isActive ? 'active' : ''}" onclick="showKonuDetail('${konu}')">
-        <div class="konu-top" style="background:${renk}"></div>
-        <div class="konu-name">${konu}</div>
-        <div class="konu-count">${d.toplam_onerge.toLocaleString('tr-TR')} önerge</div>
-        <div class="konu-bar-bg"><div class="konu-bar-fill" style="width:${Math.round(d.toplam_onerge/max*100)}%;background:${renk}"></div></div>
-      </div>`;
-  }).join('');
-
-  if (aktifKonu) showKonuDetail(aktifKonu, true);
-}
-
-function showKonuDetail(konu, skipRender) {
-  if (!skipRender) renderKonular(konu);
-
-  const renk = KONU_RENKLER[konu] || '#888';
-  // O konuda aktif MV'leri bul
-  const konuMVs = MV_DATA
-    .filter(mv => (mv.ana_kategoriler || []).includes(konu))
-    .slice(0, 50);
-  const maxSkor = konuMVs.length ? konuMVs[0].skor : 1;
-
-  const detail = document.getElementById('konu-detail');
-  detail.innerHTML = `
-    <div style="background:var(--bg1);border:1px solid ${renk}44;border-radius:12px;overflow:hidden;margin-top:4px">
+function showPartiDetail(p){
+  const renk=partiRenk(p);
+  const partiMVs=MV_DATA.filter(mv=>mv.parti===p);
+  const maxS=partiMVs.length?partiMVs[0].skor:1;
+  const el=document.getElementById('partiler-mv-list');
+  el.innerHTML=`
+    <div style="background:var(--bg1);border:1px solid ${renk}44;border-radius:12px;overflow:hidden;margin-top:14px">
       <div style="padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px">
-        <div style="width:10px;height:10px;border-radius:50%;background:${renk}"></div>
-        <div style="font-family:'Syne',sans-serif;font-size:14px;font-weight:800;color:var(--t0)">${konu} alanında en aktif milletvekilleri</div>
-        <div style="font-size:11px;color:var(--t3);margin-left:auto">${konuMVs.length} MV</div>
+        <div style="font-family:'Inter',sans-serif;font-size:14px;font-weight:800;color:${renk}">${p}</div>
+        <div style="font-size:11px;color:var(--t3);margin-left:auto">${partiMVs.length} milletvekili</div>
       </div>
       <table class="lb-table">
         <thead><tr class="lb-thead">
-          <td style="width:44px">#</td>
-          <td>Milletvekili</td>
-          <td>Diğer odaklar</td>
-          <td>Aktivite</td>
-          <td style="text-align:right">Toplam Skor</td>
-          <td style="text-align:right">TBMM</td>
+          <td style="width:44px">#</td><td>Milletvekili</td>
+          <td>Konu odakları</td><td>Aktivite</td>
+          <td style="text-align:right">Skor</td><td style="text-align:right">TBMM</td>
         </tr></thead>
-        <tbody>${konuMVs.map((mv,i) => lbRowHTML(mv, i, maxSkor, false)).join('')}</tbody>
+        <tbody>${partiMVs.map((mv,i)=>lbRowHTML(mv,i,maxS,false)).join('')}</tbody>
       </table>
     </div>`;
-
-  detail.scrollIntoView({behavior:'smooth', block:'start'});
+  el.scrollIntoView({behavior:'smooth',block:'start'});
 }
 
-// ── SEARCH ────────────────────────────────────────────────────────
-function initSearch() {
-  const input = document.getElementById('searchInput');
-  const results = document.getElementById('search-results');
+// ── KONULAR ───────────────────────────────────────────────
+const KONU_RENKLER={
+  'Sağlık':'#c02020','Ekonomi':'#8a6000','Eğitim':'#1a50a0',
+  'Çevre':'#2a7d2a','Güvenlik':'#6a1080','Tarım':'#3a6810',
+  'Altyapı':'#007080','Adalet':'#c05000','Sosyal':'#7a2090',
+  'Dış Politika':'#1a40a0','Diğer':'#707070',
+};
 
-  input.addEventListener('input', () => {
-    const q = input.value.trim().toLowerCase();
-    if (q.length < 2) { results.style.display = 'none'; return; }
+function renderKonular(aktif){
+  const grid=document.getElementById('konu-grid');
+  const konular=Object.entries(KONU_DATA).filter(([k])=>k!=='Diğer')
+    .sort((a,b)=>b[1].toplam_onerge-a[1].toplam_onerge);
+  const max=konular[0][1].toplam_onerge;
+  grid.innerHTML=konular.map(([k,d])=>{
+    const renk=KONU_RENKLER[k]||'#707070';
+    return`<div class="konu-card ${aktif===k?'active':''}" onclick="showKonuDetail('${k}')">
+      <div class="konu-top" style="background:${renk}"></div>
+      <div class="konu-name">${k}</div>
+      <div class="konu-count">${d.toplam_onerge.toLocaleString('tr-TR')} önerge</div>
+      <div class="konu-bar-bg"><div class="konu-bar-fill" style="width:${Math.round(d.toplam_onerge/max*100)}%;background:${renk}"></div></div>
+    </div>`}).join('');
+  if(aktif)showKonuDetail(aktif,true);
+}
 
-    const hits = MV_DATA.filter(mv =>
-      mv.isim.toLowerCase().includes(q) ||
-      (mv.sehir || '').toLowerCase().includes(q)
-    ).slice(0, 8);
+function showKonuDetail(k,skip){
+  if(!skip)renderKonular(k);
+  const renk=KONU_RENKLER[k]||'#707070';
+  const mvs=MV_DATA.filter(mv=>(mv.ana_kategoriler||[]).includes(k)).slice(0,50);
+  const maxS=mvs.length?mvs[0].skor:1;
+  const el=document.getElementById('konu-detail');
+  el.innerHTML=`
+    <div style="background:var(--bg1);border:1px solid ${renk}44;border-radius:12px;overflow:hidden;margin-top:4px">
+      <div style="padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px">
+        <div style="width:10px;height:10px;border-radius:50%;background:${renk}"></div>
+        <div style="font-family:'Inter',sans-serif;font-size:14px;font-weight:800;color:var(--t0)">${k} — en aktif milletvekilleri</div>
+        <div style="font-size:11px;color:var(--t3);margin-left:auto">${mvs.length} MV</div>
+      </div>
+      <table class="lb-table">
+        <thead><tr class="lb-thead">
+          <td style="width:44px">#</td><td>Milletvekili</td>
+          <td>Diğer odaklar</td><td>Aktivite</td>
+          <td style="text-align:right">Skor</td><td style="text-align:right">TBMM</td>
+        </tr></thead>
+        <tbody>${mvs.map((mv,i)=>lbRowHTML(mv,i,maxS,false)).join('')}</tbody>
+      </table>
+    </div>`;
+  el.scrollIntoView({behavior:'smooth',block:'start'});
+}
 
-    if (!hits.length) { results.style.display = 'none'; return; }
-
-    results.innerHTML = hits.map(mv => `
-      <div class="sr-item" onclick="goToMV('${mv.slug}')">
+// ── SEARCH ────────────────────────────────────────────────
+function initSearch(){
+  const inp=document.getElementById('searchInput');
+  const res=document.getElementById('search-results');
+  inp.addEventListener('input',()=>{
+    const q=inp.value.trim().toLowerCase();
+    if(q.length<2){res.style.display='none';return;}
+    const hits=MV_DATA.filter(mv=>
+      mv.isim.toLowerCase().includes(q)||(mv.sehir||'').toLowerCase().includes(q)
+    ).slice(0,8);
+    if(!hits.length){res.style.display='none';return;}
+    res.innerHTML=hits.map(mv=>`
+      <div class="sr-item" onclick="openModal('${mv.slug}');document.getElementById('search-results').style.display='none';document.getElementById('searchInput').value=''">
         <div class="sr-name">${mv.isim}</div>
-        <div class="sr-meta">${mv.parti} · ${mv.sehir || '–'} · ${mv.skor.toLocaleString('tr-TR')} puan</div>
+        <div class="sr-meta">${mv.parti} · ${mv.sehir||'–'} · ${mv.skor.toLocaleString('tr-TR')} puan</div>
       </div>`).join('');
-    results.style.display = 'block';
+    res.style.display='block';
   });
-
-  document.addEventListener('click', e => {
-    if (!e.target.closest('.search-wrap')) results.style.display = 'none';
+  document.addEventListener('click',e=>{
+    if(!e.target.closest('.search-wrap'))res.style.display='none';
   });
 }
 
-function goToMV(slug) {
-  // Sıralama sayfasına git ve o MV'yi vurgula
-  document.getElementById('search-results').style.display = 'none';
-  document.getElementById('searchInput').value = '';
-  // Sıralamayı o MV için filtrele
-  const mv = MV_DATA.find(m => m.slug === slug);
-  if (mv) {
-    activeFilters = { parti: mv.parti, konu: 'all' };
-    showCount = 600;
-    showPage('siralama');
-    // Chip'leri güncelle
-    setTimeout(() => {
-      document.querySelectorAll('.chip[data-filter="parti"]').forEach(c => {
-        c.classList.toggle('active', c.dataset.val === mv.parti);
-      });
-      renderLeaderboard();
-      // O satırı bul ve vurgula
-      setTimeout(() => {
-        const rows = document.querySelectorAll('.lb-row');
-        rows.forEach(row => {
-          if (row.textContent.includes(mv.isim)) {
-            row.style.background = 'var(--green-bg)';
-            row.scrollIntoView({behavior:'smooth', block:'center'});
-            setTimeout(() => row.style.background = '', 2000);
-          }
-        });
-      }, 200);
-    }, 100);
-  }
+// ── NAVIGATION ────────────────────────────────────────────
+function showPage(p){
+  document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.nbtn').forEach(x=>x.classList.remove('active'));
+  document.getElementById(`page-${p}`).classList.add('active');
+  const btn=document.querySelector(`.nbtn[onclick="showPage('${p}')"]`);
+  if(btn)btn.classList.add('active');
+  window.scrollTo(0,0);
+  if(p==='siralama')renderLeaderboard();
 }
 
-// ── NAVIGATION ───────────────────────────────────────────────────
-function showPage(page) {
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.nbtn').forEach(b => b.classList.remove('active'));
-  document.getElementById(`page-${page}`).classList.add('active');
-  const btn = document.querySelector(`.nbtn[onclick="showPage('${page}')"]`);
-  if (btn) btn.classList.add('active');
-  currentPage = page;
-  window.scrollTo(0, 0);
-
-  // Sıralama'ya girince render
-  if (page === 'siralama') renderLeaderboard();
+// ── THEME ─────────────────────────────────────────────────
+function toggleTheme(){
+  const dark=document.documentElement.getAttribute('data-theme')==='dark';
+  document.documentElement.setAttribute('data-theme',dark?'light':'dark');
+  document.getElementById('themeBtn').textContent=dark?'☾':'☀';
+  localStorage.setItem('ps-theme',dark?'light':'dark');
+  // Re-render parti badges (renk değişiyor)
+  if(document.getElementById('lb-body').children.length)renderLeaderboard();
 }
 
-// ── THEME ─────────────────────────────────────────────────────────
-function toggleTheme() {
-  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
-  document.getElementById('themeBtn').textContent = isLight ? '☀' : '☾';
-  localStorage.setItem('theme', isLight ? 'dark' : 'light');
+// Kaydedilmiş tema — default light
+const saved=localStorage.getItem('ps-theme');
+if(saved==='dark'){
+  document.documentElement.setAttribute('data-theme','dark');
+  document.getElementById('themeBtn').textContent='☀';
 }
 
-// Kaydedilmiş tema
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'light') {
-  document.documentElement.setAttribute('data-theme', 'light');
-  document.getElementById('themeBtn').textContent = '☾';
-}
-
-// ── START ─────────────────────────────────────────────────────────
 loadData();
 </script>
 </body>
