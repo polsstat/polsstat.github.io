@@ -1026,6 +1026,23 @@ function initSite(){
   renderKonular();
   initSearch();
 }
+
+async function loadData(){
+  try{
+    const [a,b,c,d]=await Promise.all([
+      fetch('mv_listesi.json'),fetch('genel.json'),
+      fetch('partiler.json'),fetch('konular.json')
+    ]);
+    MV_DATA=await a.json(); GENEL=await b.json();
+    PARTI_DATA=await c.json(); KONU_DATA=await d.json();
+    initSite();
+  }catch(e){
+    document.getElementById('lb-body').innerHTML=
+      '<tr><td colspan="6" class="loading">Veri yüklenemedi. Sayfayı yenileyin.</td></tr>';
+  }
+}
+
+loadData();
 </script>
 </body>
 </html>
