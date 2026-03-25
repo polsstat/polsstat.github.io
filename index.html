@@ -252,23 +252,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
 .footer-link{font-size:11px;color:var(--t3);text-decoration:none;transition:color .15s}
 .footer-link:hover{color:var(--green)}
 
-/* TÜRKİYE HARİTASI */
-.il{cursor:pointer;stroke:#fff;stroke-width:0.8;transition:opacity .15s,stroke-width .15s}
-[data-theme=dark] .il{stroke:#0a0a0a;stroke-width:0.6}
-.il:hover{opacity:.78;stroke-width:2}
-.il.selected{stroke:var(--green);stroke-width:2.5;opacity:1}
-#map-tooltip{
-  position:fixed;pointer-events:none;z-index:1000;
-  background:var(--bg1);border:1px solid var(--border2);
-  border-radius:8px;padding:10px 14px;
-  box-shadow:0 4px 16px rgba(0,0,0,.12);
-  display:none;min-width:150px;
-}
-[data-theme=dark] #map-tooltip{box-shadow:0 4px 24px rgba(0,0,0,.5)}
-.mtt-name{font-family:'Inter',sans-serif;font-size:13px;font-weight:700;color:var(--t0);margin-bottom:4px}
-.mtt-row{font-size:11px;color:var(--t2);display:flex;justify-content:space-between;gap:16px;margin-top:2px}
-.mtt-val{color:var(--t1);font-weight:600}
-
 .loading{text-align:center;padding:60px 24px;color:var(--t3);font-size:13px}
 .empty{text-align:center;padding:40px 24px;color:var(--t3);font-size:13px}
 
@@ -373,14 +356,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
   </div>
 </div>
 
-<!-- MAP TOOLTIP -->
-<div id="map-tooltip">
-  <div class="mtt-name" id="mtt-name"></div>
-  <div class="mtt-row"><span>Milletvekili</span><span class="mtt-val" id="mtt-mv"></span></div>
-  <div class="mtt-row"><span>Toplam puan</span><span class="mtt-val" id="mtt-skor"></span></div>
-  <div class="mtt-row"><span>Ortalama</span><span class="mtt-val" id="mtt-ort"></span></div>
-</div>
-
 <!-- NAV -->
 <nav>
   <a class="logo" href="#" onclick="showPage('landing');return false">
@@ -394,7 +369,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
   </a>
   <div class="nav-links">
     <button class="nbtn" onclick="showPage('siralama')">Milletvekilleri</button>
-    <button class="nbtn" onclick="showPage('sehirler')">Şehirler</button>
     <button class="nbtn" onclick="showPage('partiler')">Partiler</button>
     <button class="nbtn" onclick="showPage('konular')">Konular</button>
     <button class="nbtn" onclick="showPage('metodoloji')">Metodoloji</button>
@@ -522,138 +496,6 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
       </table>
     </div>
     <div style="text-align:center;margin-top:16px;font-size:11px;color:var(--t3)" id="lb-more"></div>
-  </div>
-</div>
-
-<!-- ŞEHİRLER -->
-<div class="page" id="page-sehirler">
-  <div class="container" style="padding-top:8px;padding-bottom:60px">
-    <div class="sec-hdr">
-      <div>
-        <div class="sec-title">Şehir Bazlı Aktivite</div>
-        <div class="sec-desc">Haritada bir ile tıklayarak o ilin milletvekillerini ve aktivite skorlarını görebilirsiniz.</div>
-      </div>
-    </div>
-
-    <!-- Harita -->
-    <div style="background:var(--bg1);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:16px">
-      <div style="width:100%;overflow:hidden">
-        <svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" id="turkey-map" style="width:100%;height:auto;display:block">
-          <g id="iller">
-            <path id="il-EDİRNE" class="il" d="M48,72 L95,65 L108,95 L88,112 L58,108 L42,92 Z"/>
-            <path id="il-KIRKLARELİ" class="il" d="M95,65 L148,58 L158,88 L130,102 L108,95 Z"/>
-            <path id="il-TEKİRDAĞ" class="il" d="M88,112 L108,95 L130,102 L138,128 L110,138 L82,130 Z"/>
-            <path id="il-İSTANBUL" class="il" d="M138,128 L168,118 L178,135 L168,152 L148,155 L130,142 Z"/>
-            <path id="il-YALOVA" class="il" d="M162,148 L185,142 L190,158 L172,165 Z"/>
-            <path id="il-KOCAELİ" class="il" d="M178,128 L212,122 L222,142 L205,158 L182,155 L168,148 Z"/>
-            <path id="il-SAKARYA" class="il" d="M212,122 L248,118 L258,140 L242,158 L222,152 Z"/>
-            <path id="il-DÜZCE" class="il" d="M248,118 L282,115 L288,135 L268,148 L252,140 Z"/>
-            <path id="il-BOLU" class="il" d="M282,115 L338,112 L348,135 L322,155 L295,152 L282,135 Z"/>
-            <path id="il-ZONGULDAK" class="il" d="M252,95 L302,88 L312,115 L282,118 L252,108 Z"/>
-            <path id="il-BARTIN" class="il" d="M302,88 L342,82 L350,108 L322,115 L308,108 Z"/>
-            <path id="il-KARABÜK" class="il" d="M322,115 L362,108 L370,132 L348,148 L322,138 Z"/>
-            <path id="il-KASTAMONU" class="il" d="M342,98 L412,90 L422,118 L398,138 L368,132 L348,118 Z"/>
-            <path id="il-SİNOP" class="il" d="M412,88 L468,82 L475,108 L448,122 L418,115 Z"/>
-            <path id="il-SAMSUN" class="il" d="M468,82 L538,75 L545,100 L518,115 L488,112 L472,100 Z"/>
-            <path id="il-ORDU" class="il" d="M538,78 L582,72 L588,95 L562,108 L542,102 Z"/>
-            <path id="il-GİRESUN" class="il" d="M582,72 L622,68 L628,90 L605,105 L585,98 Z"/>
-            <path id="il-TRABZON" class="il" d="M622,68 L662,62 L668,82 L645,95 L625,88 Z"/>
-            <path id="il-RİZE" class="il" d="M662,62 L698,58 L705,78 L682,90 L665,82 Z"/>
-            <path id="il-ARTVİN" class="il" d="M698,58 L738,55 L742,78 L718,90 L698,78 Z"/>
-            <path id="il-ÇANAKKALE" class="il" d="M42,128 L82,128 L88,158 L65,175 L38,162 Z"/>
-            <path id="il-BALIKESİR" class="il" d="M82,128 L130,142 L148,155 L155,188 L125,208 L88,192 L75,162 Z"/>
-            <path id="il-BURSA" class="il" d="M148,155 L198,165 L208,192 L180,208 L158,198 Z"/>
-            <path id="il-BİLECİK" class="il" d="M198,158 L238,155 L245,178 L222,195 L202,188 Z"/>
-            <path id="il-ESKİŞEHİR" class="il" d="M238,155 L290,148 L298,185 L268,202 L242,192 Z"/>
-            <path id="il-KÜTAHYA" class="il" d="M158,192 L208,185 L218,215 L190,232 L158,222 Z"/>
-            <path id="il-MANİSA" class="il" d="M88,192 L128,202 L138,235 L110,252 L80,238 L72,212 Z"/>
-            <path id="il-İZMİR" class="il" d="M72,212 L112,215 L120,252 L95,272 L65,260 L58,235 Z"/>
-            <path id="il-AYDIN" class="il" d="M95,272 L138,265 L148,298 L120,312 L92,300 Z"/>
-            <path id="il-MUĞLA" class="il" d="M120,312 L168,305 L178,338 L150,355 L115,342 Z"/>
-            <path id="il-DENİZLİ" class="il" d="M148,298 L192,290 L202,325 L172,340 L148,325 Z"/>
-            <path id="il-UŞAK" class="il" d="M158,232 L190,225 L198,255 L172,268 L152,258 Z"/>
-            <path id="il-AFYONKARAHİSAR" class="il" d="M192,218 L248,212 L258,252 L228,268 L198,260 Z"/>
-            <path id="il-ISPARTA" class="il" d="M200,278 L238,270 L248,305 L220,318 L196,308 Z"/>
-            <path id="il-BURDUR" class="il" d="M196,315 L232,308 L242,342 L215,355 L188,345 Z"/>
-            <path id="il-ANTALYA" class="il" d="M188,348 L258,340 L272,382 L235,402 L192,388 L178,368 Z"/>
-            <path id="il-KONYA" class="il" d="M248,215 L338,210 L352,262 L320,298 L278,295 L252,268 Z"/>
-            <path id="il-KARAMAN" class="il" d="M278,308 L322,300 L332,338 L305,355 L275,345 Z"/>
-            <path id="il-ANKARA" class="il" d="M290,152 L378,148 L388,195 L355,218 L312,215 L285,188 Z"/>
-            <path id="il-KIRŞEHİR" class="il" d="M355,178 L398,172 L405,202 L378,218 L352,210 Z"/>
-            <path id="il-AKSARAY" class="il" d="M332,235 L375,228 L382,262 L352,278 L328,268 Z"/>
-            <path id="il-NEVŞEHİR" class="il" d="M375,208 L415,202 L422,235 L395,250 L372,242 Z"/>
-            <path id="il-NİĞDE" class="il" d="M372,250 L415,242 L425,278 L398,295 L368,282 Z"/>
-            <path id="il-KAYSERİ" class="il" d="M402,185 L458,180 L468,222 L440,240 L408,235 L402,208 Z"/>
-            <path id="il-ÇANKIRI" class="il" d="M352,138 L402,132 L408,162 L382,178 L352,168 Z"/>
-            <path id="il-KIRIKKALE" class="il" d="M378,162 L408,155 L415,182 L392,192 L375,185 Z"/>
-            <path id="il-YOZGAT" class="il" d="M402,148 L458,142 L468,178 L442,198 L408,192 L405,168 Z"/>
-            <path id="il-ÇORUM" class="il" d="M398,125 L458,118 L468,148 L438,162 L405,155 Z"/>
-            <path id="il-AMASYA" class="il" d="M448,118 L492,112 L498,140 L468,155 L442,145 Z"/>
-            <path id="il-TOKAT" class="il" d="M475,138 L528,130 L538,168 L508,185 L478,178 L468,155 Z"/>
-            <path id="il-SİVAS" class="il" d="M468,168 L548,160 L558,212 L528,235 L490,228 L465,205 Z"/>
-            <path id="il-ERZİNCAN" class="il" d="M548,135 L605,128 L612,162 L578,178 L548,168 Z"/>
-            <path id="il-BAYBURT" class="il" d="M558,105 L592,100 L598,125 L568,138 Z"/>
-            <path id="il-GÜMÜŞHANE" class="il" d="M590,95 L628,90 L635,118 L605,132 L590,118 Z"/>
-            <path id="il-ERZURUM" class="il" d="M588,115 L662,108 L672,152 L642,168 L605,162 L585,142 Z"/>
-            <path id="il-ARDAHAN" class="il" d="M718,78 L755,75 L760,100 L735,112 L715,100 Z"/>
-            <path id="il-KARS" class="il" d="M708,108 L758,102 L765,140 L738,155 L708,142 Z"/>
-            <path id="il-IĞDIR" class="il" d="M752,118 L785,112 L792,138 L765,150 L748,138 Z"/>
-            <path id="il-AĞRI" class="il" d="M708,142 L762,135 L770,175 L740,190 L708,178 Z"/>
-            <path id="il-MUŞ" class="il" d="M665,172 L715,165 L722,202 L692,218 L662,208 Z"/>
-            <path id="il-BİTLİS" class="il" d="M678,205 L722,198 L728,235 L700,248 L675,238 Z"/>
-            <path id="il-VAN" class="il" d="M722,175 L778,168 L785,215 L755,230 L722,220 Z"/>
-            <path id="il-HAKKARİ" class="il" d="M730,238 L778,230 L782,268 L755,280 L725,268 Z"/>
-            <path id="il-ŞIRNAK" class="il" d="M685,268 L728,260 L735,295 L705,308 L678,295 Z"/>
-            <path id="il-SİİRT" class="il" d="M665,238 L705,230 L712,268 L685,280 L658,268 Z"/>
-            <path id="il-MARDİN" class="il" d="M618,262 L668,255 L675,292 L645,308 L615,295 Z"/>
-            <path id="il-DİYARBAKIR" class="il" d="M572,232 L632,225 L640,270 L608,288 L572,278 Z"/>
-            <path id="il-BATMAN" class="il" d="M635,252 L675,245 L682,282 L652,295 L628,282 Z"/>
-            <path id="il-BİNGÖL" class="il" d="M635,188 L678,182 L685,218 L655,232 L632,222 Z"/>
-            <path id="il-ELAZIĞ" class="il" d="M588,195 L638,188 L645,225 L615,240 L585,228 Z"/>
-            <path id="il-MALATYA" class="il" d="M528,205 L585,198 L592,238 L562,255 L528,245 Z"/>
-            <path id="il-ADIYAMAN" class="il" d="M528,255 L572,248 L578,285 L548,300 L522,288 Z"/>
-            <path id="il-KAHRAMANMARAŞ" class="il" d="M472,238 L528,230 L535,275 L505,292 L468,278 Z"/>
-            <path id="il-GAZİANTEP" class="il" d="M468,290 L512,282 L518,318 L488,332 L462,318 Z"/>
-            <path id="il-KİLİS" class="il" d="M452,315 L475,308 L480,335 L458,340 Z"/>
-            <path id="il-ŞANLIURFA" class="il" d="M512,295 L578,288 L585,332 L550,350 L512,340 Z"/>
-            <path id="il-OSMANİYE" class="il" d="M435,278 L472,270 L478,305 L450,318 L430,305 Z"/>
-            <path id="il-HATAY" class="il" d="M430,318 L468,310 L475,352 L445,368 L422,350 Z"/>
-            <path id="il-ADANA" class="il" d="M372,278 L438,270 L445,312 L415,330 L375,320 Z"/>
-            <path id="il-MERSİN" class="il" d="M318,302 L378,295 L385,338 L352,355 L318,342 Z"/>
-            <path id="il-KAHRAMANMARAŞ" class="il" d="M472,238 L528,230 L535,275 L505,292 L468,278 Z"/>
-          </g>
-        </svg>
-      </div>
-
-      <div style="display:flex;align-items:center;gap:8px;margin-top:12px;font-size:11px;color:var(--t3);justify-content:flex-end">
-        <span>Az aktif</span>
-        <div style="display:flex;gap:2px" id="harita-legend"></div>
-        <span>Çok aktif</span>
-      </div>
-    </div>
-
-    <!-- Şehir detay paneli -->
-    <div style="background:var(--bg1);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:none" id="sehir-panel">
-      <div style="padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px">
-        <div>
-          <div style="font-family:'Inter',sans-serif;font-size:16px;font-weight:800;color:var(--t0)" id="sp-title"></div>
-          <div style="font-size:12px;color:var(--t3);margin-top:2px" id="sp-meta"></div>
-        </div>
-        <button onclick="closeSehirPanel()" style="margin-left:auto;background:none;border:none;font-size:18px;color:var(--t3);cursor:pointer;padding:4px 8px;border-radius:6px">✕</button>
-      </div>
-      <table class="lb-table">
-        <thead><tr class="lb-thead">
-          <td style="width:36px">#</td>
-          <td>Milletvekili</td>
-          <td>Parti</td>
-          <td>Konu odakları</td>
-          <td style="text-align:right">Skor</td>
-          <td style="text-align:right">TBMM</td>
-        </tr></thead>
-        <tbody id="sp-body"></tbody>
-      </table>
-    </div>
-
   </div>
 </div>
 
@@ -1175,99 +1017,6 @@ if(saved==='dark'){
   document.getElementById('themeBtn').textContent='☀';
 }
 
-// ── HARİTA ────────────────────────────────────────────────
-const HARITA_R_LIGHT=['#d4edda','#a8d5b5','#7ec8a0','#58ba8a','#38a874','#229a60','#128a4e','#057a3c','#016830','#004d22'];
-const HARITA_R_DARK=['#0a2a14','#0d3a1c','#104c24','#146030','#1a7a3e','#22924a','#2aaa58','#34c068','#40d476','#50e085'];
-
-function initHarita(){
-  if(!SEHIR_DATA||!Object.keys(SEHIR_DATA).length)return;
-  const skorlar=Object.values(SEHIR_DATA).map(d=>d.toplam_skor).filter(Boolean);
-  const maxS=Math.max(...skorlar);
-  const dark=isDark();
-  const renkler=dark?HARITA_R_DARK:HARITA_R_LIGHT;
-  const bos=dark?'#1a1a1a':'#e8e8e0';
-
-  // Legend
-  const leg=document.getElementById('harita-legend');
-  if(leg) leg.innerHTML=renkler.map(c=>`<div style="width:22px;height:8px;background:${c};border-radius:2px"></div>`).join('');
-
-  document.querySelectorAll('.il').forEach(il=>{
-    const sehir=il.id.replace('il-','');
-    const d=SEHIR_DATA[sehir];
-    il.style.fill=(!d||!d.toplam_skor)?bos:renkler[Math.min(9,Math.floor(d.toplam_skor/maxS*10))];
-
-    il.addEventListener('mousemove',e=>{
-      const tt=document.getElementById('map-tooltip');
-      document.getElementById('mtt-name').textContent=sehir;
-      if(d){
-        document.getElementById('mtt-mv').textContent=d.mv_sayisi+' MV';
-        document.getElementById('mtt-skor').textContent=d.toplam_skor.toLocaleString('tr-TR');
-        document.getElementById('mtt-ort').textContent=Math.round(d.toplam_skor/d.mv_sayisi).toLocaleString('tr-TR');
-      }else{
-        ['mtt-mv','mtt-skor','mtt-ort'].forEach(id=>document.getElementById(id).textContent='–');
-      }
-      tt.style.display='block';
-      tt.style.left=(e.clientX+16)+'px';
-      tt.style.top=(e.clientY-12)+'px';
-    });
-    il.addEventListener('mouseleave',()=>{document.getElementById('map-tooltip').style.display='none'});
-    il.addEventListener('click',()=>{
-      document.querySelectorAll('.il').forEach(x=>x.classList.remove('selected'));
-      il.classList.add('selected');
-      showSehirPanel(sehir,d);
-    });
-  });
-}
-
-let SEHIR_DATA={};
-
-function showSehirPanel(sehir,data){
-  const panel=document.getElementById('sehir-panel');
-  document.getElementById('sp-title').textContent=sehir;
-  document.getElementById('sp-meta').textContent=data
-    ?`${data.mv_sayisi} milletvekili · ${data.toplam_skor.toLocaleString('tr-TR')} toplam puan · Ortalama ${Math.round(data.toplam_skor/data.mv_sayisi).toLocaleString('tr-TR')} puan`
-    :'Veri bulunamadı';
-  const mvs=MV_DATA.filter(mv=>mv.sehir===sehir).sort((a,b)=>b.skor-a.skor);
-  const maxS=mvs.length?mvs[0].skor:1;
-  document.getElementById('sp-body').innerHTML=mvs.length
-    ?mvs.map((mv,i)=>lbRowHTML(mv,i,maxS,false)).join('')
-    :'<tr><td colspan="6" class="empty">Veri bulunamadı.</td></tr>';
-  panel.style.display='block';
-  setTimeout(()=>panel.scrollIntoView({behavior:'smooth',block:'start'}),50);
-}
-
-function closeSehirPanel(){
-  document.getElementById('sehir-panel').style.display='none';
-  document.querySelectorAll('.il').forEach(x=>x.classList.remove('selected'));
-}
-
-// Haritayı tema değişince yenile
-const _origToggle=window.toggleTheme;
-window.toggleTheme=function(){
-  _origToggle();
-  setTimeout(initHarita,50);
-};
-
-// loadData'ya sehirler.json ekle
-async function loadData(){
-  try{
-    const [a,b,c,d,e]=await Promise.all([
-      fetch('mv_listesi.json'),fetch('genel.json'),
-      fetch('partiler.json'),fetch('konular.json'),
-      fetch('sehirler.json')
-    ]);
-    MV_DATA=await a.json(); GENEL=await b.json();
-    PARTI_DATA=await c.json(); KONU_DATA=await d.json();
-    SEHIR_DATA=await e.json();
-    initSite();
-  }catch(ex){
-    document.getElementById('lb-body').innerHTML=
-      '<tr><td colspan="6" class="loading">Veri yüklenemedi. Sayfayı yenileyin.</td></tr>';
-  }
-}
-
-// initSite'a harita ekle
-const _origInit=initSite;
 function initSite(){
   fillStats();
   renderLandingParti();
@@ -1276,7 +1025,6 @@ function initSite(){
   renderPartiler();
   renderKonular();
   initSearch();
-  initHarita();
 }
 </script>
 </body>
