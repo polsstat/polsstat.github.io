@@ -133,7 +133,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .lb-row:hover td{background:var(--bg2)}
 .rank{font-family:'Inter',sans-serif;font-size:14px;font-weight:800;color:var(--t4);width:36px;text-align:center}
 .rank.gold{color:#b8860b}.rank.silver{color:#707070}.rank.bronze{color:#7a4f30}
-.mv-name-link{color:var(--t0);text-decoration:none;font-weight:600;font-size:13px;transition:color .15s;cursor:pointer}
+.mv-name-link{color:var(--t0);text-decoration:none;font-weight:500;font-size:13px;transition:color .15s;cursor:pointer}
 .mv-name-link:hover{color:var(--green)}
 .mv-meta{font-size:10px;color:var(--t3);margin-top:2px}
 .skor-cell{text-align:right}
@@ -148,7 +148,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .tbmm-link:hover{color:var(--green);border-color:var(--green)}
 
 /* TAGS */
-.tag{display:inline-block;font-size:9px;padding:2px 7px;border-radius:4px;font-weight:600;margin:1px;white-space:nowrap}
+.tag{display:inline-block;font-size:9px;padding:2px 7px;border-radius:4px;font-weight:500;margin:1px;white-space:nowrap}
 .t-Sağlık{background:var(--red-bg);color:var(--red)}
 .t-Ekonomi{background:var(--amber-bg);color:var(--amber)}
 .t-Çevre{background:var(--green-bg);color:var(--green)}
@@ -164,14 +164,14 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .t-Diğer{background:var(--bg3);color:var(--t3)}
 
 /* PARTİ badge */
-.pb{display:inline-block;font-size:9px;padding:2px 6px;border-radius:3px;font-weight:600;margin-left:4px;vertical-align:middle}
+.pb{display:inline-block;font-size:9px;padding:2px 6px;border-radius:3px;font-weight:500;margin-left:4px;vertical-align:middle}
 
 /* PARTİ SAYFASI */
 .parti-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .parti-card{background:var(--bg1);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:border-color .15s}
 .parti-card:hover{border-color:var(--border2)}
 .parti-head{padding:16px 18px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start}
-.parti-name{font-family:'Inter',sans-serif;font-size:14px;font-weight:800}
+.parti-name{font-family:'Inter',sans-serif;font-size:14px;font-weight:700}
 .parti-mv-count{font-size:11px;color:var(--t3);margin-top:2px}
 .parti-body{padding:14px 18px}
 .pstat-row{display:flex;justify-content:space-between;padding:5px 0;font-size:11px;border-bottom:1px solid var(--bg2)}
@@ -189,7 +189,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--bg1);border-bottom:1px so
 .konu-card:hover{border-color:var(--border2)}
 .konu-card.active{border-color:var(--green)}
 .konu-top{height:2px;position:absolute;top:0;left:0;right:0}
-.konu-name{font-family:'Inter',sans-serif;font-size:13px;font-weight:700;color:var(--t0);margin:6px 0 3px}
+.konu-name{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:var(--t0);margin:6px 0 3px}
 .konu-count{font-size:10px;color:var(--t3)}
 .konu-bar-bg{height:3px;background:var(--bg3);border-radius:2px;margin-top:10px}
 .konu-bar-fill{height:3px;border-radius:2px}
@@ -293,7 +293,7 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
     <div class="logo-text">Pols<span>Stat</span></div>
   </a>
   <div class="nav-links">
-    <button class="nbtn" onclick="showPage('siralama')">Sıralama</button>
+    <button class="nbtn" onclick="showPage('siralama')">Milletvekilleri</button>
     <button class="nbtn" onclick="showPage('partiler')">Partiler</button>
     <button class="nbtn" onclick="showPage('konular')">Konular</button>
     <button class="nbtn" onclick="showPage('metodoloji')">Metodoloji</button>
@@ -381,8 +381,8 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
   <div class="container" style="padding-top:8px;padding-bottom:60px">
     <div class="sec-hdr">
       <div>
-        <div class="sec-title">Haftalık Sıralama</div>
-        <div class="sec-desc">28. dönem başından bu yana toplam parlamenter aktivite skoruna göre sıralanmıştır.</div>
+        <div class="sec-title">Milletvekili Sıralaması</div>
+        <div class="sec-desc">28. dönem başından bu yana (Mayıs 2023 – bugün) toplam parlamenter aktivite skoruna göre sıralanmıştır.</div>
       </div>
       <div class="sec-sub" id="siralama-count"></div>
     </div>
@@ -394,7 +394,8 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
       <button class="chip" data-filter="parti" data-val="MHP" onclick="setFilter('parti','MHP',this)">MHP</button>
       <button class="chip" data-filter="parti" data-val="İYİ Parti" onclick="setFilter('parti','İYİ Parti',this)">İYİ Parti</button>
       <button class="chip" data-filter="parti" data-val="YENİ YOL" onclick="setFilter('parti','YENİ YOL',this)">Yeni Yol</button>
-      <div class="filter-divider"></div>
+    </div>
+    <div class="filter-bar" style="margin-top:-8px">
       <button class="chip active" data-filter="konu" data-val="all" onclick="setFilter('konu','all',this)">Tüm konular</button>
       <button class="chip" data-filter="konu" data-val="Sağlık" onclick="setFilter('konu','Sağlık',this)">Sağlık</button>
       <button class="chip" data-filter="konu" data-val="Ekonomi" onclick="setFilter('konu','Ekonomi',this)">Ekonomi</button>
@@ -403,6 +404,8 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
       <button class="chip" data-filter="konu" data-val="Tarım" onclick="setFilter('konu','Tarım',this)">Tarım</button>
       <button class="chip" data-filter="konu" data-val="Adalet" onclick="setFilter('konu','Adalet',this)">Adalet</button>
       <button class="chip" data-filter="konu" data-val="Güvenlik" onclick="setFilter('konu','Güvenlik',this)">Güvenlik</button>
+      <button class="chip" data-filter="konu" data-val="Altyapı" onclick="setFilter('konu','Altyapı',this)">Altyapı</button>
+      <button class="chip" data-filter="konu" data-val="Sosyal" onclick="setFilter('konu','Sosyal',this)">Sosyal</button>
     </div>
     <div class="lb-wrap">
       <table class="lb-table">
@@ -468,15 +471,15 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
           <table class="weight-table">
             <thead><tr><th>Faaliyet Türü</th><th>Açıklama</th><th>Ağırlık</th></tr></thead>
             <tbody>
-              <tr><td>Kanun Teklifi — İlk İmza</td><td>Teklifin asıl sahibi</td><td>×5</td></tr>
-              <tr><td>Araştırma Önergesi — İlk İmza</td><td>Önergenin asıl sahibi</td><td>×4</td></tr>
+              <tr><td>Kanun Teklifi — İlk İmza</td><td>Teklifin asıl sahibi; özgün yasama inisiyatifi</td><td>×4</td></tr>
+              <tr><td>Komisyon Konuşması</td><td>Teknik uzmanlık ve hazırlık gerektirir</td><td>×3</td></tr>
+              <tr><td>Araştırma Önergesi — İlk İmza</td><td>Önergenin asıl sahibi</td><td>×3</td></tr>
               <tr><td>Genel Görüşme — İlk İmza</td><td>Önergenin asıl sahibi</td><td>×3</td></tr>
               <tr><td>Kanun Teklifi — İmzalı</td><td>Ortak imzacı</td><td>×2</td></tr>
               <tr><td>Genel Kurul Konuşması</td><td>Genel kurul söz alımı</td><td>×2</td></tr>
               <tr><td>Yazılı Soru Önergesi</td><td>Bakanlar kuruluna yazılı soru</td><td>×1</td></tr>
               <tr><td>Genel Görüşme — İmzalı</td><td>Ortak imzacı</td><td>×1</td></tr>
               <tr><td>Araştırma — İmzalı</td><td>Ortak imzacı</td><td>×1</td></tr>
-              <tr><td>Komisyon Konuşması</td><td>Komisyon söz alımı</td><td>×1</td></tr>
             </tbody>
           </table>
         </div>
@@ -510,6 +513,13 @@ footer{background:var(--bg1);border-top:1px solid var(--border);padding:28px 24p
 let MV_DATA=[], GENEL={}, PARTI_DATA={}, KONU_DATA={};
 let activeFilters={parti:'all',konu:'all'};
 let showCount=50;
+
+const KONU_RENKLER={
+  'Sağlık':'#c02020','Ekonomi':'#8a6000','Eğitim':'#1a50a0',
+  'Çevre':'#2a7d2a','Güvenlik':'#6a1080','Tarım':'#3a6810',
+  'Altyapı':'#007080','Adalet':'#c05000','Sosyal':'#7a2090',
+  'Dış Politika':'#1a40a0','Diğer':'#707070',
+};
 
 async function loadData(){
   try{
@@ -678,6 +688,7 @@ function openModal(slug){
   const akt=mv.aktivite||{};
   const initials=mv.isim.split(' ').map(w=>w[0]).filter((_,i,a)=>i===0||i===a.length-1).join('').toUpperCase();
 
+  // HEAD
   document.getElementById('modal-head').innerHTML=`
     <div class="modal-avatar" style="border-color:${renk};color:${renk}">${initials}</div>
     <div style="flex:1">
@@ -685,7 +696,6 @@ function openModal(slug){
       <div class="modal-meta">
         <span style="color:${renk};font-weight:600">${mv.parti}</span>
         ${mv.sehir?' · '+mv.sehir:''}
-        ${mv.email?' · <a href="mailto:'+mv.email+'" style="color:var(--t3);text-decoration:none">'+mv.email+'</a>':''}
       </div>
       <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">
         ${(mv.ana_kategoriler||[]).map(c=>`<span class="tag t-${c}">${c}</span>`).join('')}
@@ -693,26 +703,60 @@ function openModal(slug){
     </div>
     <button class="modal-close" onclick="closeModal()">✕</button>`;
 
+  // Ağırlıklı max
   const maxAkt=Math.max(
     akt.yazili_soru||0,
-    (akt.ilk_imza_kanun||0)*5,
-    (akt.ilk_imza_arastirma||0)*4,
+    (akt.ilk_imza_kanun||0)*4,
+    (akt.ilk_imza_arastirma||0)*3,
+    (akt.komisyon_konus||0)*3,
     1
   );
 
   const aktifRows=[
-    ['Yazılı Soru',akt.yazili_soru||0,'#d13030',(akt.yazili_soru||0)],
-    ['Kanun — İlk İmza',akt.ilk_imza_kanun||0,renk,(akt.ilk_imza_kanun||0)*5],
+    ['Yazılı Soru',akt.yazili_soru||0,'#c02020',(akt.yazili_soru||0)],
+    ['Kanun — İlk İmza',akt.ilk_imza_kanun||0,renk,(akt.ilk_imza_kanun||0)*4],
     ['Kanun — İmzalı',akt.imzali_kanun||0,renk+'80',(akt.imzali_kanun||0)*2],
-    ['Araştırma — İlk',akt.ilk_imza_arastirma||0,'#8a6000',(akt.ilk_imza_arastirma||0)*4],
-    ['Araştırma — İmzalı',akt.imzali_arastirma||0,'#8a600060',akt.imzali_arastirma||0],
+    ['Araştırma — İlk İmza',akt.ilk_imza_arastirma||0,'#8a6000',(akt.ilk_imza_arastirma||0)*3],
+    ['Araştırma — İmzalı',akt.imzali_arastirma||0,'#c8a060',(akt.imzali_arastirma||0)],
     ['Genel Görüşme — İlk',akt.ilk_imza_genel_gorusme||0,'#6a1080',(akt.ilk_imza_genel_gorusme||0)*3],
+    ['Genel Görüşme — İmzalı',akt.imzali_genel_gorusme||0,'#a070c0',(akt.imzali_genel_gorusme||0)],
     ['Genel Kurul Konuşması',akt.genel_kurul_konus||0,'#007080',(akt.genel_kurul_konus||0)*2],
-    ['Komisyon Konuşması',akt.komisyon_konus||0,'#007080',(akt.komisyon_konus||0)],
+    ['Komisyon Konuşması',akt.komisyon_konus||0,'#007080',(akt.komisyon_konus||0)*3],
   ].filter(r=>r[1]>0);
 
-  const komList=(mv.komisyonlar||[]).filter(k=>k.length>5).slice(0,6);
+  // Konu oranları
+  const katPct=mv.kategori_pct||{};
+  const katEntries=Object.entries(katPct)
+    .filter(([k,v])=>k!=='Diğer'&&v>0)
+    .sort((a,b)=>b[1]-a[1]);
+  const katMax=katEntries.length?katEntries[0][1]:1;
 
+  const konuChart=katEntries.length?`
+    <div class="modal-section-title">Konu dağılımı</div>
+    <div style="display:flex;flex-direction:column;gap:5px">
+      ${katEntries.map(([k,pct])=>{
+        const kr=KONU_RENKLER[k]||'#888';
+        return`<div style="display:flex;align-items:center;gap:8px">
+          <span style="font-size:10px;color:var(--t2);width:90px;flex-shrink:0">${k}</span>
+          <div style="flex:1;height:6px;background:var(--bg3);border-radius:3px">
+            <div style="height:6px;border-radius:3px;background:${kr};width:${Math.round(pct/katMax*100)}%;opacity:.85"></div>
+          </div>
+          <span style="font-size:10px;color:var(--t3);width:30px;text-align:right">%${pct}</span>
+        </div>`;
+      }).join('')}
+    </div>`:'';
+
+  // Komisyonlar
+  const komList=(mv.komisyonlar||[]).filter(k=>k&&k.length>4).slice(0,5);
+
+  // Parti içi sıralama
+  const partiRankStr=mv.parti_rank
+    ?`<div class="modal-skor-card">
+        <div class="msc-num" style="color:${renk}">#${mv.parti_rank}<span style="font-size:12px;color:var(--t3)">/${mv.parti_toplam}</span></div>
+        <div class="msc-lbl">${mv.parti} içi</div>
+       </div>`:'';
+
+  // BODY
   document.getElementById('modal-body').innerHTML=`
     <div class="modal-skor-row">
       <div class="modal-skor-card">
@@ -720,12 +764,13 @@ function openModal(slug){
         <div class="msc-lbl">Toplam Skor</div>
       </div>
       <div class="modal-skor-card">
-        <div class="msc-num">${(mv.toplam_faaliyet||0).toLocaleString('tr-TR')}</div>
-        <div class="msc-lbl">Toplam Faaliyet</div>
-      </div>
-      <div class="modal-skor-card">
         <div class="msc-num">#${mv.rank||'–'}</div>
-        <div class="msc-lbl">Genel Sıralama</div>
+        <div class="msc-lbl">Genel sıralama</div>
+      </div>
+      ${partiRankStr}
+      <div class="modal-skor-card">
+        <div class="msc-num">${(mv.toplam_faaliyet||0).toLocaleString('tr-TR')}</div>
+        <div class="msc-lbl">Toplam faaliyet</div>
       </div>
     </div>
 
@@ -738,10 +783,12 @@ function openModal(slug){
       </div>`).join('')}
     </div>
 
+    ${konuChart}
+
     ${komList.length?`
-    <div class="modal-section-title">Komisyonlar</div>
+    <div class="modal-section-title">Komisyon üyelikleri</div>
     <div class="modal-kom">
-      ${komList.map(k=>`<span class="modal-kom-item">${k.replace(' Üyesi','').replace(' Komisyonu','').trim()}</span>`).join('')}
+      ${komList.map(k=>`<span class="modal-kom-item">${k}</span>`).join('')}
     </div>`:''}`;
 
   document.getElementById('modal-footer').innerHTML=`
@@ -832,13 +879,6 @@ function showPartiDetail(p){
 }
 
 // ── KONULAR ───────────────────────────────────────────────
-const KONU_RENKLER={
-  'Sağlık':'#c02020','Ekonomi':'#8a6000','Eğitim':'#1a50a0',
-  'Çevre':'#2a7d2a','Güvenlik':'#6a1080','Tarım':'#3a6810',
-  'Altyapı':'#007080','Adalet':'#c05000','Sosyal':'#7a2090',
-  'Dış Politika':'#1a40a0','Diğer':'#707070',
-};
-
 function renderKonular(aktif){
   const grid=document.getElementById('konu-grid');
   const konular=Object.entries(KONU_DATA).filter(([k])=>k!=='Diğer')
