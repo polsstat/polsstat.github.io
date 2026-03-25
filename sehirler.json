@@ -1,4693 +1,4693 @@
 {
-  "DİYARBAKIR": {
-    "mv_sayisi": 12,
-    "toplam_skor": 12309,
-    "mvler": [
-      {
-        "slug": "mustafa-sezgin-tanrikulu",
-        "isim": "Mustafa Sezgin TANRIKULU",
-        "parti": "CHP",
-        "skor": 6264,
-        "rank": 1
-      },
-      {
-        "slug": "serhat-eren",
-        "isim": "Serhat EREN",
-        "parti": "DEM PARTİ",
-        "skor": 1326,
-        "rank": 14
-      },
-      {
-        "slug": "ceylan-akca-cupolo",
-        "isim": "Ceylan AKÇA CUPOLO",
-        "parti": "DEM PARTİ",
-        "skor": 1192,
-        "rank": 21
-      },
-      {
-        "slug": "adalet-kaya",
-        "isim": "Adalet KAYA",
-        "parti": "DEM PARTİ",
-        "skor": 986,
-        "rank": 35
-      },
-      {
-        "slug": "halide-turkoglu",
-        "isim": "Halide TÜRKOĞLU",
-        "parti": "DEM PARTİ",
-        "skor": 682,
-        "rank": 92
-      },
-      {
-        "slug": "sevilay-celenk-ozen",
-        "isim": "Sevilay ÇELENK ÖZEN",
-        "parti": "DEM PARTİ",
-        "skor": 659,
-        "rank": 99
-      },
-      {
-        "slug": "osman-cengiz-candar",
-        "isim": "Osman Cengiz ÇANDAR",
-        "parti": "DEM PARTİ",
-        "skor": 413,
-        "rank": 168
-      },
-      {
-        "slug": "mehmet-kamac",
-        "isim": "Mehmet KAMAÇ",
-        "parti": "DEM PARTİ",
-        "skor": 376,
-        "rank": 179
-      },
-      {
-        "slug": "berdan-ozturk",
-        "isim": "Berdan ÖZTÜRK",
-        "parti": "DEM PARTİ",
-        "skor": 208,
-        "rank": 232
-      },
-      {
-        "slug": "mehmet-sait-yaz",
-        "isim": "Mehmet Sait YAZ",
-        "parti": "AK Parti",
-        "skor": 113,
-        "rank": 290
-      },
-      {
-        "slug": "suna-kepolu-ataman",
-        "isim": "Suna KEPOLU ATAMAN",
-        "parti": "AK Parti",
-        "skor": 57,
-        "rank": 434
-      },
-      {
-        "slug": "mehmet-galip-ensarioglu",
-        "isim": "Mehmet Galip ENSARİOĞLU",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 517
-      }
-    ]
-  },
   "KOCAELİ": {
     "mv_sayisi": 13,
-    "toplam_skor": 8800,
+    "toplam_skor": 8791,
     "mvler": [
       {
         "slug": "omer-faruk-gergerlioglu",
         "isim": "Ömer Faruk GERGERLİOĞLU",
         "parti": "DEM PARTİ",
-        "skor": 6133,
-        "rank": 2
+        "skor": 6034,
+        "rank": 1
       },
       {
         "slug": "nail-ciler",
         "isim": "Nail ÇİLER",
         "parti": "CHP",
-        "skor": 657,
-        "rank": 100
+        "skor": 638,
+        "rank": 112
       },
       {
         "slug": "muhip-kanko",
         "isim": "Mühip KANKO",
         "parti": "CHP",
-        "skor": 605,
-        "rank": 108
+        "skor": 580,
+        "rank": 123
       },
       {
         "slug": "lutfu-turkkan",
         "isim": "Lütfü TÜRKKAN",
         "parti": "İYİ Parti",
-        "skor": 506,
-        "rank": 141
+        "skor": 538,
+        "rank": 137
       },
       {
         "slug": "harun-ozgur-yildizli",
         "isim": "Harun Özgür YILDIZLI",
         "parti": "CHP",
-        "skor": 400,
-        "rank": 172
+        "skor": 402,
+        "rank": 184
       },
       {
         "slug": "veysal-tipioglu",
         "isim": "Veysal TİPİOĞLU",
         "parti": "AK Parti",
-        "skor": 104,
-        "rank": 305
-      },
-      {
-        "slug": "cemil-yaman",
-        "isim": "Cemil YAMAN",
-        "parti": "AK Parti",
-        "skor": 79,
-        "rank": 357
-      },
-      {
-        "slug": "sadettin-hulagu",
-        "isim": "Sadettin HÜLAGÜ",
-        "parti": "AK Parti",
-        "skor": 74,
-        "rank": 373
+        "skor": 122,
+        "rank": 312
       },
       {
         "slug": "sami-cakir",
         "isim": "Sami ÇAKIR",
         "parti": "AK Parti",
-        "skor": 72,
-        "rank": 383
+        "skor": 110,
+        "rank": 332
+      },
+      {
+        "slug": "sadettin-hulagu",
+        "isim": "Sadettin HÜLAGÜ",
+        "parti": "AK Parti",
+        "skor": 92,
+        "rank": 364
+      },
+      {
+        "slug": "cemil-yaman",
+        "isim": "Cemil YAMAN",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 400
       },
       {
         "slug": "mehmet-asila",
         "isim": "Mehmet AŞILA",
         "parti": "YENİDEN REFAH",
-        "skor": 63,
-        "rank": 415
+        "skor": 77,
+        "rank": 407
       },
       {
         "slug": "radiye-sezer-katircioglu",
         "isim": "Radiye Sezer KATIRCIOĞLU",
         "parti": "AK Parti",
-        "skor": 51,
-        "rank": 450
+        "skor": 59,
+        "rank": 452
       },
       {
         "slug": "mehmet-akif-yilmaz",
         "isim": "Mehmet Akif YILMAZ",
         "parti": "AK Parti",
-        "skor": 36,
-        "rank": 502
+        "skor": 40,
+        "rank": 504
       },
       {
         "slug": "saffet-sancakli",
         "isim": "Saffet SANCAKLI",
         "parti": "MHP",
-        "skor": 20,
-        "rank": 565
+        "skor": 22,
+        "rank": 561
+      }
+    ]
+  },
+  "DİYARBAKIR": {
+    "mv_sayisi": 12,
+    "toplam_skor": 11912,
+    "mvler": [
+      {
+        "slug": "mustafa-sezgin-tanrikulu",
+        "isim": "Mustafa Sezgin TANRIKULU",
+        "parti": "CHP",
+        "skor": 5720,
+        "rank": 2
+      },
+      {
+        "slug": "serhat-eren",
+        "isim": "Serhat EREN",
+        "parti": "DEM PARTİ",
+        "skor": 1279,
+        "rank": 20
+      },
+      {
+        "slug": "ceylan-akca-cupolo",
+        "isim": "Ceylan AKÇA CUPOLO",
+        "parti": "DEM PARTİ",
+        "skor": 1213,
+        "rank": 23
+      },
+      {
+        "slug": "adalet-kaya",
+        "isim": "Adalet KAYA",
+        "parti": "DEM PARTİ",
+        "skor": 1110,
+        "rank": 29
+      },
+      {
+        "slug": "halide-turkoglu",
+        "isim": "Halide TÜRKOĞLU",
+        "parti": "DEM PARTİ",
+        "skor": 684,
+        "rank": 100
+      },
+      {
+        "slug": "sevilay-celenk-ozen",
+        "isim": "Sevilay ÇELENK ÖZEN",
+        "parti": "DEM PARTİ",
+        "skor": 657,
+        "rank": 106
+      },
+      {
+        "slug": "osman-cengiz-candar",
+        "isim": "Osman Cengiz ÇANDAR",
+        "parti": "DEM PARTİ",
+        "skor": 427,
+        "rank": 175
+      },
+      {
+        "slug": "mehmet-kamac",
+        "isim": "Mehmet KAMAÇ",
+        "parti": "DEM PARTİ",
+        "skor": 390,
+        "rank": 190
+      },
+      {
+        "slug": "berdan-ozturk",
+        "isim": "Berdan ÖZTÜRK",
+        "parti": "DEM PARTİ",
+        "skor": 207,
+        "rank": 253
+      },
+      {
+        "slug": "mehmet-sait-yaz",
+        "isim": "Mehmet Sait YAZ",
+        "parti": "AK Parti",
+        "skor": 127,
+        "rank": 303
+      },
+      {
+        "slug": "suna-kepolu-ataman",
+        "isim": "Suna KEPOLU ATAMAN",
+        "parti": "AK Parti",
+        "skor": 59,
+        "rank": 451
+      },
+      {
+        "slug": "mehmet-galip-ensarioglu",
+        "isim": "Mehmet Galip ENSARİOĞLU",
+        "parti": "AK Parti",
+        "skor": 39,
+        "rank": 505
       }
     ]
   },
   "ŞANLIURFA": {
     "mv_sayisi": 14,
-    "toplam_skor": 9127,
+    "toplam_skor": 8665,
     "mvler": [
       {
         "slug": "mahmut-tanal",
         "isim": "Mahmut TANAL",
         "parti": "CHP",
-        "skor": 6027,
+        "skor": 5488,
         "rank": 3
       },
       {
         "slug": "ferit-senyasar",
         "isim": "Ferit ŞENYAŞAR",
         "parti": "DEM PARTİ",
-        "skor": 986,
-        "rank": 33
+        "skor": 969,
+        "rank": 45
       },
       {
         "slug": "dilan-kunt-ayan",
         "isim": "Dilan KUNT AYAN",
         "parti": "DEM PARTİ",
-        "skor": 855,
+        "skor": 932,
         "rank": 53
       },
       {
         "slug": "omer-ocalan",
         "isim": "Ömer ÖCALAN",
         "parti": "DEM PARTİ",
-        "skor": 712,
-        "rank": 86
+        "skor": 716,
+        "rank": 93
       },
       {
         "slug": "abdurrahim-dusak",
         "isim": "Abdürrahim DUSAK",
         "parti": "AK Parti",
-        "skor": 121,
-        "rank": 280
+        "skor": 123,
+        "rank": 310
       },
       {
         "slug": "cevahir-asuman-yazmaci",
         "isim": "Cevahir Asuman YAZMACI",
         "parti": "AK Parti",
-        "skor": 109,
-        "rank": 297
+        "skor": 115,
+        "rank": 321
       },
       {
         "slug": "ibrahim-eyyupoglu",
         "isim": "İbrahim EYYÜPOĞLU",
         "parti": "AK Parti",
-        "skor": 70,
-        "rank": 390
+        "skor": 68,
+        "rank": 426
       },
       {
         "slug": "mehmet-ali-cevheri",
         "isim": "Mehmet Ali CEVHERİ",
         "parti": "AK Parti",
-        "skor": 54,
-        "rank": 440
+        "skor": 58,
+        "rank": 455
+      },
+      {
+        "slug": "mithat-sancar",
+        "isim": "Mithat SANCAR",
+        "parti": "DEM PARTİ",
+        "skor": 48,
+        "rank": 487
       },
       {
         "slug": "hikmet-basak",
         "isim": "Hikmet BAŞAK",
         "parti": "AK Parti",
-        "skor": 45,
-        "rank": 476
+        "skor": 43,
+        "rank": 497
       },
       {
         "slug": "abdulkadir-emin-onen",
         "isim": "Abdulkadir Emin ÖNEN",
         "parti": "AK Parti",
         "skor": 41,
-        "rank": 487
-      },
-      {
-        "slug": "mithat-sancar",
-        "isim": "Mithat SANCAR",
-        "parti": "DEM PARTİ",
-        "skor": 37,
-        "rank": 499
+        "rank": 502
       },
       {
         "slug": "mehmet-faruk-pinarbasi",
         "isim": "Mehmet Faruk PINARBAŞI",
         "parti": "AK Parti",
-        "skor": 33,
-        "rank": 515
+        "skor": 31,
+        "rank": 528
       },
       {
         "slug": "ibrahim-ozyavuz",
         "isim": "İbrahim ÖZYAVUZ",
         "parti": "MHP",
-        "skor": 20,
-        "rank": 567
+        "skor": 18,
+        "rank": 571
       },
       {
         "slug": "bekir-bozdag",
         "isim": "Bekir BOZDAĞ",
         "parti": "AK Parti",
-        "skor": 17,
+        "skor": 15,
         "rank": 584
-      }
-    ]
-  },
-  "AFYONKARAHİSAR": {
-    "mv_sayisi": 5,
-    "toplam_skor": 2887,
-    "mvler": [
-      {
-        "slug": "hakan-seref-olgun",
-        "isim": "Hakan Şeref OLGUN",
-        "parti": "İYİ Parti",
-        "skor": 2485,
-        "rank": 4
-      },
-      {
-        "slug": "ibrahim-yurdunuseven",
-        "isim": "İbrahim YURDUNUSEVEN",
-        "parti": "AK Parti",
-        "skor": 137,
-        "rank": 265
-      },
-      {
-        "slug": "ali-ozkaya",
-        "isim": "Ali ÖZKAYA",
-        "parti": "AK Parti",
-        "skor": 122,
-        "rank": 278
-      },
-      {
-        "slug": "hasan-arslan",
-        "isim": "Hasan ARSLAN",
-        "parti": "AK Parti",
-        "skor": 91,
-        "rank": 338
-      },
-      {
-        "slug": "mehmet-taytak",
-        "isim": "Mehmet TAYTAK",
-        "parti": "MHP",
-        "skor": 52,
-        "rank": 447
-      }
-    ]
-  },
-  "NİĞDE": {
-    "mv_sayisi": 3,
-    "toplam_skor": 2597,
-    "mvler": [
-      {
-        "slug": "omer-fethi-gurer",
-        "isim": "Ömer Fethi GÜRER",
-        "parti": "CHP",
-        "skor": 2465,
-        "rank": 5
-      },
-      {
-        "slug": "cevahir-uzkurt",
-        "isim": "Cevahir UZKURT",
-        "parti": "AK Parti",
-        "skor": 106,
-        "rank": 304
-      },
-      {
-        "slug": "cumali-ince",
-        "isim": "Cumali İNCE",
-        "parti": "MHP",
-        "skor": 26,
-        "rank": 541
-      }
-    ]
-  },
-  "HAKKARİ": {
-    "mv_sayisi": 3,
-    "toplam_skor": 3119,
-    "mvler": [
-      {
-        "slug": "oznur-bartin",
-        "isim": "Öznur BARTİN",
-        "parti": "DEM PARTİ",
-        "skor": 1798,
-        "rank": 6
-      },
-      {
-        "slug": "vezir-coskun-parlak",
-        "isim": "Vezir Coşkun PARLAK",
-        "parti": "DEM PARTİ",
-        "skor": 737,
-        "rank": 77
-      },
-      {
-        "slug": "onur-dusunmez",
-        "isim": "Onur DÜŞÜNMEZ",
-        "parti": "DEM PARTİ",
-        "skor": 584,
-        "rank": 114
-      }
-    ]
-  },
-  "BİTLİS": {
-    "mv_sayisi": 3,
-    "toplam_skor": 2285,
-    "mvler": [
-      {
-        "slug": "huseyin-olan",
-        "isim": "Hüseyin OLAN",
-        "parti": "DEM PARTİ",
-        "skor": 1578,
-        "rank": 7
-      },
-      {
-        "slug": "semra-caglar-gokalp",
-        "isim": "Semra ÇAĞLAR GÖKALP",
-        "parti": "DEM PARTİ",
-        "skor": 678,
-        "rank": 94
-      },
-      {
-        "slug": "turan-bedirhanoglu",
-        "isim": "Turan BEDİRHANOĞLU",
-        "parti": "AK Parti",
-        "skor": 29,
-        "rank": 530
-      }
-    ]
-  },
-  "DENİZLİ": {
-    "mv_sayisi": 7,
-    "toplam_skor": 3254,
-    "mvler": [
-      {
-        "slug": "yasin-ozturk",
-        "isim": "Yasin ÖZTÜRK",
-        "parti": "İYİ Parti",
-        "skor": 1552,
-        "rank": 8
-      },
-      {
-        "slug": "seref-arpaci",
-        "isim": "Şeref ARPACI",
-        "parti": "CHP",
-        "skor": 724,
-        "rank": 82
-      },
-      {
-        "slug": "gulizar-bicer-karaca",
-        "isim": "Gülizar BİÇER KARACA",
-        "parti": "CHP",
-        "skor": 433,
-        "rank": 160
-      },
-      {
-        "slug": "sema-silkin-un",
-        "isim": "Sema SİLKİN ÜN",
-        "parti": "YENİ YOL",
-        "skor": 200,
-        "rank": 235
-      },
-      {
-        "slug": "nilgun-ok",
-        "isim": "Nilgün ÖK",
-        "parti": "AK Parti",
-        "skor": 198,
-        "rank": 236
-      },
-      {
-        "slug": "sahin-tin",
-        "isim": "Şahin TİN",
-        "parti": "AK Parti",
-        "skor": 97,
-        "rank": 324
-      },
-      {
-        "slug": "cahit-ozkan",
-        "isim": "Cahit ÖZKAN",
-        "parti": "AK Parti",
-        "skor": 50,
-        "rank": 459
-      }
-    ]
-  },
-  "ERZURUM": {
-    "mv_sayisi": 6,
-    "toplam_skor": 2011,
-    "mvler": [
-      {
-        "slug": "meral-danis-bestas",
-        "isim": "Meral DANIŞ BEŞTAŞ",
-        "parti": "DEM PARTİ",
-        "skor": 1532,
-        "rank": 9
-      },
-      {
-        "slug": "selami-altinok",
-        "isim": "Selami ALTINOK",
-        "parti": "AK Parti",
-        "skor": 118,
-        "rank": 285
-      },
-      {
-        "slug": "abdurrahim-firat",
-        "isim": "Abdurrahim FIRAT",
-        "parti": "AK Parti",
-        "skor": 113,
-        "rank": 291
-      },
-      {
-        "slug": "fatma-oncu",
-        "isim": "Fatma ÖNCÜ",
-        "parti": "AK Parti",
-        "skor": 100,
-        "rank": 314
-      },
-      {
-        "slug": "mehmet-emin-oz",
-        "isim": "Mehmet Emin ÖZ",
-        "parti": "AK Parti",
-        "skor": 86,
-        "rank": 349
-      },
-      {
-        "slug": "kamil-aydin",
-        "isim": "Kamil AYDIN",
-        "parti": "MHP",
-        "skor": 62,
-        "rank": 419
-      }
-    ]
-  },
-  "UŞAK": {
-    "mv_sayisi": 3,
-    "toplam_skor": 1834,
-    "mvler": [
-      {
-        "slug": "ali-karaoba",
-        "isim": "Ali KARAOBA",
-        "parti": "CHP",
-        "skor": 1483,
-        "rank": 10
-      },
-      {
-        "slug": "ismail-gunes",
-        "isim": "İsmail GÜNEŞ",
-        "parti": "AK Parti",
-        "skor": 305,
-        "rank": 205
-      },
-      {
-        "slug": "fahrettin-tugrul",
-        "isim": "Fahrettin TUĞRUL",
-        "parti": "AK Parti",
-        "skor": 46,
-        "rank": 471
-      }
-    ]
-  },
-  "İSTANBUL": {
-    "mv_sayisi": 95,
-    "toplam_skor": 20472,
-    "mvler": [
-      {
-        "slug": "numan-kurtulmus",
-        "isim": "Numan KURTULMUŞ",
-        "parti": "AK Parti",
-        "skor": 1473,
-        "rank": 11
-      },
-      {
-        "slug": "cicek-otlu",
-        "isim": "Çiçek OTLU",
-        "parti": "DEM PARTİ",
-        "skor": 962,
-        "rank": 41
-      },
-      {
-        "slug": "ozgul-saki",
-        "isim": "Özgül SAKİ",
-        "parti": "DEM PARTİ",
-        "skor": 793,
-        "rank": 62
-      },
-      {
-        "slug": "keziban-konukcu-kok",
-        "isim": "Keziban KONUKCU KOK",
-        "parti": "DEM PARTİ",
-        "skor": 760,
-        "rank": 68
-      },
-      {
-        "slug": "celal-firat",
-        "isim": "Celal FIRAT",
-        "parti": "DEM PARTİ",
-        "skor": 729,
-        "rank": 80
-      },
-      {
-        "slug": "ersin-beyaz",
-        "isim": "Ersin BEYAZ",
-        "parti": "İYİ Parti",
-        "skor": 715,
-        "rank": 84
-      },
-      {
-        "slug": "mehmet-satuk-bugra-kavuncu",
-        "isim": "Mehmet Satuk Buğra KAVUNCU",
-        "parti": "İYİ Parti",
-        "skor": 696,
-        "rank": 88
-      },
-      {
-        "slug": "gamze-akkus-ilgezdi",
-        "isim": "Gamze AKKUŞ İLGEZDİ",
-        "parti": "CHP",
-        "skor": 600,
-        "rank": 111
-      },
-      {
-        "slug": "dogan-bekin",
-        "isim": "Doğan BEKİN",
-        "parti": "YENİDEN REFAH",
-        "skor": 599,
-        "rank": 112
-      },
-      {
-        "slug": "gokhan-gunaydin",
-        "isim": "Gökhan GÜNAYDIN",
-        "parti": "CHP",
-        "skor": 580,
-        "rank": 116
-      },
-      {
-        "slug": "nimet-ozdemir",
-        "isim": "Nimet ÖZDEMİR",
-        "parti": "CHP",
-        "skor": 550,
-        "rank": 126
-      },
-      {
-        "slug": "bulent-kaya",
-        "isim": "Bülent KAYA",
-        "parti": "YENİ YOL",
-        "skor": 518,
-        "rank": 138
-      },
-      {
-        "slug": "turan-taskin-ozer",
-        "isim": "Turan Taşkın ÖZER",
-        "parti": "CHP",
-        "skor": 494,
-        "rank": 145
-      },
-      {
-        "slug": "cengiz-cicek",
-        "isim": "Cengiz ÇİÇEK",
-        "parti": "DEM PARTİ",
-        "skor": 491,
-        "rank": 147
-      },
-      {
-        "slug": "ali-gokcek",
-        "isim": "Ali GÖKÇEK",
-        "parti": "CHP",
-        "skor": 490,
-        "rank": 148
-      },
-      {
-        "slug": "suat-ozcagdas",
-        "isim": "Suat ÖZÇAĞDAŞ",
-        "parti": "CHP",
-        "skor": 428,
-        "rank": 164
-      },
-      {
-        "slug": "yunus-emre",
-        "isim": "Yunus EMRE",
-        "parti": "CHP",
-        "skor": 421,
-        "rank": 165
-      },
-      {
-        "slug": "isa-mesih-sahin",
-        "isim": "İsa Mesih ŞAHİN",
-        "parti": "AK Parti",
-        "skor": 414,
-        "rank": 167
-      },
-      {
-        "slug": "ayse-sibel-yanikomeroglu",
-        "isim": "Ayşe Sibel YANIKÖMEROĞLU",
-        "parti": "CHP",
-        "skor": 409,
-        "rank": 170
-      },
-      {
-        "slug": "elif-esen",
-        "isim": "Elif ESEN",
-        "parti": "YENİ YOL",
-        "skor": 376,
-        "rank": 180
-      },
-      {
-        "slug": "cemal-enginyurt",
-        "isim": "Cemal ENGİNYURT",
-        "parti": "CHP",
-        "skor": 368,
-        "rank": 182
-      },
-      {
-        "slug": "ozgur-karabat",
-        "isim": "Özgür KARABAT",
-        "parti": "CHP",
-        "skor": 348,
-        "rank": 188
-      },
-      {
-        "slug": "burak-akburak",
-        "isim": "Burak AKBURAK",
-        "parti": "İYİ Parti",
-        "skor": 331,
-        "rank": 195
-      },
-      {
-        "slug": "saliha-sera-kadigil",
-        "isim": "Saliha Sera KADIGİL",
-        "parti": "TİP",
-        "skor": 325,
-        "rank": 197
-      },
-      {
-        "slug": "iskender-bayhan",
-        "isim": "İskender BAYHAN",
-        "parti": "EMEP",
-        "skor": 312,
-        "rank": 202
-      },
-      {
-        "slug": "namik-tan",
-        "isim": "Namık TAN",
-        "parti": "CHP",
-        "skor": 261,
-        "rank": 212
-      },
-      {
-        "slug": "hasan-karal",
-        "isim": "Hasan KARAL",
-        "parti": "YENİ YOL",
-        "skor": 251,
-        "rank": 214
-      },
-      {
-        "slug": "engin-altay",
-        "isim": "Engin ALTAY",
-        "parti": "CHP",
-        "skor": 238,
-        "rank": 220
-      },
-      {
-        "slug": "birol-aydin",
-        "isim": "Birol AYDIN",
-        "parti": "YENİ YOL",
-        "skor": 233,
-        "rank": 221
-      },
-      {
-        "slug": "mustafa-cihan-pacaci",
-        "isim": "Mustafa Cihan PAÇACI",
-        "parti": "İYİ Parti",
-        "skor": 232,
-        "rank": 223
-      },
-      {
-        "slug": "mustafa-kaya",
-        "isim": "Mustafa KAYA",
-        "parti": "YENİ YOL",
-        "skor": 216,
-        "rank": 228
-      },
-      {
-        "slug": "gokan-zeybek",
-        "isim": "Gökan ZEYBEK",
-        "parti": "CHP",
-        "skor": 209,
-        "rank": 231
-      },
-      {
-        "slug": "ismail-faruk-aksu",
-        "isim": "İsmail Faruk AKSU",
-        "parti": "MHP",
-        "skor": 191,
-        "rank": 241
-      },
-      {
-        "slug": "medeni-yilmaz",
-        "isim": "Medeni YILMAZ",
-        "parti": "YENİ YOL",
-        "skor": 175,
-        "rank": 247
-      },
-      {
-        "slug": "ahmet-ersagun-yucel",
-        "isim": "Ahmet Ersagun YÜCEL",
-        "parti": "AK Parti",
-        "skor": 171,
-        "rank": 248
-      },
-      {
-        "slug": "yuksel-mansur-kilinc",
-        "isim": "Yüksel Mansur KILINÇ",
-        "parti": "CHP",
-        "skor": 167,
-        "rank": 249
-      },
-      {
-        "slug": "evrim-rizvanoglu",
-        "isim": "Evrim RIZVANOĞLU",
-        "parti": "CHP",
-        "skor": 166,
-        "rank": 250
-      },
-      {
-        "slug": "cuneyt-yuksel",
-        "isim": "Cüneyt YÜKSEL",
-        "parti": "AK Parti",
-        "skor": 164,
-        "rank": 251
-      },
-      {
-        "slug": "zeynel-emre",
-        "isim": "Zeynel EMRE",
-        "parti": "CHP",
-        "skor": 145,
-        "rank": 260
-      },
-      {
-        "slug": "selim-temurci",
-        "isim": "Selim TEMURCİ",
-        "parti": "BAĞIMSIZ",
-        "skor": 133,
-        "rank": 268
-      },
-      {
-        "slug": "fethi-acikel",
-        "isim": "Fethi AÇIKEL",
-        "parti": "CHP",
-        "skor": 129,
-        "rank": 272
-      },
-      {
-        "slug": "ismail-erdem",
-        "isim": "İsmail ERDEM",
-        "parti": "AK Parti",
-        "skor": 119,
-        "rank": 283
-      },
-      {
-        "slug": "ahmet-sik",
-        "isim": "Ahmet ŞIK",
-        "parti": "TİP",
-        "skor": 118,
-        "rank": 286
-      },
-      {
-        "slug": "kadri-enis-berberoglu",
-        "isim": "Kadri Enis BERBEROĞLU",
-        "parti": "CHP",
-        "skor": 118,
-        "rank": 287
-      },
-      {
-        "slug": "oguz-kaan-salici",
-        "isim": "Oğuz Kaan SALICI",
-        "parti": "CHP",
-        "skor": 116,
-        "rank": 288
-      },
-      {
-        "slug": "mustafa-yeneroglu",
-        "isim": "Mustafa YENEROĞLU",
-        "parti": "BAĞIMSIZ",
-        "skor": 114,
-        "rank": 289
-      },
-      {
-        "slug": "rumeysa-kadak",
-        "isim": "Rümeysa KADAK",
-        "parti": "AK Parti",
-        "skor": 112,
-        "rank": 293
-      },
-      {
-        "slug": "mehmet-selim-ensarioglu",
-        "isim": "Mehmet Selim ENSARİOĞLU",
-        "parti": "AK Parti",
-        "skor": 110,
-        "rank": 296
-      },
-      {
-        "slug": "turkan-elci",
-        "isim": "Türkan ELÇİ",
-        "parti": "CHP",
-        "skor": 109,
-        "rank": 299
-      },
-      {
-        "slug": "ummugulsen-ozturk",
-        "isim": "Ümmügülşen ÖZTÜRK",
-        "parti": "AK Parti",
-        "skor": 107,
-        "rank": 303
-      },
-      {
-        "slug": "sengul-karsli",
-        "isim": "Şengül KARSLI",
-        "parti": "AK Parti",
-        "skor": 104,
-        "rank": 307
-      },
-      {
-        "slug": "yahya-celik",
-        "isim": "Yahya ÇELİK",
-        "parti": "AK Parti",
-        "skor": 99,
-        "rank": 316
-      },
-      {
-        "slug": "seyithan-izsiz",
-        "isim": "Seyithan İZSİZ",
-        "parti": "AK Parti",
-        "skor": 98,
-        "rank": 320
-      },
-      {
-        "slug": "nurettin-alan",
-        "isim": "Nurettin ALAN",
-        "parti": "AK Parti",
-        "skor": 97,
-        "rank": 325
-      },
-      {
-        "slug": "dogan-demir",
-        "isim": "Doğan DEMİR",
-        "parti": "CHP",
-        "skor": 87,
-        "rank": 347
-      },
-      {
-        "slug": "halit-yerebakan",
-        "isim": "Halit YEREBAKAN",
-        "parti": "AK Parti",
-        "skor": 87,
-        "rank": 348
-      },
-      {
-        "slug": "seda-goren",
-        "isim": "Seda GÖREN",
-        "parti": "AK Parti",
-        "skor": 80,
-        "rank": 356
-      },
-      {
-        "slug": "adem-yildirim",
-        "isim": "Adem YILDIRIM",
-        "parti": "AK Parti",
-        "skor": 77,
-        "rank": 366
-      },
-      {
-        "slug": "muhammed-ali-fatih-erbakan",
-        "isim": "Muhammed Ali Fatih ERBAKAN",
-        "parti": "YENİDEN REFAH",
-        "skor": 73,
-        "rank": 381
-      },
-      {
-        "slug": "yucel-arzen-haciogullari",
-        "isim": "Yücel Arzen HACIOĞULLARI",
-        "parti": "AK Parti",
-        "skor": 68,
-        "rank": 396
-      },
-      {
-        "slug": "samil-ayrim",
-        "isim": "Şamil AYRIM",
-        "parti": "AK Parti",
-        "skor": 68,
-        "rank": 398
-      },
-      {
-        "slug": "zekeriya-yapicioglu",
-        "isim": "Zekeriya YAPICIOĞLU",
-        "parti": "HÜDA PAR",
-        "skor": 66,
-        "rank": 403
-      },
-      {
-        "slug": "tugba-isik-ercan",
-        "isim": "Tuğba IŞIK ERCAN",
-        "parti": "AK Parti",
-        "skor": 60,
-        "rank": 425
-      },
-      {
-        "slug": "yildiz-konal-suslu",
-        "isim": "Yıldız KONAL SÜSLÜ",
-        "parti": "AK Parti",
-        "skor": 60,
-        "rank": 426
-      },
-      {
-        "slug": "hasan-turan",
-        "isim": "Hasan TURAN",
-        "parti": "AK Parti",
-        "skor": 57,
-        "rank": 436
-      },
-      {
-        "slug": "ilhan-kesici",
-        "isim": "İlhan KESİCİ",
-        "parti": "CHP",
-        "skor": 53,
-        "rank": 443
-      },
-      {
-        "slug": "nilhan-ayan",
-        "isim": "Nilhan AYAN",
-        "parti": "AK Parti",
-        "skor": 53,
-        "rank": 444
-      },
-      {
-        "slug": "sena-nur-celik-kanat",
-        "isim": "Sena Nur ÇELİK KANAT",
-        "parti": "AK Parti",
-        "skor": 53,
-        "rank": 445
-      },
-      {
-        "slug": "suat-pamukcu",
-        "isim": "Suat PAMUKÇU",
-        "parti": "AK Parti",
-        "skor": 52,
-        "rank": 449
-      },
-      {
-        "slug": "busra-paker",
-        "isim": "Büşra PAKER",
-        "parti": "AK Parti",
-        "skor": 51,
-        "rank": 456
-      },
-      {
-        "slug": "mehmet-onder-aksakal",
-        "isim": "Mehmet Önder AKSAKAL",
-        "parti": "DSP",
-        "skor": 50,
-        "rank": 461
-      },
-      {
-        "slug": "oguz-ucuncu",
-        "isim": "Oğuz ÜÇÜNCÜ",
-        "parti": "AK Parti",
-        "skor": 46,
-        "rank": 473
-      },
-      {
-        "slug": "derya-ayaydin",
-        "isim": "Derya AYAYDIN",
-        "parti": "AK Parti",
-        "skor": 45,
-        "rank": 477
-      },
-      {
-        "slug": "muserref-pervin-tuba-durgut",
-        "isim": "Müşerref Pervin Tuba DURGUT",
-        "parti": "AK Parti",
-        "skor": 43,
-        "rank": 484
-      },
-      {
-        "slug": "serkan-bayram",
-        "isim": "Serkan BAYRAM",
-        "parti": "AK Parti",
-        "skor": 43,
-        "rank": 485
-      },
-      {
-        "slug": "azmi-ekinci",
-        "isim": "Azmi EKİNCİ",
-        "parti": "AK Parti",
-        "skor": 39,
-        "rank": 494
-      },
-      {
-        "slug": "rabia-ilhan",
-        "isim": "Rabia İLHAN",
-        "parti": "AK Parti",
-        "skor": 38,
-        "rank": 498
-      },
-      {
-        "slug": "erkan-bas",
-        "isim": "Erkan BAŞ",
-        "parti": "TİP",
-        "skor": 34,
-        "rank": 512
-      },
-      {
-        "slug": "behiye-eker",
-        "isim": "Behiye EKER",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 518
-      },
-      {
-        "slug": "erdogan-toprak",
-        "isim": "Erdoğan TOPRAK",
-        "parti": "CHP",
-        "skor": 33,
-        "rank": 519
-      },
-      {
-        "slug": "ozlem-zengin",
-        "isim": "Özlem ZENGİN",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 520
-      },
-      {
-        "slug": "sevan-sivacioglu",
-        "isim": "Sevan SIVACIOĞLU",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 521
-      },
-      {
-        "slug": "mustafa-hulki-cevizoglu",
-        "isim": "Mustafa Hulki CEVİZOĞLU",
-        "parti": "AK Parti",
-        "skor": 30,
-        "rank": 529
-      },
-      {
-        "slug": "halis-dalkilic",
-        "isim": "Halis DALKILIÇ",
-        "parti": "AK Parti",
-        "skor": 27,
-        "rank": 540
-      },
-      {
-        "slug": "celal-adan",
-        "isim": "Celal ADAN",
-        "parti": "MHP",
-        "skor": 25,
-        "rank": 552
-      },
-      {
-        "slug": "suleyman-soylu",
-        "isim": "Süleyman SOYLU",
-        "parti": "AK Parti",
-        "skor": 23,
-        "rank": 557
-      },
-      {
-        "slug": "ismail-emrah-karayel",
-        "isim": "İsmail Emrah KARAYEL",
-        "parti": "AK Parti",
-        "skor": 22,
-        "rank": 562
-      },
-      {
-        "slug": "cigdem-kilicgun-ucar",
-        "isim": "Çiğdem KILIÇGÜN UÇAR",
-        "parti": "DBP",
-        "skor": 20,
-        "rank": 569
-      },
-      {
-        "slug": "feti-yildiz",
-        "isim": "Feti YILDIZ",
-        "parti": "MHP",
-        "skor": 19,
-        "rank": 572
-      },
-      {
-        "slug": "hulusi-senturk",
-        "isim": "Hulusi ŞENTÜRK",
-        "parti": "AK Parti",
-        "skor": 19,
-        "rank": 573
-      },
-      {
-        "slug": "izzet-ulvi-yonter",
-        "isim": "İzzet Ulvi YÖNTER",
-        "parti": "MHP",
-        "skor": 19,
-        "rank": 574
-      },
-      {
-        "slug": "zafer-sirakaya",
-        "isim": "Zafer SIRAKAYA",
-        "parti": "AK Parti",
-        "skor": 18,
-        "rank": 575
-      },
-      {
-        "slug": "bayram-senocak",
-        "isim": "Bayram ŞENOCAK",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 596
-      },
-      {
-        "slug": "edip-semih-yalcin",
-        "isim": "Edip Semih YALÇIN",
-        "parti": "MHP",
-        "skor": 17,
-        "rank": 597
-      },
-      {
-        "slug": "erkan-kandemir",
-        "isim": "Erkan KANDEMİR",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 598
-      }
-    ]
-  },
-  "AYDIN": {
-    "mv_sayisi": 8,
-    "toplam_skor": 3501,
-    "mvler": [
-      {
-        "slug": "suleyman-bulbul",
-        "isim": "Süleyman BÜLBÜL",
-        "parti": "CHP",
-        "skor": 1436,
-        "rank": 12
-      },
-      {
-        "slug": "evrim-karakoz",
-        "isim": "Evrim KARAKOZ",
-        "parti": "CHP",
-        "skor": 741,
-        "rank": 75
-      },
-      {
-        "slug": "omer-karakas",
-        "isim": "Ömer KARAKAŞ",
-        "parti": "İYİ Parti",
-        "skor": 503,
-        "rank": 143
-      },
-      {
-        "slug": "huseyin-yildiz",
-        "isim": "Hüseyin YILDIZ",
-        "parti": "CHP",
-        "skor": 468,
-        "rank": 151
-      },
-      {
-        "slug": "mustafa-savas",
-        "isim": "Mustafa SAVAŞ",
-        "parti": "AK Parti",
-        "skor": 97,
-        "rank": 323
-      },
-      {
-        "slug": "bulent-tezcan",
-        "isim": "Bülent TEZCAN",
-        "parti": "CHP",
-        "skor": 93,
-        "rank": 332
-      },
-      {
-        "slug": "seda-saribas",
-        "isim": "Seda SARIBAŞ",
-        "parti": "AK Parti",
-        "skor": 83,
-        "rank": 352
-      },
-      {
-        "slug": "omer-ozmen",
-        "isim": "Ömer ÖZMEN",
-        "parti": "AK Parti",
-        "skor": 80,
-        "rank": 355
-      }
-    ]
-  },
-  "MUŞ": {
-    "mv_sayisi": 3,
-    "toplam_skor": 2445,
-    "mvler": [
-      {
-        "slug": "sumeyye-boz-caki",
-        "isim": "Sümeyye BOZ ÇAKI",
-        "parti": "DEM PARTİ",
-        "skor": 1381,
-        "rank": 13
-      },
-      {
-        "slug": "sezai-temelli",
-        "isim": "Sezai TEMELLİ",
-        "parti": "DEM PARTİ",
-        "skor": 1029,
-        "rank": 29
-      },
-      {
-        "slug": "mehmet-emin-simsek",
-        "isim": "Mehmet Emin ŞİMŞEK",
-        "parti": "AK Parti",
-        "skor": 35,
-        "rank": 507
-      }
-    ]
-  },
-  "MARDİN": {
-    "mv_sayisi": 6,
-    "toplam_skor": 3744,
-    "mvler": [
-      {
-        "slug": "beritan-gunes-altin",
-        "isim": "Beritan GÜNEŞ ALTIN",
-        "parti": "DEM PARTİ",
-        "skor": 1312,
-        "rank": 15
-      },
-      {
-        "slug": "kamuran-tanhan",
-        "isim": "Kamuran TANHAN",
-        "parti": "DEM PARTİ",
-        "skor": 974,
-        "rank": 39
-      },
-      {
-        "slug": "george-aslan",
-        "isim": "George ASLAN",
-        "parti": "DEM PARTİ",
-        "skor": 832,
-        "rank": 55
-      },
-      {
-        "slug": "salihe-aydeniz",
-        "isim": "Salihe AYDENİZ",
-        "parti": "DEM PARTİ",
-        "skor": 530,
-        "rank": 132
-      },
-      {
-        "slug": "faruk-kilic",
-        "isim": "Faruk KILIÇ",
-        "parti": "AK Parti",
-        "skor": 79,
-        "rank": 358
-      },
-      {
-        "slug": "muhammed-adak",
-        "isim": "Muhammed ADAK",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 579
-      }
-    ]
-  },
-  "AĞRI": {
-    "mv_sayisi": 4,
-    "toplam_skor": 2373,
-    "mvler": [
-      {
-        "slug": "nejla-demir",
-        "isim": "Nejla DEMİR",
-        "parti": "DEM PARTİ",
-        "skor": 1291,
-        "rank": 16
-      },
-      {
-        "slug": "heval-bozdag",
-        "isim": "Heval BOZDAĞ",
-        "parti": "DEM PARTİ",
-        "skor": 880,
-        "rank": 49
-      },
-      {
-        "slug": "sirri-sakik",
-        "isim": "Sırrı SAKİK",
-        "parti": "DEM PARTİ",
-        "skor": 150,
-        "rank": 256
-      },
-      {
-        "slug": "ruken-kilerci",
-        "isim": "Ruken KİLERCİ",
-        "parti": "AK Parti",
-        "skor": 52,
-        "rank": 448
-      }
-    ]
-  },
-  "ŞIRNAK": {
-    "mv_sayisi": 4,
-    "toplam_skor": 3004,
-    "mvler": [
-      {
-        "slug": "nevroz-uysal-aslan",
-        "isim": "Nevroz UYSAL ASLAN",
-        "parti": "DEM PARTİ",
-        "skor": 1229,
-        "rank": 17
-      },
-      {
-        "slug": "mehmet-zeki-irmez",
-        "isim": "Mehmet Zeki İRMEZ",
-        "parti": "DEM PARTİ",
-        "skor": 1019,
-        "rank": 30
-      },
-      {
-        "slug": "aysegul-dogan",
-        "isim": "Ayşegül DOĞAN",
-        "parti": "DEM PARTİ",
-        "skor": 683,
-        "rank": 91
-      },
-      {
-        "slug": "arslan-tatar",
-        "isim": "Arslan TATAR",
-        "parti": "AK Parti",
-        "skor": 73,
-        "rank": 379
-      }
-    ]
-  },
-  "KARS": {
-    "mv_sayisi": 3,
-    "toplam_skor": 2020,
-    "mvler": [
-      {
-        "slug": "gulustan-kilic-kocyigit",
-        "isim": "Gülüstan KILIÇ KOÇYİĞİT",
-        "parti": "DEM PARTİ",
-        "skor": 1224,
-        "rank": 18
-      },
-      {
-        "slug": "inan-akgun-alp",
-        "isim": "İnan Akgün ALP",
-        "parti": "CHP",
-        "skor": 719,
-        "rank": 83
-      },
-      {
-        "slug": "adem-calkin",
-        "isim": "Adem ÇALKIN",
-        "parti": "AK Parti",
-        "skor": 77,
-        "rank": 361
       }
     ]
   },
   "SAMSUN": {
     "mv_sayisi": 9,
-    "toplam_skor": 2873,
+    "toplam_skor": 5701,
     "mvler": [
       {
         "slug": "erhan-usta",
         "isim": "Erhan USTA",
         "parti": "İYİ Parti",
-        "skor": 1221,
-        "rank": 19
-      },
-      {
-        "slug": "murat-can",
-        "isim": "Murat ÇAN",
-        "parti": "CHP",
-        "skor": 572,
-        "rank": 119
+        "skor": 2795,
+        "rank": 4
       },
       {
         "slug": "mehmet-mus",
         "isim": "Mehmet MUŞ",
         "parti": "AK Parti",
-        "skor": 503,
-        "rank": 142
+        "skor": 1473,
+        "rank": 12
+      },
+      {
+        "slug": "murat-can",
+        "isim": "Murat ÇAN",
+        "parti": "CHP",
+        "skor": 558,
+        "rank": 127
       },
       {
         "slug": "ersan-aksu",
         "isim": "Ersan AKSU",
         "parti": "AK Parti",
-        "skor": 213,
-        "rank": 229
+        "skor": 427,
+        "rank": 176
       },
       {
         "slug": "mehmet-karaman",
         "isim": "Mehmet KARAMAN",
         "parti": "YENİ YOL",
-        "skor": 186,
-        "rank": 243
+        "skor": 209,
+        "rank": 252
       },
       {
         "slug": "orhan-kircali",
         "isim": "Orhan KIRCALI",
         "parti": "AK Parti",
-        "skor": 108,
-        "rank": 300
+        "skor": 169,
+        "rank": 274
       },
       {
         "slug": "cigdem-karaaslan",
         "isim": "Çiğdem KARAASLAN",
         "parti": "AK Parti",
-        "skor": 33,
-        "rank": 514
+        "skor": 31,
+        "rank": 527
       },
       {
         "slug": "ilyas-topsakal",
         "isim": "İlyas TOPSAKAL",
         "parti": "MHP",
-        "skor": 20,
-        "rank": 566
+        "skor": 24,
+        "rank": 556
       },
       {
         "slug": "yusuf-ziya-yilmaz",
         "isim": "Yusuf Ziya YILMAZ",
         "parti": "AK Parti",
-        "skor": 17,
+        "skor": 15,
         "rank": 583
       }
     ]
   },
-  "ADANA": {
-    "mv_sayisi": 15,
-    "toplam_skor": 5715,
-    "mvler": [
-      {
-        "slug": "ayhan-barut",
-        "isim": "Ayhan BARUT",
-        "parti": "CHP",
-        "skor": 1217,
-        "rank": 20
-      },
-      {
-        "slug": "orhan-sumer",
-        "isim": "Orhan SÜMER",
-        "parti": "CHP",
-        "skor": 1105,
-        "rank": 24
-      },
-      {
-        "slug": "ayyuce-turkes-tas",
-        "isim": "Ayyüce TÜRKEŞ TAŞ",
-        "parti": "İYİ Parti",
-        "skor": 866,
-        "rank": 50
-      },
-      {
-        "slug": "burhanettin-bulut",
-        "isim": "Burhanettin BULUT",
-        "parti": "CHP",
-        "skor": 575,
-        "rank": 117
-      },
-      {
-        "slug": "muzeyyen-sevkin",
-        "isim": "Müzeyyen ŞEVKİN",
-        "parti": "CHP",
-        "skor": 530,
-        "rank": 133
-      },
-      {
-        "slug": "sadullah-kisacik",
-        "isim": "Sadullah KISACIK",
-        "parti": "YENİ YOL",
-        "skor": 484,
-        "rank": 149
-      },
-      {
-        "slug": "bilal-bilici",
-        "isim": "Bilal BİLİCİ",
-        "parti": "CHP",
-        "skor": 398,
-        "rank": 174
-      },
-      {
-        "slug": "tulay-hatimogullari-oruc",
-        "isim": "Tulay HATIMOĞULLARI ORUÇ",
-        "parti": "DEM PARTİ",
-        "skor": 148,
-        "rank": 259
-      },
-      {
-        "slug": "faruk-aytek",
-        "isim": "Faruk AYTEK",
-        "parti": "AK Parti",
-        "skor": 91,
-        "rank": 336
-      },
-      {
-        "slug": "sunay-karamik",
-        "isim": "Sunay KARAMIK",
-        "parti": "AK Parti",
-        "skor": 91,
-        "rank": 337
-      },
-      {
-        "slug": "ayse-sibel-ersoy",
-        "isim": "Ayşe Sibel ERSOY",
-        "parti": "MHP",
-        "skor": 76,
-        "rank": 367
-      },
-      {
-        "slug": "abdullah-dogru",
-        "isim": "Abdullah DOĞRU",
-        "parti": "AK Parti",
-        "skor": 71,
-        "rank": 388
-      },
-      {
-        "slug": "ahmet-zenbilci",
-        "isim": "Ahmet ZENBİLCİ",
-        "parti": "BAĞIMSIZ",
-        "skor": 27,
-        "rank": 537
-      },
-      {
-        "slug": "muharrem-varli",
-        "isim": "Muharrem VARLI",
-        "parti": "MHP",
-        "skor": 19,
-        "rank": 571
-      },
-      {
-        "slug": "omer-celik",
-        "isim": "Ömer ÇELİK",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 586
-      }
-    ]
-  },
-  "ANKARA": {
-    "mv_sayisi": 36,
-    "toplam_skor": 9536,
-    "mvler": [
-      {
-        "slug": "deniz-demir",
-        "isim": "Deniz DEMİR",
-        "parti": "CHP",
-        "skor": 1137,
-        "rank": 22
-      },
-      {
-        "slug": "aliye-timisi-ersever",
-        "isim": "Aliye TİMİSİ ERSEVER",
-        "parti": "CHP",
-        "skor": 986,
-        "rank": 34
-      },
-      {
-        "slug": "kursad-zorlu",
-        "isim": "Kürşad ZORLU",
-        "parti": "AK Parti",
-        "skor": 730,
-        "rank": 79
-      },
-      {
-        "slug": "gamze-tascier",
-        "isim": "Gamze TAŞCIER",
-        "parti": "CHP",
-        "skor": 632,
-        "rank": 104
-      },
-      {
-        "slug": "murat-emir",
-        "isim": "Murat EMİR",
-        "parti": "CHP",
-        "skor": 582,
-        "rank": 115
-      },
-      {
-        "slug": "semra-dincer",
-        "isim": "Semra DİNÇER",
-        "parti": "CHP",
-        "skor": 575,
-        "rank": 118
-      },
-      {
-        "slug": "umut-akdogan",
-        "isim": "Umut AKDOĞAN",
-        "parti": "CHP",
-        "skor": 541,
-        "rank": 127
-      },
-      {
-        "slug": "yuksel-arslan",
-        "isim": "Yüksel ARSLAN",
-        "parti": "İYİ Parti",
-        "skor": 525,
-        "rank": 135
-      },
-      {
-        "slug": "adnan-beker",
-        "isim": "Adnan BEKER",
-        "parti": "CHP",
-        "skor": 519,
-        "rank": 137
-      },
-      {
-        "slug": "aylin-yaman",
-        "isim": "Aylin YAMAN",
-        "parti": "CHP",
-        "skor": 417,
-        "rank": 166
-      },
-      {
-        "slug": "ahmet-esref-fakibaba",
-        "isim": "Ahmet Eşref FAKIBABA",
-        "parti": "İYİ Parti",
-        "skor": 362,
-        "rank": 184
-      },
-      {
-        "slug": "idris-sahin",
-        "isim": "İdris ŞAHİN",
-        "parti": "YENİ YOL",
-        "skor": 272,
-        "rank": 208
-      },
-      {
-        "slug": "okan-konuralp",
-        "isim": "Okan KONURALP",
-        "parti": "CHP",
-        "skor": 268,
-        "rank": 209
-      },
-      {
-        "slug": "mesut-dogan",
-        "isim": "Mesut DOĞAN",
-        "parti": "YENİ YOL",
-        "skor": 261,
-        "rank": 211
-      },
-      {
-        "slug": "orhan-yegin",
-        "isim": "Orhan YEGİN",
-        "parti": "AK Parti",
-        "skor": 250,
-        "rank": 215
-      },
-      {
-        "slug": "tekin-bingol",
-        "isim": "Tekin BİNGÖL",
-        "parti": "CHP",
-        "skor": 221,
-        "rank": 224
-      },
-      {
-        "slug": "fuat-oktay",
-        "isim": "Fuat OKTAY",
-        "parti": "AK Parti",
-        "skor": 197,
-        "rank": 237
-      },
-      {
-        "slug": "sadullah-ergin",
-        "isim": "Sadullah ERGİN",
-        "parti": "YENİ YOL",
-        "skor": 184,
-        "rank": 244
-      },
-      {
-        "slug": "mevlut-karakaya",
-        "isim": "Mevlüt KARAKAYA",
-        "parti": "MHP",
-        "skor": 112,
-        "rank": 292
-      },
-      {
-        "slug": "lutfiye-selva-cam",
-        "isim": "Lütfiye Selva ÇAM",
-        "parti": "AK Parti",
-        "skor": 90,
-        "rank": 340
-      },
-      {
-        "slug": "ahmet-fethan-baykoc",
-        "isim": "Ahmet Fethan BAYKOÇ",
-        "parti": "AK Parti",
-        "skor": 66,
-        "rank": 405
-      },
-      {
-        "slug": "julide-sarieroglu",
-        "isim": "Jülide SARIEROĞLU",
-        "parti": "AK Parti",
-        "skor": 65,
-        "rank": 409
-      },
-      {
-        "slug": "koray-aydin",
-        "isim": "Koray AYDIN",
-        "parti": "BAĞIMSIZ",
-        "skor": 64,
-        "rank": 413
-      },
-      {
-        "slug": "zeynep-yildiz",
-        "isim": "Zeynep YILDIZ",
-        "parti": "AK Parti",
-        "skor": 61,
-        "rank": 422
-      },
-      {
-        "slug": "asuman-erdogan",
-        "isim": "Asuman ERDOĞAN",
-        "parti": "AK Parti",
-        "skor": 59,
-        "rank": 428
-      },
-      {
-        "slug": "leyla-sahin-usta",
-        "isim": "Leyla ŞAHİN USTA",
-        "parti": "AK Parti",
-        "skor": 55,
-        "rank": 439
-      },
-      {
-        "slug": "vedat-bilgin",
-        "isim": "Vedat BİLGİN",
-        "parti": "AK Parti",
-        "skor": 46,
-        "rank": 472
-      },
-      {
-        "slug": "osman-gokcek",
-        "isim": "Osman GÖKÇEK",
-        "parti": "AK Parti",
-        "skor": 42,
-        "rank": 486
-      },
-      {
-        "slug": "zehranur-aydemir",
-        "isim": "Zehranur AYDEMİR",
-        "parti": "AK Parti",
-        "skor": 37,
-        "rank": 500
-      },
-      {
-        "slug": "murat-alparslan",
-        "isim": "Murat ALPARSLAN",
-        "parti": "AK Parti",
-        "skor": 36,
-        "rank": 504
-      },
-      {
-        "slug": "omer-ileri",
-        "isim": "Ömer İLERİ",
-        "parti": "AK Parti",
-        "skor": 36,
-        "rank": 505
-      },
-      {
-        "slug": "mustafa-nedim-yamali",
-        "isim": "Mustafa Nedim YAMALI",
-        "parti": "AK Parti",
-        "skor": 34,
-        "rank": 511
-      },
-      {
-        "slug": "kurtcan-celebi",
-        "isim": "Kurtcan ÇELEBİ",
-        "parti": "AK Parti",
-        "skor": 23,
-        "rank": 555
-      },
-      {
-        "slug": "sadir-durmaz",
-        "isim": "Sadir DURMAZ",
-        "parti": "MHP",
-        "skor": 17,
-        "rank": 587
-      },
-      {
-        "slug": "yasar-yildirim",
-        "isim": "Yaşar YILDIRIM",
-        "parti": "MHP",
-        "skor": 17,
-        "rank": 588
-      },
-      {
-        "slug": "yildirim-tugrul-turkes",
-        "isim": "Yıldırım Tuğrul TÜRKEŞ",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 589
-      }
-    ]
-  },
-  "TUNCELİ": {
-    "mv_sayisi": 1,
-    "toplam_skor": 1129,
-    "mvler": [
-      {
-        "slug": "ayten-kordu",
-        "isim": "Ayten KORDU",
-        "parti": "DEM PARTİ",
-        "skor": 1129,
-        "rank": 23
-      }
-    ]
-  },
-  "ÇANAKKALE": {
-    "mv_sayisi": 4,
-    "toplam_skor": 1990,
-    "mvler": [
-      {
-        "slug": "ozgur-ceylan",
-        "isim": "Özgür CEYLAN",
-        "parti": "CHP",
-        "skor": 1096,
-        "rank": 25
-      },
-      {
-        "slug": "ridvan-uz",
-        "isim": "Rıdvan UZ",
-        "parti": "İYİ Parti",
-        "skor": 537,
-        "rank": 128
-      },
-      {
-        "slug": "ismet-guneshan",
-        "isim": "İsmet GÜNEŞHAN",
-        "parti": "CHP",
-        "skor": 340,
-        "rank": 190
-      },
-      {
-        "slug": "ayhan-gider",
-        "isim": "Ayhan GİDER",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 593
-      }
-    ]
-  },
-  "ARTVİN": {
-    "mv_sayisi": 2,
-    "toplam_skor": 1096,
-    "mvler": [
-      {
-        "slug": "ugur-bayraktutan",
-        "isim": "Uğur BAYRAKTUTAN",
-        "parti": "CHP",
-        "skor": 1079,
-        "rank": 26
-      },
-      {
-        "slug": "faruk-celik",
-        "isim": "Faruk ÇELİK",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 591
-      }
-    ]
-  },
-  "MERSİN": {
-    "mv_sayisi": 13,
-    "toplam_skor": 5619,
-    "mvler": [
-      {
-        "slug": "talat-dincer",
-        "isim": "Talat DİNÇER",
-        "parti": "CHP",
-        "skor": 1038,
-        "rank": 27
-      },
-      {
-        "slug": "ali-bozan",
-        "isim": "Ali BOZAN",
-        "parti": "DEM PARTİ",
-        "skor": 983,
-        "rank": 37
-      },
-      {
-        "slug": "burhanettin-kocamaz",
-        "isim": "Burhanettin KOCAMAZ",
-        "parti": "İYİ Parti",
-        "skor": 780,
-        "rank": 66
-      },
-      {
-        "slug": "gulcan-kis",
-        "isim": "Gülcan KIŞ",
-        "parti": "CHP",
-        "skor": 676,
-        "rank": 96
-      },
-      {
-        "slug": "perihan-koca-dogan",
-        "isim": "Perihan KOCA DOĞAN",
-        "parti": "DEM PARTİ",
-        "skor": 636,
-        "rank": 103
-      },
-      {
-        "slug": "mehmet-emin-ekmen",
-        "isim": "Mehmet Emin EKMEN",
-        "parti": "YENİ YOL",
-        "skor": 592,
-        "rank": 113
-      },
-      {
-        "slug": "ali-mahir-basarir",
-        "isim": "Ali Mahir BAŞARIR",
-        "parti": "CHP",
-        "skor": 437,
-        "rank": 158
-      },
-      {
-        "slug": "hasan-ufuk-cakir",
-        "isim": "Hasan Ufuk ÇAKIR",
-        "parti": "AK Parti",
-        "skor": 120,
-        "rank": 281
-      },
-      {
-        "slug": "ali-kiratli",
-        "isim": "Ali KIRATLI",
-        "parti": "AK Parti",
-        "skor": 98,
-        "rank": 318
-      },
-      {
-        "slug": "faruk-dinc",
-        "isim": "Faruk DİNÇ",
-        "parti": "HÜDA PAR",
-        "skor": 97,
-        "rank": 321
-      },
-      {
-        "slug": "havva-sibel-soylemez",
-        "isim": "Havva Sibel SÖYLEMEZ",
-        "parti": "AK Parti",
-        "skor": 77,
-        "rank": 364
-      },
-      {
-        "slug": "levent-uysal",
-        "isim": "Levent UYSAL",
-        "parti": "MHP",
-        "skor": 68,
-        "rank": 397
-      },
-      {
-        "slug": "nureddin-nebati",
-        "isim": "Nureddin NEBATİ",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 580
-      }
-    ]
-  },
-  "MUĞLA": {
-    "mv_sayisi": 7,
-    "toplam_skor": 3492,
-    "mvler": [
-      {
-        "slug": "selcuk-ozdag",
-        "isim": "Selçuk ÖZDAĞ",
-        "parti": "YENİ YOL",
-        "skor": 1034,
-        "rank": 28
-      },
-      {
-        "slug": "gizem-ozcan",
-        "isim": "Gizem ÖZCAN",
-        "parti": "CHP",
-        "skor": 747,
-        "rank": 72
-      },
-      {
-        "slug": "cumhur-uzun",
-        "isim": "Cumhur UZUN",
-        "parti": "CHP",
-        "skor": 705,
-        "rank": 87
-      },
-      {
-        "slug": "metin-ergun",
-        "isim": "Metin ERGUN",
-        "parti": "İYİ Parti",
-        "skor": 552,
-        "rank": 124
-      },
-      {
-        "slug": "sureyya-ones-derici",
-        "isim": "Süreyya ÖNEŞ DERİCİ",
-        "parti": "CHP",
-        "skor": 284,
-        "rank": 207
-      },
-      {
-        "slug": "kadem-mete",
-        "isim": "Kadem METE",
-        "parti": "AK Parti",
-        "skor": 97,
-        "rank": 322
-      },
-      {
-        "slug": "yakup-otgoz",
-        "isim": "Yakup OTGÖZ",
-        "parti": "AK Parti",
-        "skor": 73,
-        "rank": 378
-      }
-    ]
-  },
-  "BURSA": {
-    "mv_sayisi": 20,
-    "toplam_skor": 4613,
-    "mvler": [
-      {
-        "slug": "yuksel-selcuk-turkoglu",
-        "isim": "Yüksel Selçuk TÜRKOĞLU",
-        "parti": "İYİ Parti",
-        "skor": 1007,
-        "rank": 31
-      },
-      {
-        "slug": "nurhayat-altaca-kayisoglu",
-        "isim": "Nurhayat ALTACA KAYIŞOĞLU",
-        "parti": "CHP",
-        "skor": 727,
-        "rank": 81
-      },
-      {
-        "slug": "orhan-saribal",
-        "isim": "Orhan SARIBAL",
-        "parti": "CHP",
-        "skor": 500,
-        "rank": 144
-      },
-      {
-        "slug": "kayihan-pala",
-        "isim": "Kayıhan PALA",
-        "parti": "CHP",
-        "skor": 432,
-        "rank": 161
-      },
-      {
-        "slug": "hasan-ozturk",
-        "isim": "Hasan ÖZTÜRK",
-        "parti": "CHP",
-        "skor": 399,
-        "rank": 173
-      },
-      {
-        "slug": "hasan-toktas",
-        "isim": "Hasan TOKTAŞ",
-        "parti": "İYİ Parti",
-        "skor": 397,
-        "rank": 176
-      },
-      {
-        "slug": "mehmet-atmaca",
-        "isim": "Mehmet ATMACA",
-        "parti": "YENİ YOL",
-        "skor": 211,
-        "rank": 230
-      },
-      {
-        "slug": "cemalettin-kani-torun",
-        "isim": "Cemalettin Kani TORUN",
-        "parti": "YENİ YOL",
-        "skor": 179,
-        "rank": 245
-      },
-      {
-        "slug": "mustafa-yavuz",
-        "isim": "Mustafa YAVUZ",
-        "parti": "AK Parti",
-        "skor": 104,
-        "rank": 306
-      },
-      {
-        "slug": "ahmet-kilic",
-        "isim": "Ahmet KILIÇ",
-        "parti": "AK Parti",
-        "skor": 101,
-        "rank": 312
-      },
-      {
-        "slug": "muhammet-mufit-aydin",
-        "isim": "Muhammet Müfit AYDIN",
-        "parti": "AK Parti",
-        "skor": 96,
-        "rank": 326
-      },
-      {
-        "slug": "mustafa-varank",
-        "isim": "Mustafa VARANK",
-        "parti": "AK Parti",
-        "skor": 94,
-        "rank": 330
-      },
-      {
-        "slug": "ayhan-salman",
-        "isim": "Ayhan SALMAN",
-        "parti": "AK Parti",
-        "skor": 83,
-        "rank": 353
-      },
-      {
-        "slug": "emel-gozukara-durmaz",
-        "isim": "Emel GÖZÜKARA DURMAZ",
-        "parti": "AK Parti",
-        "skor": 75,
-        "rank": 372
-      },
-      {
-        "slug": "refik-ozen",
-        "isim": "Refik ÖZEN",
-        "parti": "AK Parti",
-        "skor": 57,
-        "rank": 433
-      },
-      {
-        "slug": "emine-yavuz-gozgec",
-        "isim": "Emine YAVUZ GÖZGEÇ",
-        "parti": "AK Parti",
-        "skor": 49,
-        "rank": 463
-      },
-      {
-        "slug": "osman-mesten",
-        "isim": "Osman MESTEN",
-        "parti": "AK Parti",
-        "skor": 41,
-        "rank": 488
-      },
-      {
-        "slug": "fevzi-zirhlioglu",
-        "isim": "Fevzi ZIRHLIOĞLU",
-        "parti": "MHP",
-        "skor": 26,
-        "rank": 544
-      },
-      {
-        "slug": "ismet-buyukataman",
-        "isim": "İsmet BÜYÜKATAMAN",
-        "parti": "MHP",
-        "skor": 18,
-        "rank": 577
-      },
-      {
-        "slug": "efkan-ala",
-        "isim": "Efkan ALA",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 592
-      }
-    ]
-  },
-  "BALIKESİR": {
-    "mv_sayisi": 9,
-    "toplam_skor": 2244,
-    "mvler": [
-      {
-        "slug": "serkan-sari",
-        "isim": "Serkan SARI",
-        "parti": "CHP",
-        "skor": 996,
-        "rank": 32
-      },
-      {
-        "slug": "turhan-comez",
-        "isim": "Turhan ÇÖMEZ",
-        "parti": "İYİ Parti",
-        "skor": 776,
-        "rank": 67
-      },
-      {
-        "slug": "burak-dalgin",
-        "isim": "Burak DALGIN",
-        "parti": "İYİ Parti",
-        "skor": 144,
-        "rank": 261
-      },
-      {
-        "slug": "ensar-aytekin",
-        "isim": "Ensar AYTEKİN",
-        "parti": "CHP",
-        "skor": 99,
-        "rank": 315
-      },
-      {
-        "slug": "mustafa-canbey",
-        "isim": "Mustafa CANBEY",
-        "parti": "AK Parti",
-        "skor": 74,
-        "rank": 374
-      },
-      {
-        "slug": "ismail-ok",
-        "isim": "İsmail OK",
-        "parti": "AK Parti",
-        "skor": 56,
-        "rank": 438
-      },
-      {
-        "slug": "ali-taylan-oztaylan",
-        "isim": "Ali Taylan ÖZTAYLAN",
-        "parti": "AK Parti",
-        "skor": 50,
-        "rank": 458
-      },
-      {
-        "slug": "ekrem-gokay-yuksel",
-        "isim": "Ekrem Gökay YÜKSEL",
-        "parti": "MHP",
-        "skor": 26,
-        "rank": 543
-      },
-      {
-        "slug": "belgin-uygur",
-        "isim": "Belgin UYGUR",
-        "parti": "AK Parti",
-        "skor": 23,
-        "rank": 556
-      }
-    ]
-  },
-  "BATMAN": {
+  "AFYONKARAHİSAR": {
     "mv_sayisi": 5,
-    "toplam_skor": 1761,
+    "toplam_skor": 3071,
     "mvler": [
       {
-        "slug": "zeynep-oduncu-kutevi",
-        "isim": "Zeynep ODUNCU KUTEVİ",
-        "parti": "DEM PARTİ",
-        "skor": 985,
-        "rank": 36
+        "slug": "hakan-seref-olgun",
+        "isim": "Hakan Şeref OLGUN",
+        "parti": "İYİ Parti",
+        "skor": 2493,
+        "rank": 5
       },
       {
-        "slug": "mehmet-rustu-tiryaki",
-        "isim": "Mehmet Rüştü TİRYAKİ",
-        "parti": "DEM PARTİ",
-        "skor": 637,
-        "rank": 102
-      },
-      {
-        "slug": "serkan-ramanli",
-        "isim": "Serkan RAMANLI",
-        "parti": "HÜDA PAR",
-        "skor": 61,
-        "rank": 423
-      },
-      {
-        "slug": "ferhat-nasiroglu",
-        "isim": "Ferhat NASIROĞLU",
+        "slug": "ali-ozkaya",
+        "isim": "Ali ÖZKAYA",
         "parti": "AK Parti",
-        "skor": 51,
-        "rank": 455
+        "skor": 204,
+        "rank": 256
       },
       {
-        "slug": "keskin-bayindir",
-        "isim": "Keskin BAYINDIR",
-        "parti": "DBP",
-        "skor": 27,
-        "rank": 538
+        "slug": "ibrahim-yurdunuseven",
+        "isim": "İbrahim YURDUNUSEVEN",
+        "parti": "AK Parti",
+        "skor": 167,
+        "rank": 275
+      },
+      {
+        "slug": "mehmet-taytak",
+        "isim": "Mehmet TAYTAK",
+        "parti": "MHP",
+        "skor": 110,
+        "rank": 333
+      },
+      {
+        "slug": "hasan-arslan",
+        "isim": "Hasan ARSLAN",
+        "parti": "AK Parti",
+        "skor": 97,
+        "rank": 356
       }
     ]
   },
-  "MANİSA": {
-    "mv_sayisi": 10,
-    "toplam_skor": 2718,
+  "NİĞDE": {
+    "mv_sayisi": 3,
+    "toplam_skor": 2454,
     "mvler": [
       {
-        "slug": "selma-aliye-kavaf",
-        "isim": "Selma Aliye KAVAF",
+        "slug": "omer-fethi-gurer",
+        "isim": "Ömer Fethi GÜRER",
         "parti": "CHP",
-        "skor": 981,
-        "rank": 38
+        "skor": 2280,
+        "rank": 6
       },
       {
-        "slug": "senol-sunat",
-        "isim": "Şenol SUNAT",
-        "parti": "İYİ Parti",
-        "skor": 671,
-        "rank": 97
-      },
-      {
-        "slug": "bekir-basevirgen",
-        "isim": "Bekir BAŞEVİRGEN",
-        "parti": "CHP",
-        "skor": 334,
-        "rank": 192
-      },
-      {
-        "slug": "ahmet-vehbi-bakirlioglu",
-        "isim": "Ahmet Vehbi BAKIRLIOĞLU",
-        "parti": "CHP",
-        "skor": 307,
-        "rank": 204
-      },
-      {
-        "slug": "ozgur-ozel",
-        "isim": "Özgür ÖZEL",
-        "parti": "CHP",
-        "skor": 220,
-        "rank": 225
-      },
-      {
-        "slug": "murat-baybatur",
-        "isim": "Murat BAYBATUR",
+        "slug": "cevahir-uzkurt",
+        "isim": "Cevahir UZKURT",
         "parti": "AK Parti",
-        "skor": 61,
-        "rank": 421
+        "skor": 150,
+        "rank": 288
       },
       {
-        "slug": "erkan-akcay",
-        "isim": "Erkan AKÇAY",
+        "slug": "cumali-ince",
+        "isim": "Cumali İNCE",
         "parti": "MHP",
-        "skor": 51,
-        "rank": 453
-      },
-      {
-        "slug": "ahmet-mucahit-arinc",
-        "isim": "Ahmet Mücahit ARINÇ",
-        "parti": "AK Parti",
-        "skor": 35,
-        "rank": 506
-      },
-      {
-        "slug": "bahadir-nahit-yenisehirlioglu",
-        "isim": "Bahadır Nahit YENİŞEHİRLİOĞLU",
-        "parti": "AK Parti",
-        "skor": 31,
-        "rank": 525
-      },
-      {
-        "slug": "tamer-akkal",
-        "isim": "Tamer AKKAL",
-        "parti": "AK Parti",
-        "skor": 27,
-        "rank": 536
+        "skor": 24,
+        "rank": 554
       }
     ]
   },
   "İZMİR": {
     "mv_sayisi": 28,
-    "toplam_skor": 9717,
+    "toplam_skor": 11668,
     "mvler": [
       {
-        "slug": "ibrahim-akin",
-        "isim": "İbrahim AKIN",
-        "parti": "DEM PARTİ",
-        "skor": 965,
-        "rank": 40
+        "slug": "rahmi-askin-tureli",
+        "isim": "Rahmi Aşkın TÜRELİ",
+        "parti": "CHP",
+        "skor": 1883,
+        "rank": 7
       },
       {
         "slug": "mahir-polat",
         "isim": "Mahir POLAT",
         "parti": "CHP",
-        "skor": 910,
-        "rank": 46
+        "skor": 1021,
+        "rank": 39
       },
       {
-        "slug": "rahmi-askin-tureli",
-        "isim": "Rahmi Aşkın TÜRELİ",
-        "parti": "CHP",
-        "skor": 829,
-        "rank": 56
-      },
-      {
-        "slug": "rifat-turuntay-nalbantoglu",
-        "isim": "Rıfat Turuntay NALBANTOĞLU",
-        "parti": "CHP",
-        "skor": 743,
-        "rank": 74
-      },
-      {
-        "slug": "sevda-erdan-kilic",
-        "isim": "Sevda ERDAN KILIÇ",
-        "parti": "CHP",
-        "skor": 688,
-        "rank": 89
-      },
-      {
-        "slug": "mustafa-bilici",
-        "isim": "Mustafa BİLİCİ",
-        "parti": "YENİ YOL",
-        "skor": 654,
-        "rank": 101
-      },
-      {
-        "slug": "husmen-kirkpinar",
-        "isim": "Hüsmen KIRKPINAR",
-        "parti": "İYİ Parti",
-        "skor": 602,
-        "rank": 109
-      },
-      {
-        "slug": "murat-bakan",
-        "isim": "Murat BAKAN",
-        "parti": "CHP",
-        "skor": 554,
-        "rank": 123
-      },
-      {
-        "slug": "ahmet-tuncay-ozkan",
-        "isim": "Ahmet Tuncay ÖZKAN",
-        "parti": "CHP",
-        "skor": 550,
-        "rank": 125
-      },
-      {
-        "slug": "burcugul-cubuk",
-        "isim": "Burcugül ÇUBUK",
+        "slug": "ibrahim-akin",
+        "isim": "İbrahim AKIN",
         "parti": "DEM PARTİ",
-        "skor": 492,
-        "rank": 146
+        "skor": 966,
+        "rank": 46
       },
       {
         "slug": "umit-ozlale",
         "isim": "Ümit ÖZLALE",
         "parti": "CHP",
-        "skor": 430,
-        "rank": 162
+        "skor": 802,
+        "rank": 71
       },
       {
-        "slug": "yuksel-taskin",
-        "isim": "Yüksel TAŞKIN",
+        "slug": "rifat-turuntay-nalbantoglu",
+        "isim": "Rıfat Turuntay NALBANTOĞLU",
         "parti": "CHP",
-        "skor": 333,
-        "rank": 193
+        "skor": 722,
+        "rank": 90
+      },
+      {
+        "slug": "sevda-erdan-kilic",
+        "isim": "Sevda ERDAN KILIÇ",
+        "parti": "CHP",
+        "skor": 649,
+        "rank": 107
+      },
+      {
+        "slug": "mustafa-bilici",
+        "isim": "Mustafa BİLİCİ",
+        "parti": "YENİ YOL",
+        "skor": 640,
+        "rank": 111
+      },
+      {
+        "slug": "husmen-kirkpinar",
+        "isim": "Hüsmen KIRKPINAR",
+        "parti": "İYİ Parti",
+        "skor": 600,
+        "rank": 115
+      },
+      {
+        "slug": "ahmet-tuncay-ozkan",
+        "isim": "Ahmet Tuncay ÖZKAN",
+        "parti": "CHP",
+        "skor": 554,
+        "rank": 129
+      },
+      {
+        "slug": "murat-bakan",
+        "isim": "Murat BAKAN",
+        "parti": "CHP",
+        "skor": 526,
+        "rank": 146
+      },
+      {
+        "slug": "burcugul-cubuk",
+        "isim": "Burcugül ÇUBUK",
+        "parti": "DEM PARTİ",
+        "skor": 484,
+        "rank": 162
       },
       {
         "slug": "tamer-osmanagaoglu",
         "isim": "Tamer OSMANAĞAOĞLU",
         "parti": "MHP",
-        "skor": 241,
-        "rank": 217
-      },
-      {
-        "slug": "haydar-altintas",
-        "isim": "Haydar ALTINTAŞ",
-        "parti": "DP",
-        "skor": 232,
-        "rank": 222
-      },
-      {
-        "slug": "mehmet-salih-uzun",
-        "isim": "Mehmet Salih UZUN",
-        "parti": "CHP",
-        "skor": 217,
-        "rank": 227
-      },
-      {
-        "slug": "seda-kya-osen",
-        "isim": "Seda KÂYA ÖSEN",
-        "parti": "CHP",
-        "skor": 200,
-        "rank": 234
+        "skor": 423,
+        "rank": 177
       },
       {
         "slug": "yasar-kirkpinar",
         "isim": "Yaşar KIRKPINAR",
         "parti": "AK Parti",
-        "skor": 191,
-        "rank": 240
+        "skor": 421,
+        "rank": 178
       },
       {
-        "slug": "ednan-arslan",
-        "isim": "Ednan ARSLAN",
+        "slug": "yuksel-taskin",
+        "isim": "Yüksel TAŞKIN",
         "parti": "CHP",
-        "skor": 151,
-        "rank": 255
+        "skor": 328,
+        "rank": 215
       },
       {
-        "slug": "deniz-yucel",
-        "isim": "Deniz YÜCEL",
+        "slug": "haydar-altintas",
+        "isim": "Haydar ALTINTAŞ",
+        "parti": "DP",
+        "skor": 226,
+        "rank": 243
+      },
+      {
+        "slug": "mehmet-salih-uzun",
+        "isim": "Mehmet Salih UZUN",
         "parti": "CHP",
-        "skor": 149,
-        "rank": 257
+        "skor": 215,
+        "rank": 248
       },
       {
-        "slug": "gokce-gokcen",
-        "isim": "Gökçe GÖKÇEN",
+        "slug": "seda-kya-osen",
+        "isim": "Seda KÂYA ÖSEN",
         "parti": "CHP",
-        "skor": 129,
-        "rank": 271
-      },
-      {
-        "slug": "fehmi-alpay-ozalan",
-        "isim": "Fehmi Alpay ÖZALAN",
-        "parti": "AK Parti",
-        "skor": 98,
-        "rank": 317
-      },
-      {
-        "slug": "dursun-musavat-dervisoglu",
-        "isim": "Dursun Müsavat DERVİŞOĞLU",
-        "parti": "İYİ Parti",
-        "skor": 93,
-        "rank": 331
+        "skor": 196,
+        "rank": 259
       },
       {
         "slug": "mehmet-muharrem-kasapoglu",
         "isim": "Mehmet Muharrem KASAPOĞLU",
         "parti": "AK Parti",
-        "skor": 69,
-        "rank": 392
+        "skor": 171,
+        "rank": 272
+      },
+      {
+        "slug": "ednan-arslan",
+        "isim": "Ednan ARSLAN",
+        "parti": "CHP",
+        "skor": 155,
+        "rank": 282
+      },
+      {
+        "slug": "deniz-yucel",
+        "isim": "Deniz YÜCEL",
+        "parti": "CHP",
+        "skor": 143,
+        "rank": 292
+      },
+      {
+        "slug": "gokce-gokcen",
+        "isim": "Gökçe GÖKÇEN",
+        "parti": "CHP",
+        "skor": 135,
+        "rank": 298
+      },
+      {
+        "slug": "fehmi-alpay-ozalan",
+        "isim": "Fehmi Alpay ÖZALAN",
+        "parti": "AK Parti",
+        "skor": 96,
+        "rank": 359
+      },
+      {
+        "slug": "dursun-musavat-dervisoglu",
+        "isim": "Dursun Müsavat DERVİŞOĞLU",
+        "parti": "İYİ Parti",
+        "skor": 83,
+        "rank": 386
       },
       {
         "slug": "sebnem-bursali-aksoy",
         "isim": "Şebnem BURSALI AKSOY",
         "parti": "AK Parti",
-        "skor": 66,
-        "rank": 404
-      },
-      {
-        "slug": "mehmet-ali-celebi",
-        "isim": "Mehmet Ali ÇELEBİ",
-        "parti": "AK Parti",
-        "skor": 48,
-        "rank": 464
+        "skor": 82,
+        "rank": 391
       },
       {
         "slug": "ceyda-bolunmez-cankiri",
         "isim": "Ceyda BÖLÜNMEZ ÇANKIRI",
         "parti": "AK Parti",
-        "skor": 43,
-        "rank": 481
+        "skor": 53,
+        "rank": 470
+      },
+      {
+        "slug": "mehmet-ali-celebi",
+        "isim": "Mehmet Ali ÇELEBİ",
+        "parti": "AK Parti",
+        "skor": 50,
+        "rank": 479
       },
       {
         "slug": "eyyup-kadir-inan",
         "isim": "Eyyüp Kadir İNAN",
         "parti": "AK Parti",
-        "skor": 22,
-        "rank": 558
+        "skor": 26,
+        "rank": 547
       },
       {
         "slug": "mahmut-atilla-kaya",
         "isim": "Mahmut Atilla KAYA",
         "parti": "AK Parti",
         "skor": 18,
-        "rank": 576
+        "rank": 574
       }
     ]
   },
-  "BİNGÖL": {
+  "HAKKARİ": {
     "mv_sayisi": 3,
-    "toplam_skor": 1064,
+    "toplam_skor": 3108,
     "mvler": [
       {
-        "slug": "omer-faruk-hulaku",
-        "isim": "Ömer Faruk HÜLAKÜ",
+        "slug": "oznur-bartin",
+        "isim": "Öznur BARTİN",
         "parti": "DEM PARTİ",
-        "skor": 957,
-        "rank": 42
+        "skor": 1719,
+        "rank": 8
       },
       {
-        "slug": "zeki-korkutata",
-        "isim": "Zeki KORKUTATA",
-        "parti": "AK Parti",
-        "skor": 72,
-        "rank": 386
+        "slug": "vezir-coskun-parlak",
+        "isim": "Vezir Coşkun PARLAK",
+        "parti": "DEM PARTİ",
+        "skor": 731,
+        "rank": 84
       },
       {
-        "slug": "feyzi-berdibek",
-        "isim": "Feyzi BERDİBEK",
-        "parti": "AK Parti",
-        "skor": 35,
-        "rank": 509
+        "slug": "onur-dusunmez",
+        "isim": "Onur DÜŞÜNMEZ",
+        "parti": "DEM PARTİ",
+        "skor": 658,
+        "rank": 105
       }
     ]
   },
-  "IĞDIR": {
-    "mv_sayisi": 2,
-    "toplam_skor": 984,
+  "AYDIN": {
+    "mv_sayisi": 8,
+    "toplam_skor": 3915,
     "mvler": [
       {
-        "slug": "yilmaz-hun",
-        "isim": "Yılmaz HUN",
-        "parti": "DEM PARTİ",
-        "skor": 957,
-        "rank": 43
-      },
-      {
-        "slug": "canturk-alagoz",
-        "isim": "Cantürk ALAGÖZ",
-        "parti": "AK Parti",
-        "skor": 27,
-        "rank": 539
-      }
-    ]
-  },
-  "MALATYA": {
-    "mv_sayisi": 6,
-    "toplam_skor": 1108,
-    "mvler": [
-      {
-        "slug": "veli-agbaba",
-        "isim": "Veli AĞBABA",
+        "slug": "suleyman-bulbul",
+        "isim": "Süleyman BÜLBÜL",
         "parti": "CHP",
-        "skor": 950,
-        "rank": 44
+        "skor": 1611,
+        "rank": 9
       },
       {
-        "slug": "bulent-tufenkci",
-        "isim": "Bülent TÜFENKCİ",
+        "slug": "evrim-karakoz",
+        "isim": "Evrim KARAKOZ",
+        "parti": "CHP",
+        "skor": 728,
+        "rank": 85
+      },
+      {
+        "slug": "huseyin-yildiz",
+        "isim": "Hüseyin YILDIZ",
+        "parti": "CHP",
+        "skor": 540,
+        "rank": 136
+      },
+      {
+        "slug": "omer-karakas",
+        "isim": "Ömer KARAKAŞ",
+        "parti": "İYİ Parti",
+        "skor": 532,
+        "rank": 142
+      },
+      {
+        "slug": "mustafa-savas",
+        "isim": "Mustafa SAVAŞ",
         "parti": "AK Parti",
-        "skor": 51,
-        "rank": 452
+        "skor": 239,
+        "rank": 236
       },
       {
-        "slug": "abdurrahman-babacan",
-        "isim": "Abdurrahman BABACAN",
+        "slug": "bulent-tezcan",
+        "isim": "Bülent TEZCAN",
+        "parti": "CHP",
+        "skor": 104,
+        "rank": 343
+      },
+      {
+        "slug": "seda-saribas",
+        "isim": "Seda SARIBAŞ",
         "parti": "AK Parti",
-        "skor": 30,
-        "rank": 527
+        "skor": 81,
+        "rank": 392
       },
       {
-        "slug": "inanc-sirac-kara-olmeztoprak",
-        "isim": "İnanç Siraç Kara ÖLMEZTOPRAK",
+        "slug": "omer-ozmen",
+        "isim": "Ömer ÖZMEN",
         "parti": "AK Parti",
-        "skor": 30,
-        "rank": 528
+        "skor": 80,
+        "rank": 394
+      }
+    ]
+  },
+  "BİTLİS": {
+    "mv_sayisi": 3,
+    "toplam_skor": 2215,
+    "mvler": [
+      {
+        "slug": "huseyin-olan",
+        "isim": "Hüseyin OLAN",
+        "parti": "DEM PARTİ",
+        "skor": 1537,
+        "rank": 10
       },
       {
-        "slug": "mehmet-celal-fendoglu",
-        "isim": "Mehmet Celal FENDOĞLU",
+        "slug": "semra-caglar-gokalp",
+        "isim": "Semra ÇAĞLAR GÖKALP",
+        "parti": "DEM PARTİ",
+        "skor": 647,
+        "rank": 108
+      },
+      {
+        "slug": "turan-bedirhanoglu",
+        "isim": "Turan BEDİRHANOĞLU",
+        "parti": "AK Parti",
+        "skor": 31,
+        "rank": 532
+      }
+    ]
+  },
+  "DENİZLİ": {
+    "mv_sayisi": 7,
+    "toplam_skor": 3576,
+    "mvler": [
+      {
+        "slug": "yasin-ozturk",
+        "isim": "Yasin ÖZTÜRK",
+        "parti": "İYİ Parti",
+        "skor": 1506,
+        "rank": 11
+      },
+      {
+        "slug": "seref-arpaci",
+        "isim": "Şeref ARPACI",
+        "parti": "CHP",
+        "skor": 830,
+        "rank": 66
+      },
+      {
+        "slug": "nilgun-ok",
+        "isim": "Nilgün ÖK",
+        "parti": "AK Parti",
+        "skor": 435,
+        "rank": 173
+      },
+      {
+        "slug": "gulizar-bicer-karaca",
+        "isim": "Gülizar BİÇER KARACA",
+        "parti": "CHP",
+        "skor": 399,
+        "rank": 185
+      },
+      {
+        "slug": "sema-silkin-un",
+        "isim": "Sema SİLKİN ÜN",
+        "parti": "YENİ YOL",
+        "skor": 216,
+        "rank": 247
+      },
+      {
+        "slug": "sahin-tin",
+        "isim": "Şahin TİN",
+        "parti": "AK Parti",
+        "skor": 120,
+        "rank": 315
+      },
+      {
+        "slug": "cahit-ozkan",
+        "isim": "Cahit ÖZKAN",
+        "parti": "AK Parti",
+        "skor": 70,
+        "rank": 421
+      }
+    ]
+  },
+  "UŞAK": {
+    "mv_sayisi": 3,
+    "toplam_skor": 2218,
+    "mvler": [
+      {
+        "slug": "ali-karaoba",
+        "isim": "Ali KARAOBA",
+        "parti": "CHP",
+        "skor": 1421,
+        "rank": 13
+      },
+      {
+        "slug": "ismail-gunes",
+        "isim": "İsmail GÜNEŞ",
+        "parti": "AK Parti",
+        "skor": 743,
+        "rank": 82
+      },
+      {
+        "slug": "fahrettin-tugrul",
+        "isim": "Fahrettin TUĞRUL",
+        "parti": "AK Parti",
+        "skor": 54,
+        "rank": 464
+      }
+    ]
+  },
+  "ERZURUM": {
+    "mv_sayisi": 6,
+    "toplam_skor": 2098,
+    "mvler": [
+      {
+        "slug": "meral-danis-bestas",
+        "isim": "Meral DANIŞ BEŞTAŞ",
+        "parti": "DEM PARTİ",
+        "skor": 1399,
+        "rank": 14
+      },
+      {
+        "slug": "selami-altinok",
+        "isim": "Selami ALTINOK",
+        "parti": "AK Parti",
+        "skor": 260,
+        "rank": 230
+      },
+      {
+        "slug": "kamil-aydin",
+        "isim": "Kamil AYDIN",
         "parti": "MHP",
-        "skor": 25,
-        "rank": 547
+        "skor": 138,
+        "rank": 297
       },
       {
-        "slug": "ihsan-koca",
-        "isim": "İhsan KOCA",
+        "slug": "abdurrahim-firat",
+        "isim": "Abdurrahim FIRAT",
         "parti": "AK Parti",
-        "skor": 22,
-        "rank": 559
+        "skor": 111,
+        "rank": 327
+      },
+      {
+        "slug": "fatma-oncu",
+        "isim": "Fatma ÖNCÜ",
+        "parti": "AK Parti",
+        "skor": 102,
+        "rank": 347
+      },
+      {
+        "slug": "mehmet-emin-oz",
+        "isim": "Mehmet Emin ÖZ",
+        "parti": "AK Parti",
+        "skor": 88,
+        "rank": 375
+      }
+    ]
+  },
+  "ADANA": {
+    "mv_sayisi": 15,
+    "toplam_skor": 6704,
+    "mvler": [
+      {
+        "slug": "ayyuce-turkes-tas",
+        "isim": "Ayyüce TÜRKEŞ TAŞ",
+        "parti": "İYİ Parti",
+        "skor": 1335,
+        "rank": 15
+      },
+      {
+        "slug": "orhan-sumer",
+        "isim": "Orhan SÜMER",
+        "parti": "CHP",
+        "skor": 1166,
+        "rank": 24
+      },
+      {
+        "slug": "ayhan-barut",
+        "isim": "Ayhan BARUT",
+        "parti": "CHP",
+        "skor": 1164,
+        "rank": 25
+      },
+      {
+        "slug": "sadullah-kisacik",
+        "isim": "Sadullah KISACIK",
+        "parti": "YENİ YOL",
+        "skor": 926,
+        "rank": 55
+      },
+      {
+        "slug": "burhanettin-bulut",
+        "isim": "Burhanettin BULUT",
+        "parti": "CHP",
+        "skor": 570,
+        "rank": 124
+      },
+      {
+        "slug": "muzeyyen-sevkin",
+        "isim": "Müzeyyen ŞEVKİN",
+        "parti": "CHP",
+        "skor": 491,
+        "rank": 158
+      },
+      {
+        "slug": "bilal-bilici",
+        "isim": "Bilal BİLİCİ",
+        "parti": "CHP",
+        "skor": 393,
+        "rank": 188
+      },
+      {
+        "slug": "sunay-karamik",
+        "isim": "Sunay KARAMIK",
+        "parti": "AK Parti",
+        "skor": 173,
+        "rank": 269
+      },
+      {
+        "slug": "tulay-hatimogullari-oruc",
+        "isim": "Tulay HATIMOĞULLARI ORUÇ",
+        "parti": "DEM PARTİ",
+        "skor": 145,
+        "rank": 291
+      },
+      {
+        "slug": "ayse-sibel-ersoy",
+        "isim": "Ayşe Sibel ERSOY",
+        "parti": "MHP",
+        "skor": 118,
+        "rank": 318
+      },
+      {
+        "slug": "faruk-aytek",
+        "isim": "Faruk AYTEK",
+        "parti": "AK Parti",
+        "skor": 89,
+        "rank": 372
+      },
+      {
+        "slug": "abdullah-dogru",
+        "isim": "Abdullah DOĞRU",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 405
+      },
+      {
+        "slug": "ahmet-zenbilci",
+        "isim": "Ahmet ZENBİLCİ",
+        "parti": "BAĞIMSIZ",
+        "skor": 25,
+        "rank": 549
+      },
+      {
+        "slug": "muharrem-varli",
+        "isim": "Muharrem VARLI",
+        "parti": "MHP",
+        "skor": 17,
+        "rank": 575
+      },
+      {
+        "slug": "omer-celik",
+        "isim": "Ömer ÇELİK",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 586
+      }
+    ]
+  },
+  "MUŞ": {
+    "mv_sayisi": 3,
+    "toplam_skor": 2493,
+    "mvler": [
+      {
+        "slug": "sumeyye-boz-caki",
+        "isim": "Sümeyye BOZ ÇAKI",
+        "parti": "DEM PARTİ",
+        "skor": 1330,
+        "rank": 16
+      },
+      {
+        "slug": "sezai-temelli",
+        "isim": "Sezai TEMELLİ",
+        "parti": "DEM PARTİ",
+        "skor": 1130,
+        "rank": 27
+      },
+      {
+        "slug": "mehmet-emin-simsek",
+        "isim": "Mehmet Emin ŞİMŞEK",
+        "parti": "AK Parti",
+        "skor": 33,
+        "rank": 520
       }
     ]
   },
   "ANTALYA": {
     "mv_sayisi": 17,
-    "toplam_skor": 4659,
+    "toplam_skor": 6475,
     "mvler": [
       {
-        "slug": "aykut-kaya",
-        "isim": "Aykut KAYA",
+        "slug": "cavit-ari",
+        "isim": "Cavit ARI",
         "parti": "CHP",
-        "skor": 943,
-        "rank": 45
-      },
-      {
-        "slug": "aliye-cosar",
-        "isim": "Aliye COŞAR",
-        "parti": "CHP",
-        "skor": 746,
-        "rank": 73
+        "skor": 1296,
+        "rank": 17
       },
       {
         "slug": "hakki-saruhan-oluc",
         "isim": "Hakkı Saruhan OLUÇ",
         "parti": "DEM PARTİ",
-        "skor": 736,
-        "rank": 78
+        "skor": 1143,
+        "rank": 26
       },
       {
-        "slug": "cavit-ari",
-        "isim": "Cavit ARI",
+        "slug": "aykut-kaya",
+        "isim": "Aykut KAYA",
         "parti": "CHP",
-        "skor": 567,
-        "rank": 120
+        "skor": 946,
+        "rank": 52
       },
       {
         "slug": "mustafa-erdem",
         "isim": "Mustafa ERDEM",
         "parti": "CHP",
-        "skor": 437,
-        "rank": 159
+        "skor": 759,
+        "rank": 78
+      },
+      {
+        "slug": "aliye-cosar",
+        "isim": "Aliye COŞAR",
+        "parti": "CHP",
+        "skor": 754,
+        "rank": 79
       },
       {
         "slug": "ugur-poyraz",
         "isim": "Uğur POYRAZ",
         "parti": "İYİ Parti",
-        "skor": 330,
-        "rank": 196
+        "skor": 352,
+        "rank": 204
       },
       {
         "slug": "serafettin-kilic",
         "isim": "Şerafettin KILIÇ",
         "parti": "YENİ YOL",
-        "skor": 254,
-        "rank": 213
-      },
-      {
-        "slug": "sururi-corabatir",
-        "isim": "Sururi ÇORABATIR",
-        "parti": "CHP",
-        "skor": 126,
-        "rank": 276
+        "skor": 262,
+        "rank": 229
       },
       {
         "slug": "serap-yazici-ozbudun",
         "isim": "Serap YAZICI ÖZBUDUN",
         "parti": "AK Parti",
-        "skor": 120,
-        "rank": 282
+        "skor": 255,
+        "rank": 231
+      },
+      {
+        "slug": "sururi-corabatir",
+        "isim": "Sururi ÇORABATIR",
+        "parti": "CHP",
+        "skor": 232,
+        "rank": 239
       },
       {
         "slug": "ibrahim-ethem-tas",
         "isim": "İbrahim Ethem TAŞ",
         "parti": "AK Parti",
         "skor": 90,
-        "rank": 341
+        "rank": 369
       },
       {
         "slug": "atay-uslu",
         "isim": "Atay USLU",
         "parti": "AK Parti",
-        "skor": 79,
-        "rank": 360
+        "skor": 81,
+        "rank": 393
       },
       {
         "slug": "kemal-celik",
         "isim": "Kemal ÇELİK",
         "parti": "AK Parti",
-        "skor": 67,
-        "rank": 401
-      },
-      {
-        "slug": "mustafa-kose",
-        "isim": "Mustafa KÖSE",
-        "parti": "AK Parti",
-        "skor": 40,
-        "rank": 489
-      },
-      {
-        "slug": "tuba-vural-cokal",
-        "isim": "Tuba VURAL ÇOKAL",
-        "parti": "AK Parti",
-        "skor": 39,
-        "rank": 492
+        "skor": 69,
+        "rank": 422
       },
       {
         "slug": "abdurrahman-baskan",
         "isim": "Abdurrahman BAŞKAN",
         "parti": "MHP",
-        "skor": 37,
-        "rank": 501
+        "skor": 69,
+        "rank": 424
+      },
+      {
+        "slug": "mustafa-kose",
+        "isim": "Mustafa KÖSE",
+        "parti": "AK Parti",
+        "skor": 56,
+        "rank": 462
+      },
+      {
+        "slug": "tuba-vural-cokal",
+        "isim": "Tuba VURAL ÇOKAL",
+        "parti": "AK Parti",
+        "skor": 53,
+        "rank": 472
       },
       {
         "slug": "hilmi-durgun",
         "isim": "Hilmi DURGUN",
         "parti": "MHP",
-        "skor": 31,
-        "rank": 526
+        "skor": 43,
+        "rank": 500
       },
       {
         "slug": "mevlut-cavusoglu",
         "isim": "Mevlüt ÇAVUŞOĞLU",
         "parti": "AK Parti",
-        "skor": 17,
+        "skor": 15,
         "rank": 590
       }
     ]
   },
-  "SİİRT": {
-    "mv_sayisi": 3,
-    "toplam_skor": 1072,
+  "İSTANBUL": {
+    "mv_sayisi": 95,
+    "toplam_skor": 21454,
     "mvler": [
       {
-        "slug": "sabahat-erdogan-saritas",
-        "isim": "Sabahat ERDOĞAN SARITAŞ",
-        "parti": "DEM PARTİ",
-        "skor": 910,
-        "rank": 47
+        "slug": "numan-kurtulmus",
+        "isim": "Numan KURTULMUŞ",
+        "parti": "AK Parti",
+        "skor": 1289,
+        "rank": 18
       },
       {
-        "slug": "mervan-gul",
-        "isim": "Mervan GÜL",
+        "slug": "cicek-otlu",
+        "isim": "Çiçek OTLU",
+        "parti": "DEM PARTİ",
+        "skor": 951,
+        "rank": 51
+      },
+      {
+        "slug": "ozgul-saki",
+        "isim": "Özgül SAKİ",
+        "parti": "DEM PARTİ",
+        "skor": 770,
+        "rank": 73
+      },
+      {
+        "slug": "keziban-konukcu-kok",
+        "isim": "Keziban KONUKCU KOK",
+        "parti": "DEM PARTİ",
+        "skor": 769,
+        "rank": 74
+      },
+      {
+        "slug": "celal-firat",
+        "isim": "Celal FIRAT",
+        "parti": "DEM PARTİ",
+        "skor": 720,
+        "rank": 91
+      },
+      {
+        "slug": "ersin-beyaz",
+        "isim": "Ersin BEYAZ",
+        "parti": "İYİ Parti",
+        "skor": 689,
+        "rank": 98
+      },
+      {
+        "slug": "mehmet-satuk-bugra-kavuncu",
+        "isim": "Mehmet Satuk Buğra KAVUNCU",
+        "parti": "İYİ Parti",
+        "skor": 642,
+        "rank": 109
+      },
+      {
+        "slug": "gamze-akkus-ilgezdi",
+        "isim": "Gamze AKKUŞ İLGEZDİ",
+        "parti": "CHP",
+        "skor": 587,
+        "rank": 118
+      },
+      {
+        "slug": "ali-gokcek",
+        "isim": "Ali GÖKÇEK",
+        "parti": "CHP",
+        "skor": 584,
+        "rank": 120
+      },
+      {
+        "slug": "turan-taskin-ozer",
+        "isim": "Turan Taşkın ÖZER",
+        "parti": "CHP",
+        "skor": 583,
+        "rank": 122
+      },
+      {
+        "slug": "dogan-bekin",
+        "isim": "Doğan BEKİN",
+        "parti": "YENİDEN REFAH",
+        "skor": 546,
+        "rank": 133
+      },
+      {
+        "slug": "ismail-faruk-aksu",
+        "isim": "İsmail Faruk AKSU",
+        "parti": "MHP",
+        "skor": 535,
+        "rank": 140
+      },
+      {
+        "slug": "nimet-ozdemir",
+        "isim": "Nimet ÖZDEMİR",
+        "parti": "CHP",
+        "skor": 534,
+        "rank": 141
+      },
+      {
+        "slug": "gokhan-gunaydin",
+        "isim": "Gökhan GÜNAYDIN",
+        "parti": "CHP",
+        "skor": 528,
+        "rank": 145
+      },
+      {
+        "slug": "yunus-emre",
+        "isim": "Yunus EMRE",
+        "parti": "CHP",
+        "skor": 498,
+        "rank": 156
+      },
+      {
+        "slug": "suat-ozcagdas",
+        "isim": "Suat ÖZÇAĞDAŞ",
+        "parti": "CHP",
+        "skor": 459,
+        "rank": 167
+      },
+      {
+        "slug": "bulent-kaya",
+        "isim": "Bülent KAYA",
+        "parti": "YENİ YOL",
+        "skor": 458,
+        "rank": 168
+      },
+      {
+        "slug": "cengiz-cicek",
+        "isim": "Cengiz ÇİÇEK",
+        "parti": "DEM PARTİ",
+        "skor": 446,
+        "rank": 170
+      },
+      {
+        "slug": "ayse-sibel-yanikomeroglu",
+        "isim": "Ayşe Sibel YANIKÖMEROĞLU",
+        "parti": "CHP",
+        "skor": 414,
+        "rank": 180
+      },
+      {
+        "slug": "iskender-bayhan",
+        "isim": "İskender BAYHAN",
+        "parti": "EMEP",
+        "skor": 390,
+        "rank": 191
+      },
+      {
+        "slug": "isa-mesih-sahin",
+        "isim": "İsa Mesih ŞAHİN",
         "parti": "AK Parti",
-        "skor": 95,
+        "skor": 364,
+        "rank": 197
+      },
+      {
+        "slug": "elif-esen",
+        "isim": "Elif ESEN",
+        "parti": "YENİ YOL",
+        "skor": 364,
+        "rank": 198
+      },
+      {
+        "slug": "selim-temurci",
+        "isim": "Selim TEMURCİ",
+        "parti": "BAĞIMSIZ",
+        "skor": 361,
+        "rank": 199
+      },
+      {
+        "slug": "burak-akburak",
+        "isim": "Burak AKBURAK",
+        "parti": "İYİ Parti",
+        "skor": 353,
+        "rank": 202
+      },
+      {
+        "slug": "cemal-enginyurt",
+        "isim": "Cemal ENGİNYURT",
+        "parti": "CHP",
+        "skor": 352,
+        "rank": 203
+      },
+      {
+        "slug": "namik-tan",
+        "isim": "Namık TAN",
+        "parti": "CHP",
+        "skor": 338,
+        "rank": 212
+      },
+      {
+        "slug": "ozgur-karabat",
+        "isim": "Özgür KARABAT",
+        "parti": "CHP",
+        "skor": 336,
+        "rank": 213
+      },
+      {
+        "slug": "saliha-sera-kadigil",
+        "isim": "Saliha Sera KADIGİL",
+        "parti": "TİP",
+        "skor": 316,
+        "rank": 217
+      },
+      {
+        "slug": "cuneyt-yuksel",
+        "isim": "Cüneyt YÜKSEL",
+        "parti": "AK Parti",
+        "skor": 270,
+        "rank": 225
+      },
+      {
+        "slug": "hasan-karal",
+        "isim": "Hasan KARAL",
+        "parti": "YENİ YOL",
+        "skor": 253,
+        "rank": 232
+      },
+      {
+        "slug": "engin-altay",
+        "isim": "Engin ALTAY",
+        "parti": "CHP",
+        "skor": 240,
+        "rank": 234
+      },
+      {
+        "slug": "birol-aydin",
+        "isim": "Birol AYDIN",
+        "parti": "YENİ YOL",
+        "skor": 232,
+        "rank": 238
+      },
+      {
+        "slug": "mustafa-cihan-pacaci",
+        "isim": "Mustafa Cihan PAÇACI",
+        "parti": "İYİ Parti",
+        "skor": 230,
+        "rank": 240
+      },
+      {
+        "slug": "oguz-kaan-salici",
+        "isim": "Oğuz Kaan SALICI",
+        "parti": "CHP",
+        "skor": 223,
+        "rank": 244
+      },
+      {
+        "slug": "gokan-zeybek",
+        "isim": "Gökan ZEYBEK",
+        "parti": "CHP",
+        "skor": 222,
+        "rank": 246
+      },
+      {
+        "slug": "mustafa-kaya",
+        "isim": "Mustafa KAYA",
+        "parti": "YENİ YOL",
+        "skor": 213,
+        "rank": 250
+      },
+      {
+        "slug": "nurettin-alan",
+        "isim": "Nurettin ALAN",
+        "parti": "AK Parti",
+        "skor": 187,
+        "rank": 262
+      },
+      {
+        "slug": "medeni-yilmaz",
+        "isim": "Medeni YILMAZ",
+        "parti": "YENİ YOL",
+        "skor": 179,
+        "rank": 267
+      },
+      {
+        "slug": "yuksel-mansur-kilinc",
+        "isim": "Yüksel Mansur KILINÇ",
+        "parti": "CHP",
+        "skor": 171,
+        "rank": 270
+      },
+      {
+        "slug": "ahmet-ersagun-yucel",
+        "isim": "Ahmet Ersagun YÜCEL",
+        "parti": "AK Parti",
+        "skor": 169,
+        "rank": 273
+      },
+      {
+        "slug": "evrim-rizvanoglu",
+        "isim": "Evrim RIZVANOĞLU",
+        "parti": "CHP",
+        "skor": 164,
+        "rank": 276
+      },
+      {
+        "slug": "ismail-erdem",
+        "isim": "İsmail ERDEM",
+        "parti": "AK Parti",
+        "skor": 161,
+        "rank": 278
+      },
+      {
+        "slug": "zeynel-emre",
+        "isim": "Zeynel EMRE",
+        "parti": "CHP",
+        "skor": 150,
+        "rank": 286
+      },
+      {
+        "slug": "sengul-karsli",
+        "isim": "Şengül KARSLI",
+        "parti": "AK Parti",
+        "skor": 148,
+        "rank": 290
+      },
+      {
+        "slug": "fethi-acikel",
+        "isim": "Fethi AÇIKEL",
+        "parti": "CHP",
+        "skor": 141,
+        "rank": 294
+      },
+      {
+        "slug": "kadri-enis-berberoglu",
+        "isim": "Kadri Enis BERBEROĞLU",
+        "parti": "CHP",
+        "skor": 126,
+        "rank": 306
+      },
+      {
+        "slug": "ahmet-sik",
+        "isim": "Ahmet ŞIK",
+        "parti": "TİP",
+        "skor": 124,
+        "rank": 309
+      },
+      {
+        "slug": "ummugulsen-ozturk",
+        "isim": "Ümmügülşen ÖZTÜRK",
+        "parti": "AK Parti",
+        "skor": 121,
+        "rank": 314
+      },
+      {
+        "slug": "mustafa-yeneroglu",
+        "isim": "Mustafa YENEROĞLU",
+        "parti": "BAĞIMSIZ",
+        "skor": 114,
+        "rank": 322
+      },
+      {
+        "slug": "turkan-elci",
+        "isim": "Türkan ELÇİ",
+        "parti": "CHP",
+        "skor": 111,
         "rank": 328
       },
       {
-        "slug": "tuncer-bakirhan",
-        "isim": "Tuncer BAKIRHAN",
-        "parti": "DEM PARTİ",
-        "skor": 67,
+        "slug": "rumeysa-kadak",
+        "isim": "Rümeysa KADAK",
+        "parti": "AK Parti",
+        "skor": 110,
+        "rank": 330
+      },
+      {
+        "slug": "mehmet-selim-ensarioglu",
+        "isim": "Mehmet Selim ENSARİOĞLU",
+        "parti": "AK Parti",
+        "skor": 108,
+        "rank": 336
+      },
+      {
+        "slug": "halit-yerebakan",
+        "isim": "Halit YEREBAKAN",
+        "parti": "AK Parti",
+        "skor": 107,
+        "rank": 339
+      },
+      {
+        "slug": "seda-goren",
+        "isim": "Seda GÖREN",
+        "parti": "AK Parti",
+        "skor": 102,
+        "rank": 348
+      },
+      {
+        "slug": "seyithan-izsiz",
+        "isim": "Seyithan İZSİZ",
+        "parti": "AK Parti",
+        "skor": 98,
+        "rank": 352
+      },
+      {
+        "slug": "yahya-celik",
+        "isim": "Yahya ÇELİK",
+        "parti": "AK Parti",
+        "skor": 97,
+        "rank": 354
+      },
+      {
+        "slug": "muserref-pervin-tuba-durgut",
+        "isim": "Müşerref Pervin Tuba DURGUT",
+        "parti": "AK Parti",
+        "skor": 89,
+        "rank": 374
+      },
+      {
+        "slug": "dogan-demir",
+        "isim": "Doğan DEMİR",
+        "parti": "CHP",
+        "skor": 87,
+        "rank": 376
+      },
+      {
+        "slug": "oguz-ucuncu",
+        "isim": "Oğuz ÜÇÜNCÜ",
+        "parti": "AK Parti",
+        "skor": 78,
         "rank": 399
+      },
+      {
+        "slug": "adem-yildirim",
+        "isim": "Adem YILDIRIM",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 403
+      },
+      {
+        "slug": "yucel-arzen-haciogullari",
+        "isim": "Yücel Arzen HACIOĞULLARI",
+        "parti": "AK Parti",
+        "skor": 72,
+        "rank": 414
+      },
+      {
+        "slug": "samil-ayrim",
+        "isim": "Şamil AYRIM",
+        "parti": "AK Parti",
+        "skor": 70,
+        "rank": 419
+      },
+      {
+        "slug": "tugba-isik-ercan",
+        "isim": "Tuğba IŞIK ERCAN",
+        "parti": "AK Parti",
+        "skor": 68,
+        "rank": 427
+      },
+      {
+        "slug": "yildiz-konal-suslu",
+        "isim": "Yıldız KONAL SÜSLÜ",
+        "parti": "AK Parti",
+        "skor": 64,
+        "rank": 439
+      },
+      {
+        "slug": "muhammed-ali-fatih-erbakan",
+        "isim": "Muhammed Ali Fatih ERBAKAN",
+        "parti": "YENİDEN REFAH",
+        "skor": 63,
+        "rank": 440
+      },
+      {
+        "slug": "nilhan-ayan",
+        "isim": "Nilhan AYAN",
+        "parti": "AK Parti",
+        "skor": 63,
+        "rank": 442
+      },
+      {
+        "slug": "zekeriya-yapicioglu",
+        "isim": "Zekeriya YAPICIOĞLU",
+        "parti": "HÜDA PAR",
+        "skor": 57,
+        "rank": 456
+      },
+      {
+        "slug": "busra-paker",
+        "isim": "Büşra PAKER",
+        "parti": "AK Parti",
+        "skor": 57,
+        "rank": 459
+      },
+      {
+        "slug": "hasan-turan",
+        "isim": "Hasan TURAN",
+        "parti": "AK Parti",
+        "skor": 55,
+        "rank": 463
+      },
+      {
+        "slug": "sena-nur-celik-kanat",
+        "isim": "Sena Nur ÇELİK KANAT",
+        "parti": "AK Parti",
+        "skor": 53,
+        "rank": 468
+      },
+      {
+        "slug": "ilhan-kesici",
+        "isim": "İlhan KESİCİ",
+        "parti": "CHP",
+        "skor": 51,
+        "rank": 473
+      },
+      {
+        "slug": "suat-pamukcu",
+        "isim": "Suat PAMUKÇU",
+        "parti": "AK Parti",
+        "skor": 50,
+        "rank": 478
+      },
+      {
+        "slug": "mehmet-onder-aksakal",
+        "isim": "Mehmet Önder AKSAKAL",
+        "parti": "DSP",
+        "skor": 48,
+        "rank": 485
+      },
+      {
+        "slug": "derya-ayaydin",
+        "isim": "Derya AYAYDIN",
+        "parti": "AK Parti",
+        "skor": 47,
+        "rank": 491
+      },
+      {
+        "slug": "serkan-bayram",
+        "isim": "Serkan BAYRAM",
+        "parti": "AK Parti",
+        "skor": 41,
+        "rank": 501
+      },
+      {
+        "slug": "azmi-ekinci",
+        "isim": "Azmi EKİNCİ",
+        "parti": "AK Parti",
+        "skor": 37,
+        "rank": 510
+      },
+      {
+        "slug": "rabia-ilhan",
+        "isim": "Rabia İLHAN",
+        "parti": "AK Parti",
+        "skor": 36,
+        "rank": 512
+      },
+      {
+        "slug": "mustafa-hulki-cevizoglu",
+        "isim": "Mustafa Hulki CEVİZOĞLU",
+        "parti": "AK Parti",
+        "skor": 36,
+        "rank": 513
+      },
+      {
+        "slug": "erkan-bas",
+        "isim": "Erkan BAŞ",
+        "parti": "TİP",
+        "skor": 35,
+        "rank": 517
+      },
+      {
+        "slug": "sevan-sivacioglu",
+        "isim": "Sevan SIVACIOĞLU",
+        "parti": "AK Parti",
+        "skor": 35,
+        "rank": 518
+      },
+      {
+        "slug": "behiye-eker",
+        "isim": "Behiye EKER",
+        "parti": "AK Parti",
+        "skor": 33,
+        "rank": 521
+      },
+      {
+        "slug": "suleyman-soylu",
+        "isim": "Süleyman SOYLU",
+        "parti": "AK Parti",
+        "skor": 33,
+        "rank": 525
+      },
+      {
+        "slug": "erdogan-toprak",
+        "isim": "Erdoğan TOPRAK",
+        "parti": "CHP",
+        "skor": 31,
+        "rank": 530
+      },
+      {
+        "slug": "ozlem-zengin",
+        "isim": "Özlem ZENGİN",
+        "parti": "AK Parti",
+        "skor": 31,
+        "rank": 531
+      },
+      {
+        "slug": "halis-dalkilic",
+        "isim": "Halis DALKILIÇ",
+        "parti": "AK Parti",
+        "skor": 25,
+        "rank": 551
+      },
+      {
+        "slug": "celal-adan",
+        "isim": "Celal ADAN",
+        "parti": "MHP",
+        "skor": 23,
+        "rank": 559
+      },
+      {
+        "slug": "ismail-emrah-karayel",
+        "isim": "İsmail Emrah KARAYEL",
+        "parti": "AK Parti",
+        "skor": 22,
+        "rank": 560
+      },
+      {
+        "slug": "feti-yildiz",
+        "isim": "Feti YILDIZ",
+        "parti": "MHP",
+        "skor": 21,
+        "rank": 566
+      },
+      {
+        "slug": "hulusi-senturk",
+        "isim": "Hulusi ŞENTÜRK",
+        "parti": "AK Parti",
+        "skor": 21,
+        "rank": 567
+      },
+      {
+        "slug": "cigdem-kilicgun-ucar",
+        "isim": "Çiğdem KILIÇGÜN UÇAR",
+        "parti": "DBP",
+        "skor": 18,
+        "rank": 572
+      },
+      {
+        "slug": "zafer-sirakaya",
+        "isim": "Zafer SIRAKAYA",
+        "parti": "AK Parti",
+        "skor": 18,
+        "rank": 573
+      },
+      {
+        "slug": "izzet-ulvi-yonter",
+        "isim": "İzzet Ulvi YÖNTER",
+        "parti": "MHP",
+        "skor": 17,
+        "rank": 576
+      },
+      {
+        "slug": "bayram-senocak",
+        "isim": "Bayram ŞENOCAK",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 596
+      },
+      {
+        "slug": "edip-semih-yalcin",
+        "isim": "Edip Semih YALÇIN",
+        "parti": "MHP",
+        "skor": 15,
+        "rank": 597
+      },
+      {
+        "slug": "erkan-kandemir",
+        "isim": "Erkan KANDEMİR",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 598
+      }
+    ]
+  },
+  "MARDİN": {
+    "mv_sayisi": 6,
+    "toplam_skor": 3684,
+    "mvler": [
+      {
+        "slug": "beritan-gunes-altin",
+        "isim": "Beritan GÜNEŞ ALTIN",
+        "parti": "DEM PARTİ",
+        "skor": 1284,
+        "rank": 19
+      },
+      {
+        "slug": "kamuran-tanhan",
+        "isim": "Kamuran TANHAN",
+        "parti": "DEM PARTİ",
+        "skor": 957,
+        "rank": 50
+      },
+      {
+        "slug": "george-aslan",
+        "isim": "George ASLAN",
+        "parti": "DEM PARTİ",
+        "skor": 836,
+        "rank": 65
+      },
+      {
+        "slug": "salihe-aydeniz",
+        "isim": "Salihe AYDENİZ",
+        "parti": "DEM PARTİ",
+        "skor": 515,
+        "rank": 151
+      },
+      {
+        "slug": "faruk-kilic",
+        "isim": "Faruk KILIÇ",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 401
+      },
+      {
+        "slug": "muhammed-adak",
+        "isim": "Muhammed ADAK",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 579
+      }
+    ]
+  },
+  "AĞRI": {
+    "mv_sayisi": 4,
+    "toplam_skor": 2309,
+    "mvler": [
+      {
+        "slug": "nejla-demir",
+        "isim": "Nejla DEMİR",
+        "parti": "DEM PARTİ",
+        "skor": 1254,
+        "rank": 21
+      },
+      {
+        "slug": "heval-bozdag",
+        "isim": "Heval BOZDAĞ",
+        "parti": "DEM PARTİ",
+        "skor": 867,
+        "rank": 61
+      },
+      {
+        "slug": "sirri-sakik",
+        "isim": "Sırrı SAKİK",
+        "parti": "DEM PARTİ",
+        "skor": 138,
+        "rank": 296
+      },
+      {
+        "slug": "ruken-kilerci",
+        "isim": "Ruken KİLERCİ",
+        "parti": "AK Parti",
+        "skor": 50,
+        "rank": 477
+      }
+    ]
+  },
+  "ŞIRNAK": {
+    "mv_sayisi": 4,
+    "toplam_skor": 3032,
+    "mvler": [
+      {
+        "slug": "nevroz-uysal-aslan",
+        "isim": "Nevroz UYSAL ASLAN",
+        "parti": "DEM PARTİ",
+        "skor": 1230,
+        "rank": 22
+      },
+      {
+        "slug": "mehmet-zeki-irmez",
+        "isim": "Mehmet Zeki İRMEZ",
+        "parti": "DEM PARTİ",
+        "skor": 1043,
+        "rank": 37
+      },
+      {
+        "slug": "aysegul-dogan",
+        "isim": "Ayşegül DOĞAN",
+        "parti": "DEM PARTİ",
+        "skor": 688,
+        "rank": 99
+      },
+      {
+        "slug": "arslan-tatar",
+        "isim": "Arslan TATAR",
+        "parti": "AK Parti",
+        "skor": 71,
+        "rank": 418
       }
     ]
   },
   "ÇORUM": {
     "mv_sayisi": 4,
-    "toplam_skor": 1036,
+    "toplam_skor": 1283,
     "mvler": [
       {
         "slug": "mehmet-tahtasiz",
         "isim": "Mehmet TAHTASIZ",
         "parti": "CHP",
-        "skor": 885,
-        "rank": 48
+        "skor": 1128,
+        "rank": 28
       },
       {
         "slug": "yusuf-ahlatci",
         "isim": "Yusuf AHLATCI",
         "parti": "AK Parti",
-        "skor": 90,
-        "rank": 342
+        "skor": 91,
+        "rank": 365
       },
       {
         "slug": "oguzhan-kaya",
         "isim": "Oğuzhan KAYA",
         "parti": "AK Parti",
-        "skor": 44,
-        "rank": 480
+        "skor": 49,
+        "rank": 482
       },
       {
         "slug": "vahit-kayrici",
         "isim": "Vahit KAYRICI",
         "parti": "MHP",
-        "skor": 17,
+        "skor": 15,
         "rank": 594
       }
     ]
   },
-  "HATAY": {
-    "mv_sayisi": 10,
-    "toplam_skor": 3061,
+  "TUNCELİ": {
+    "mv_sayisi": 1,
+    "toplam_skor": 1106,
     "mvler": [
       {
-        "slug": "nermin-yildirim-kara",
-        "isim": "Nermin YILDIRIM KARA",
-        "parti": "CHP",
-        "skor": 865,
-        "rank": 51
+        "slug": "ayten-kordu",
+        "isim": "Ayten KORDU",
+        "parti": "DEM PARTİ",
+        "skor": 1106,
+        "rank": 30
+      }
+    ]
+  },
+  "KARS": {
+    "mv_sayisi": 3,
+    "toplam_skor": 1985,
+    "mvler": [
+      {
+        "slug": "gulustan-kilic-kocyigit",
+        "isim": "Gülüstan KILIÇ KOÇYİĞİT",
+        "parti": "DEM PARTİ",
+        "skor": 1095,
+        "rank": 31
       },
       {
-        "slug": "servet-mullaoglu",
-        "isim": "Servet MULLAOĞLU",
+        "slug": "inan-akgun-alp",
+        "isim": "İnan Akgün ALP",
         "parti": "CHP",
-        "skor": 557,
+        "skor": 812,
+        "rank": 70
+      },
+      {
+        "slug": "adem-calkin",
+        "isim": "Adem ÇALKIN",
+        "parti": "AK Parti",
+        "skor": 78,
+        "rank": 398
+      }
+    ]
+  },
+  "ÇANAKKALE": {
+    "mv_sayisi": 4,
+    "toplam_skor": 2029,
+    "mvler": [
+      {
+        "slug": "ozgur-ceylan",
+        "isim": "Özgür CEYLAN",
+        "parti": "CHP",
+        "skor": 1092,
+        "rank": 32
+      },
+      {
+        "slug": "ridvan-uz",
+        "isim": "Rıdvan UZ",
+        "parti": "İYİ Parti",
+        "skor": 583,
         "rank": 121
       },
       {
-        "slug": "mehmet-guzelmansur",
-        "isim": "Mehmet GÜZELMANSUR",
+        "slug": "ismet-guneshan",
+        "isim": "İsmet GÜNEŞHAN",
         "parti": "CHP",
-        "skor": 536,
-        "rank": 129
+        "skor": 339,
+        "rank": 211
       },
       {
-        "slug": "adnan-sefik-cirkin",
-        "isim": "Adnan Şefik ÇİRKİN",
+        "slug": "ayhan-gider",
+        "isim": "Ayhan GİDER",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 593
+      }
+    ]
+  },
+  "ANKARA": {
+    "mv_sayisi": 36,
+    "toplam_skor": 10423,
+    "mvler": [
+      {
+        "slug": "deniz-demir",
+        "isim": "Deniz DEMİR",
+        "parti": "CHP",
+        "skor": 1089,
+        "rank": 33
+      },
+      {
+        "slug": "aliye-timisi-ersever",
+        "isim": "Aliye TİMİSİ ERSEVER",
+        "parti": "CHP",
+        "skor": 983,
+        "rank": 42
+      },
+      {
+        "slug": "kursad-zorlu",
+        "isim": "Kürşad ZORLU",
+        "parti": "AK Parti",
+        "skor": 726,
+        "rank": 87
+      },
+      {
+        "slug": "gamze-tascier",
+        "isim": "Gamze TAŞCIER",
+        "parti": "CHP",
+        "skor": 622,
+        "rank": 113
+      },
+      {
+        "slug": "orhan-yegin",
+        "isim": "Orhan YEGİN",
+        "parti": "AK Parti",
+        "skor": 590,
+        "rank": 117
+      },
+      {
+        "slug": "semra-dincer",
+        "isim": "Semra DİNÇER",
+        "parti": "CHP",
+        "skor": 562,
+        "rank": 126
+      },
+      {
+        "slug": "yuksel-arslan",
+        "isim": "Yüksel ARSLAN",
         "parti": "İYİ Parti",
-        "skor": 472,
-        "rank": 150
+        "skor": 554,
+        "rank": 130
       },
       {
-        "slug": "necmettin-caliskan",
-        "isim": "Necmettin ÇALIŞKAN",
+        "slug": "fuat-oktay",
+        "isim": "Fuat OKTAY",
+        "parti": "AK Parti",
+        "skor": 543,
+        "rank": 135
+      },
+      {
+        "slug": "murat-emir",
+        "isim": "Murat EMİR",
+        "parti": "CHP",
+        "skor": 530,
+        "rank": 144
+      },
+      {
+        "slug": "umut-akdogan",
+        "isim": "Umut AKDOĞAN",
+        "parti": "CHP",
+        "skor": 500,
+        "rank": 154
+      },
+      {
+        "slug": "adnan-beker",
+        "isim": "Adnan BEKER",
+        "parti": "CHP",
+        "skor": 494,
+        "rank": 157
+      },
+      {
+        "slug": "aylin-yaman",
+        "isim": "Aylin YAMAN",
+        "parti": "CHP",
+        "skor": 404,
+        "rank": 183
+      },
+      {
+        "slug": "ahmet-esref-fakibaba",
+        "isim": "Ahmet Eşref FAKIBABA",
+        "parti": "İYİ Parti",
+        "skor": 369,
+        "rank": 195
+      },
+      {
+        "slug": "idris-sahin",
+        "isim": "İdris ŞAHİN",
         "parti": "YENİ YOL",
-        "skor": 340,
-        "rank": 191
+        "skor": 354,
+        "rank": 200
       },
       {
-        "slug": "adem-yesildal",
-        "isim": "Adem YEŞİLDAL",
-        "parti": "AK Parti",
-        "skor": 93,
-        "rank": 333
+        "slug": "okan-konuralp",
+        "isim": "Okan KONURALP",
+        "parti": "CHP",
+        "skor": 267,
+        "rank": 226
       },
       {
-        "slug": "kemal-karahan",
-        "isim": "Kemal KARAHAN",
-        "parti": "AK Parti",
-        "skor": 87,
-        "rank": 345
+        "slug": "mesut-dogan",
+        "isim": "Mesut DOĞAN",
+        "parti": "YENİ YOL",
+        "skor": 265,
+        "rank": 228
       },
       {
-        "slug": "lutfi-kasikci",
-        "isim": "Lütfi KAŞIKÇI",
+        "slug": "mevlut-karakaya",
+        "isim": "Mevlüt KARAKAYA",
         "parti": "MHP",
-        "skor": 47,
-        "rank": 469
+        "skor": 228,
+        "rank": 242
       },
       {
-        "slug": "huseyin-yayman",
-        "isim": "Hüseyin YAYMAN",
+        "slug": "tekin-bingol",
+        "isim": "Tekin BİNGÖL",
+        "parti": "CHP",
+        "skor": 213,
+        "rank": 249
+      },
+      {
+        "slug": "sadullah-ergin",
+        "isim": "Sadullah ERGİN",
+        "parti": "YENİ YOL",
+        "skor": 184,
+        "rank": 263
+      },
+      {
+        "slug": "lutfiye-selva-cam",
+        "isim": "Lütfiye Selva ÇAM",
+        "parti": "AK Parti",
+        "skor": 106,
+        "rank": 341
+      },
+      {
+        "slug": "vedat-bilgin",
+        "isim": "Vedat BİLGİN",
+        "parti": "AK Parti",
+        "skor": 102,
+        "rank": 349
+      },
+      {
+        "slug": "leyla-sahin-usta",
+        "isim": "Leyla ŞAHİN USTA",
+        "parti": "AK Parti",
+        "skor": 101,
+        "rank": 350
+      },
+      {
+        "slug": "julide-sarieroglu",
+        "isim": "Jülide SARIEROĞLU",
+        "parti": "AK Parti",
+        "skor": 91,
+        "rank": 367
+      },
+      {
+        "slug": "asuman-erdogan",
+        "isim": "Asuman ERDOĞAN",
+        "parti": "AK Parti",
+        "skor": 75,
+        "rank": 409
+      },
+      {
+        "slug": "zeynep-yildiz",
+        "isim": "Zeynep YILDIZ",
+        "parti": "AK Parti",
+        "skor": 72,
+        "rank": 415
+      },
+      {
+        "slug": "ahmet-fethan-baykoc",
+        "isim": "Ahmet Fethan BAYKOÇ",
+        "parti": "AK Parti",
+        "skor": 64,
+        "rank": 438
+      },
+      {
+        "slug": "koray-aydin",
+        "isim": "Koray AYDIN",
+        "parti": "BAĞIMSIZ",
+        "skor": 62,
+        "rank": 444
+      },
+      {
+        "slug": "omer-ileri",
+        "isim": "Ömer İLERİ",
+        "parti": "AK Parti",
+        "skor": 48,
+        "rank": 488
+      },
+      {
+        "slug": "murat-alparslan",
+        "isim": "Murat ALPARSLAN",
+        "parti": "AK Parti",
+        "skor": 46,
+        "rank": 492
+      },
+      {
+        "slug": "osman-gokcek",
+        "isim": "Osman GÖKÇEK",
+        "parti": "AK Parti",
+        "skor": 40,
+        "rank": 503
+      },
+      {
+        "slug": "mustafa-nedim-yamali",
+        "isim": "Mustafa Nedim YAMALI",
         "parti": "AK Parti",
         "skor": 38,
-        "rank": 497
+        "rank": 507
       },
       {
-        "slug": "abdulkadir-ozel",
-        "isim": "Abdulkadir ÖZEL",
+        "slug": "zehranur-aydemir",
+        "isim": "Zehranur AYDEMİR",
         "parti": "AK Parti",
-        "skor": 26,
-        "rank": 545
+        "skor": 35,
+        "rank": 515
+      },
+      {
+        "slug": "kurtcan-celebi",
+        "isim": "Kurtcan ÇELEBİ",
+        "parti": "AK Parti",
+        "skor": 21,
+        "rank": 563
+      },
+      {
+        "slug": "sadir-durmaz",
+        "isim": "Sadir DURMAZ",
+        "parti": "MHP",
+        "skor": 15,
+        "rank": 587
+      },
+      {
+        "slug": "yasar-yildirim",
+        "isim": "Yaşar YILDIRIM",
+        "parti": "MHP",
+        "skor": 15,
+        "rank": 588
+      },
+      {
+        "slug": "yildirim-tugrul-turkes",
+        "isim": "Yıldırım Tuğrul TÜRKEŞ",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 589
+      }
+    ]
+  },
+  "MERSİN": {
+    "mv_sayisi": 13,
+    "toplam_skor": 5626,
+    "mvler": [
+      {
+        "slug": "talat-dincer",
+        "isim": "Talat DİNÇER",
+        "parti": "CHP",
+        "skor": 1082,
+        "rank": 34
+      },
+      {
+        "slug": "ali-bozan",
+        "isim": "Ali BOZAN",
+        "parti": "DEM PARTİ",
+        "skor": 987,
+        "rank": 41
+      },
+      {
+        "slug": "burhanettin-kocamaz",
+        "isim": "Burhanettin KOCAMAZ",
+        "parti": "İYİ Parti",
+        "skor": 744,
+        "rank": 80
+      },
+      {
+        "slug": "gulcan-kis",
+        "isim": "Gülcan KIŞ",
+        "parti": "CHP",
+        "skor": 670,
+        "rank": 101
+      },
+      {
+        "slug": "perihan-koca-dogan",
+        "isim": "Perihan KOCA DOĞAN",
+        "parti": "DEM PARTİ",
+        "skor": 642,
+        "rank": 110
+      },
+      {
+        "slug": "mehmet-emin-ekmen",
+        "isim": "Mehmet Emin EKMEN",
+        "parti": "YENİ YOL",
+        "skor": 562,
+        "rank": 125
+      },
+      {
+        "slug": "ali-mahir-basarir",
+        "isim": "Ali Mahir BAŞARIR",
+        "parti": "CHP",
+        "skor": 387,
+        "rank": 192
+      },
+      {
+        "slug": "hasan-ufuk-cakir",
+        "isim": "Hasan Ufuk ÇAKIR",
+        "parti": "AK Parti",
+        "skor": 126,
+        "rank": 305
+      },
+      {
+        "slug": "levent-uysal",
+        "isim": "Levent UYSAL",
+        "parti": "MHP",
+        "skor": 125,
+        "rank": 308
+      },
+      {
+        "slug": "ali-kiratli",
+        "isim": "Ali KIRATLI",
+        "parti": "AK Parti",
+        "skor": 116,
+        "rank": 319
+      },
+      {
+        "slug": "faruk-dinc",
+        "isim": "Faruk DİNÇ",
+        "parti": "HÜDA PAR",
+        "skor": 95,
+        "rank": 361
+      },
+      {
+        "slug": "havva-sibel-soylemez",
+        "isim": "Havva Sibel SÖYLEMEZ",
+        "parti": "AK Parti",
+        "skor": 75,
+        "rank": 408
+      },
+      {
+        "slug": "nureddin-nebati",
+        "isim": "Nureddin NEBATİ",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 580
+      }
+    ]
+  },
+  "RİZE": {
+    "mv_sayisi": 3,
+    "toplam_skor": 1202,
+    "mvler": [
+      {
+        "slug": "tahsin-ocakli",
+        "isim": "Tahsin OCAKLI",
+        "parti": "CHP",
+        "skor": 1058,
+        "rank": 35
+      },
+      {
+        "slug": "harun-mertoglu",
+        "isim": "Harun MERTOĞLU",
+        "parti": "AK Parti",
+        "skor": 129,
+        "rank": 302
+      },
+      {
+        "slug": "muhammed-avci",
+        "isim": "Muhammed AVCI",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 582
+      }
+    ]
+  },
+  "ARTVİN": {
+    "mv_sayisi": 2,
+    "toplam_skor": 1072,
+    "mvler": [
+      {
+        "slug": "ugur-bayraktutan",
+        "isim": "Uğur BAYRAKTUTAN",
+        "parti": "CHP",
+        "skor": 1057,
+        "rank": 36
+      },
+      {
+        "slug": "faruk-celik",
+        "isim": "Faruk ÇELİK",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 591
       }
     ]
   },
   "VAN": {
     "mv_sayisi": 8,
-    "toplam_skor": 3870,
+    "toplam_skor": 4096,
     "mvler": [
+      {
+        "slug": "zulkuf-ucar",
+        "isim": "Zülküf UÇAR",
+        "parti": "DEM PARTİ",
+        "skor": 1025,
+        "rank": 38
+      },
       {
         "slug": "mahmut-dindar",
         "isim": "Mahmut DİNDAR",
         "parti": "DEM PARTİ",
-        "skor": 859,
-        "rank": 52
+        "skor": 879,
+        "rank": 59
       },
       {
         "slug": "gulderen-varli",
         "isim": "Gülderen VARLİ",
         "parti": "DEM PARTİ",
-        "skor": 833,
-        "rank": 54
-      },
-      {
-        "slug": "zulkuf-ucar",
-        "isim": "Zülküf UÇAR",
-        "parti": "DEM PARTİ",
-        "skor": 819,
-        "rank": 59
+        "skor": 816,
+        "rank": 68
       },
       {
         "slug": "gulcan-kacmaz-sayyigit",
         "isim": "Gülcan KAÇMAZ SAYYİĞİT",
         "parti": "DEM PARTİ",
-        "skor": 797,
-        "rank": 61
+        "skor": 764,
+        "rank": 76
       },
       {
         "slug": "sinan-ciftyurek",
         "isim": "Sinan ÇİFTYÜREK",
         "parti": "DEM PARTİ",
-        "skor": 350,
-        "rank": 187
+        "skor": 348,
+        "rank": 206
       },
       {
         "slug": "kayhan-turkmenoglu",
         "isim": "Kayhan TÜRKMENOĞLU",
         "parti": "AK Parti",
-        "skor": 102,
-        "rank": 309
-      },
-      {
-        "slug": "pervin-buldan",
-        "isim": "Pervin BULDAN",
-        "parti": "DEM PARTİ",
-        "skor": 57,
-        "rank": 432
+        "skor": 126,
+        "rank": 307
       },
       {
         "slug": "burhan-kayaturk",
         "isim": "Burhan KAYATÜRK",
         "parti": "AK Parti",
+        "skor": 85,
+        "rank": 381
+      },
+      {
+        "slug": "pervin-buldan",
+        "isim": "Pervin BULDAN",
+        "parti": "DEM PARTİ",
         "skor": 53,
-        "rank": 441
-      }
-    ]
-  },
-  "ORDU": {
-    "mv_sayisi": 6,
-    "toplam_skor": 1334,
-    "mvler": [
-      {
-        "slug": "seyit-torun",
-        "isim": "Seyit TORUN",
-        "parti": "CHP",
-        "skor": 825,
-        "rank": 57
-      },
-      {
-        "slug": "mustafa-adiguzel",
-        "isim": "Mustafa ADIGÜZEL",
-        "parti": "CHP",
-        "skor": 389,
-        "rank": 178
-      },
-      {
-        "slug": "naci-sanliturk",
-        "isim": "Naci ŞANLITÜRK",
-        "parti": "MHP",
-        "skor": 36,
-        "rank": 503
-      },
-      {
-        "slug": "mahmut-ozer",
-        "isim": "Mahmut ÖZER",
-        "parti": "AK Parti",
-        "skor": 34,
-        "rank": 510
-      },
-      {
-        "slug": "ibrahim-ufuk-kaynak",
-        "isim": "İbrahim Ufuk KAYNAK",
-        "parti": "AK Parti",
-        "skor": 25,
-        "rank": 548
-      },
-      {
-        "slug": "mustafa-hamarat",
-        "isim": "Mustafa HAMARAT",
-        "parti": "AK Parti",
-        "skor": 25,
-        "rank": 549
-      }
-    ]
-  },
-  "SİVAS": {
-    "mv_sayisi": 5,
-    "toplam_skor": 1082,
-    "mvler": [
-      {
-        "slug": "ulas-karasu",
-        "isim": "Ulaş KARASU",
-        "parti": "CHP",
-        "skor": 823,
-        "rank": 58
-      },
-      {
-        "slug": "rukiye-toy",
-        "isim": "Rukiye TOY",
-        "parti": "AK Parti",
-        "skor": 110,
-        "rank": 294
-      },
-      {
-        "slug": "hakan-aksu",
-        "isim": "Hakan AKSU",
-        "parti": "AK Parti",
-        "skor": 75,
-        "rank": 370
-      },
-      {
-        "slug": "abdullah-guler",
-        "isim": "Abdullah GÜLER",
-        "parti": "AK Parti",
-        "skor": 52,
-        "rank": 446
-      },
-      {
-        "slug": "ahmet-ozyurek",
-        "isim": "Ahmet ÖZYÜREK",
-        "parti": "MHP",
-        "skor": 22,
-        "rank": 560
-      }
-    ]
-  },
-  "ZONGULDAK": {
-    "mv_sayisi": 5,
-    "toplam_skor": 1457,
-    "mvler": [
-      {
-        "slug": "deniz-yavuzyilmaz",
-        "isim": "Deniz YAVUZYILMAZ",
-        "parti": "CHP",
-        "skor": 818,
-        "rank": 60
-      },
-      {
-        "slug": "eylem-ertug-ertugrul",
-        "isim": "Eylem Ertuğ ERTUĞRUL",
-        "parti": "CHP",
-        "skor": 438,
-        "rank": 157
-      },
-      {
-        "slug": "saffet-bozkurt",
-        "isim": "Saffet BOZKURT",
-        "parti": "AK Parti",
-        "skor": 79,
-        "rank": 359
-      },
-      {
-        "slug": "ahmet-colakoglu",
-        "isim": "Ahmet ÇOLAKOĞLU",
-        "parti": "AK Parti",
-        "skor": 75,
-        "rank": 371
-      },
-      {
-        "slug": "muammer-avci",
-        "isim": "Muammer AVCI",
-        "parti": "AK Parti",
-        "skor": 47,
         "rank": 467
       }
     ]
   },
-  "TEKİRDAĞ": {
-    "mv_sayisi": 8,
-    "toplam_skor": 2823,
+  "BURSA": {
+    "mv_sayisi": 20,
+    "toplam_skor": 4833,
     "mvler": [
       {
-        "slug": "selcan-tasci",
-        "isim": "Selcan TAŞCI",
+        "slug": "yuksel-selcuk-turkoglu",
+        "isim": "Yüksel Selçuk TÜRKOĞLU",
         "parti": "İYİ Parti",
-        "skor": 789,
-        "rank": 63
+        "skor": 1004,
+        "rank": 40
       },
       {
-        "slug": "ilhami-ozcan-aygun",
-        "isim": "İlhami Özcan AYGUN",
+        "slug": "nurhayat-altaca-kayisoglu",
+        "isim": "Nurhayat ALTACA KAYIŞOĞLU",
         "parti": "CHP",
-        "skor": 677,
+        "skor": 710,
         "rank": 95
       },
       {
-        "slug": "nurten-yontar",
-        "isim": "Nurten YONTAR",
+        "slug": "orhan-saribal",
+        "isim": "Orhan SARIBAL",
         "parti": "CHP",
-        "skor": 519,
-        "rank": 136
+        "skor": 516,
+        "rank": 149
       },
       {
-        "slug": "cem-avsar",
-        "isim": "Cem AVŞAR",
+        "slug": "kayihan-pala",
+        "isim": "Kayıhan PALA",
         "parti": "CHP",
-        "skor": 449,
-        "rank": 156
+        "skor": 417,
+        "rank": 179
       },
       {
-        "slug": "faik-oztrak",
-        "isim": "Faik ÖZTRAK",
-        "parti": "CHP",
-        "skor": 137,
-        "rank": 264
+        "slug": "hasan-toktas",
+        "isim": "Hasan TOKTAŞ",
+        "parti": "İYİ Parti",
+        "skor": 399,
+        "rank": 186
       },
       {
-        "slug": "cigdem-koncagul",
-        "isim": "Çiğdem KONCAGÜL",
+        "slug": "hasan-ozturk",
+        "isim": "Hasan ÖZTÜRK",
+        "parti": "CHP",
+        "skor": 392,
+        "rank": 189
+      },
+      {
+        "slug": "mehmet-atmaca",
+        "isim": "Mehmet ATMACA",
+        "parti": "YENİ YOL",
+        "skor": 247,
+        "rank": 233
+      },
+      {
+        "slug": "mustafa-varank",
+        "isim": "Mustafa VARANK",
         "parti": "AK Parti",
-        "skor": 118,
-        "rank": 284
+        "skor": 202,
+        "rank": 257
       },
       {
-        "slug": "mestan-ozcan",
-        "isim": "Mestan ÖZCAN",
+        "slug": "cemalettin-kani-torun",
+        "isim": "Cemalettin Kani TORUN",
+        "parti": "YENİ YOL",
+        "skor": 197,
+        "rank": 258
+      },
+      {
+        "slug": "ahmet-kilic",
+        "isim": "Ahmet KILIÇ",
         "parti": "AK Parti",
-        "skor": 109,
-        "rank": 298
+        "skor": 163,
+        "rank": 277
       },
       {
-        "slug": "gokhan-diktas",
-        "isim": "Gökhan DİKTAŞ",
+        "slug": "mustafa-yavuz",
+        "isim": "Mustafa YAVUZ",
+        "parti": "AK Parti",
+        "skor": 104,
+        "rank": 342
+      },
+      {
+        "slug": "muhammet-mufit-aydin",
+        "isim": "Muhammet Müfit AYDIN",
+        "parti": "AK Parti",
+        "skor": 98,
+        "rank": 353
+      },
+      {
+        "slug": "ayhan-salman",
+        "isim": "Ayhan SALMAN",
+        "parti": "AK Parti",
+        "skor": 83,
+        "rank": 387
+      },
+      {
+        "slug": "emel-gozukara-durmaz",
+        "isim": "Emel GÖZÜKARA DURMAZ",
+        "parti": "AK Parti",
+        "skor": 73,
+        "rank": 410
+      },
+      {
+        "slug": "emine-yavuz-gozgec",
+        "isim": "Emine YAVUZ GÖZGEÇ",
+        "parti": "AK Parti",
+        "skor": 67,
+        "rank": 433
+      },
+      {
+        "slug": "refik-ozen",
+        "isim": "Refik ÖZEN",
+        "parti": "AK Parti",
+        "skor": 59,
+        "rank": 450
+      },
+      {
+        "slug": "osman-mesten",
+        "isim": "Osman MESTEN",
+        "parti": "AK Parti",
+        "skor": 43,
+        "rank": 499
+      },
+      {
+        "slug": "fevzi-zirhlioglu",
+        "isim": "Fevzi ZIRHLIOĞLU",
+        "parti": "MHP",
+        "skor": 28,
+        "rank": 541
+      },
+      {
+        "slug": "ismet-buyukataman",
+        "isim": "İsmet BÜYÜKATAMAN",
+        "parti": "MHP",
+        "skor": 16,
+        "rank": 577
+      },
+      {
+        "slug": "efkan-ala",
+        "isim": "Efkan ALA",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 592
+      }
+    ]
+  },
+  "IĞDIR": {
+    "mv_sayisi": 2,
+    "toplam_skor": 1001,
+    "mvler": [
+      {
+        "slug": "yilmaz-hun",
+        "isim": "Yılmaz HUN",
+        "parti": "DEM PARTİ",
+        "skor": 976,
+        "rank": 43
+      },
+      {
+        "slug": "canturk-alagoz",
+        "isim": "Cantürk ALAGÖZ",
         "parti": "AK Parti",
         "skor": 25,
         "rank": 550
       }
     ]
   },
-  "KARABÜK": {
-    "mv_sayisi": 3,
-    "toplam_skor": 904,
+  "BATMAN": {
+    "mv_sayisi": 5,
+    "toplam_skor": 1810,
     "mvler": [
       {
-        "slug": "cevdet-akay",
-        "isim": "Cevdet AKAY",
-        "parti": "CHP",
-        "skor": 786,
-        "rank": 64
+        "slug": "zeynep-oduncu-kutevi",
+        "isim": "Zeynep ODUNCU KUTEVİ",
+        "parti": "DEM PARTİ",
+        "skor": 970,
+        "rank": 44
       },
       {
-        "slug": "durmus-ali-keskinkilic",
-        "isim": "Durmuş Ali KESKİNKILIÇ",
-        "parti": "AK Parti",
-        "skor": 75,
-        "rank": 369
+        "slug": "mehmet-rustu-tiryaki",
+        "isim": "Mehmet Rüştü TİRYAKİ",
+        "parti": "DEM PARTİ",
+        "skor": 705,
+        "rank": 97
       },
       {
-        "slug": "cem-sahin",
-        "isim": "Cem ŞAHİN",
-        "parti": "AK Parti",
-        "skor": 43,
-        "rank": 483
-      }
-    ]
-  },
-  "KIRKLARELİ": {
-    "mv_sayisi": 3,
-    "toplam_skor": 1271,
-    "mvler": [
-      {
-        "slug": "vecdi-gundogdu",
-        "isim": "Vecdi GÜNDOĞDU",
-        "parti": "CHP",
-        "skor": 785,
-        "rank": 65
-      },
-      {
-        "slug": "fahri-ozkan",
-        "isim": "Fahri ÖZKAN",
-        "parti": "CHP",
-        "skor": 465,
-        "rank": 152
-      },
-      {
-        "slug": "ahmet-gokhan-saricam",
-        "isim": "Ahmet Gökhan SARIÇAM",
-        "parti": "AK Parti",
-        "skor": 21,
-        "rank": 563
-      }
-    ]
-  },
-  "GAZİANTEP": {
-    "mv_sayisi": 14,
-    "toplam_skor": 2752,
-    "mvler": [
-      {
-        "slug": "melih-meric",
-        "isim": "Melih MERİÇ",
-        "parti": "CHP",
-        "skor": 756,
-        "rank": 69
-      },
-      {
-        "slug": "hasan-ozturkmen",
-        "isim": "Hasan ÖZTÜRKMEN",
-        "parti": "CHP",
-        "skor": 507,
-        "rank": 140
-      },
-      {
-        "slug": "mehmet-mustafa-gurban",
-        "isim": "Mehmet Mustafa GÜRBAN",
-        "parti": "İYİ Parti",
-        "skor": 408,
-        "rank": 171
-      },
-      {
-        "slug": "sevda-karaca-demir",
-        "isim": "Sevda KARACA DEMİR",
-        "parti": "EMEP",
-        "skor": 291,
-        "rank": 206
-      },
-      {
-        "slug": "ertugrul-kaya",
-        "isim": "Ertuğrul KAYA",
-        "parti": "YENİ YOL",
-        "skor": 263,
-        "rank": 210
-      },
-      {
-        "slug": "mehmet-eyup-ozkececi",
-        "isim": "Mehmet Eyup ÖZKEÇECİ",
-        "parti": "AK Parti",
-        "skor": 86,
-        "rank": 350
-      },
-      {
-        "slug": "derya-bakbak",
-        "isim": "Derya BAKBAK",
-        "parti": "AK Parti",
-        "skor": 74,
-        "rank": 376
-      },
-      {
-        "slug": "sahzade-demir",
-        "isim": "Şahzade DEMİR",
+        "slug": "serkan-ramanli",
+        "isim": "Serkan RAMANLI",
         "parti": "HÜDA PAR",
-        "skor": 70,
-        "rank": 391
+        "skor": 60,
+        "rank": 445
       },
       {
-        "slug": "irfan-celikaslan",
-        "isim": "İrfan ÇELİKASLAN",
+        "slug": "ferhat-nasiroglu",
+        "isim": "Ferhat NASIROĞLU",
         "parti": "AK Parti",
-        "skor": 69,
-        "rank": 395
+        "skor": 51,
+        "rank": 474
       },
       {
-        "slug": "ali-sahin",
-        "isim": "Ali ŞAHİN",
-        "parti": "AK Parti",
-        "skor": 63,
-        "rank": 417
-      },
-      {
-        "slug": "mesut-bozatli",
-        "isim": "Mesut BOZATLI",
-        "parti": "AK Parti",
-        "skor": 61,
-        "rank": 424
-      },
-      {
-        "slug": "bunyamin-bozgeyik",
-        "isim": "Bünyamin BOZGEYİK",
-        "parti": "AK Parti",
-        "skor": 57,
-        "rank": 435
-      },
-      {
-        "slug": "abdulhamit-gul",
-        "isim": "Abdulhamit GÜL",
-        "parti": "AK Parti",
-        "skor": 29,
-        "rank": 531
-      },
-      {
-        "slug": "sermet-atay",
-        "isim": "Sermet ATAY",
-        "parti": "MHP",
-        "skor": 18,
-        "rank": 578
+        "slug": "keskin-bayindir",
+        "isim": "Keskin BAYINDIR",
+        "parti": "DBP",
+        "skor": 24,
+        "rank": 553
       }
     ]
   },
-  "ESKİŞEHİR": {
-    "mv_sayisi": 6,
-    "toplam_skor": 2010,
+  "ZONGULDAK": {
+    "mv_sayisi": 5,
+    "toplam_skor": 1628,
     "mvler": [
       {
-        "slug": "jale-nur-sullu",
-        "isim": "Jale Nur SÜLLÜ",
+        "slug": "deniz-yavuzyilmaz",
+        "isim": "Deniz YAVUZYILMAZ",
         "parti": "CHP",
-        "skor": 754,
-        "rank": 70
+        "skor": 965,
+        "rank": 47
       },
       {
-        "slug": "utku-cakirozer",
-        "isim": "Utku ÇAKIRÖZER",
+        "slug": "eylem-ertug-ertugrul",
+        "isim": "Eylem Ertuğ ERTUĞRUL",
         "parti": "CHP",
-        "skor": 752,
-        "rank": 71
+        "skor": 435,
+        "rank": 172
       },
       {
-        "slug": "ibrahim-arslan",
-        "isim": "İbrahim ARSLAN",
-        "parti": "CHP",
-        "skor": 333,
-        "rank": 194
-      },
-      {
-        "slug": "fatih-donmez",
-        "isim": "Fatih DÖNMEZ",
+        "slug": "ahmet-colakoglu",
+        "isim": "Ahmet ÇOLAKOĞLU",
         "parti": "AK Parti",
-        "skor": 87,
-        "rank": 344
+        "skor": 100,
+        "rank": 351
       },
       {
-        "slug": "idris-nebi-hatipoglu",
-        "isim": "İdris Nebi HATİPOĞLU",
+        "slug": "saffet-bozkurt",
+        "isim": "Saffet BOZKURT",
         "parti": "AK Parti",
-        "skor": 59,
-        "rank": 429
-      },
-      {
-        "slug": "aysen-gurcan",
-        "isim": "Ayşen GÜRCAN",
-        "parti": "AK Parti",
-        "skor": 25,
-        "rank": 551
-      }
-    ]
-  },
-  "KAHRAMANMARAŞ": {
-    "mv_sayisi": 8,
-    "toplam_skor": 1252,
-    "mvler": [
-      {
-        "slug": "ali-oztunc",
-        "isim": "Ali ÖZTUNÇ",
-        "parti": "CHP",
-        "skor": 737,
-        "rank": 76
-      },
-      {
-        "slug": "irfan-karatutlu",
-        "isim": "İrfan KARATUTLU",
-        "parti": "AK Parti",
-        "skor": 126,
-        "rank": 275
-      },
-      {
-        "slug": "zuhal-karakoc",
-        "isim": "Zuhal KARAKOÇ",
-        "parti": "MHP",
-        "skor": 95,
-        "rank": 327
-      },
-      {
-        "slug": "omer-oruc-bilal-debgici",
-        "isim": "Ömer Oruç Bilal DEBGİCİ",
-        "parti": "AK Parti",
-        "skor": 92,
-        "rank": 334
-      },
-      {
-        "slug": "mevlut-kurt",
-        "isim": "Mevlüt KURT",
-        "parti": "AK Parti",
-        "skor": 65,
-        "rank": 407
-      },
-      {
-        "slug": "tuba-koksal",
-        "isim": "Tuba KÖKSAL",
-        "parti": "AK Parti",
-        "skor": 61,
-        "rank": 420
-      },
-      {
-        "slug": "mehmet-sahin",
-        "isim": "Mehmet ŞAHİN",
-        "parti": "AK Parti",
-        "skor": 43,
-        "rank": 482
-      },
-      {
-        "slug": "vahit-kirisci",
-        "isim": "Vahit KİRİŞCİ",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 513
-      }
-    ]
-  },
-  "TRABZON": {
-    "mv_sayisi": 6,
-    "toplam_skor": 1291,
-    "mvler": [
-      {
-        "slug": "yavuz-aydin",
-        "isim": "Yavuz AYDIN",
-        "parti": "İYİ Parti",
-        "skor": 713,
-        "rank": 85
-      },
-      {
-        "slug": "sibel-suicmez",
-        "isim": "Sibel SUİÇMEZ",
-        "parti": "CHP",
-        "skor": 455,
-        "rank": 153
-      },
-      {
-        "slug": "vehbi-koc",
-        "isim": "Vehbi KOÇ",
-        "parti": "AK Parti",
-        "skor": 38,
-        "rank": 496
-      },
-      {
-        "slug": "adil-karaismailoglu",
-        "isim": "Adil KARAİSMAİLOĞLU",
-        "parti": "AK Parti",
-        "skor": 35,
-        "rank": 508
-      },
-      {
-        "slug": "yilmaz-buyukaydin",
-        "isim": "Yılmaz BÜYÜKAYDIN",
-        "parti": "AK Parti",
-        "skor": 33,
-        "rank": 516
-      },
-      {
-        "slug": "mustafa-sen",
-        "isim": "Mustafa ŞEN",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 585
-      }
-    ]
-  },
-  "GİRESUN": {
-    "mv_sayisi": 4,
-    "toplam_skor": 891,
-    "mvler": [
-      {
-        "slug": "elvan-isik-gezmis",
-        "isim": "Elvan IŞIK GEZMİŞ",
-        "parti": "CHP",
-        "skor": 687,
-        "rank": 90
-      },
-      {
-        "slug": "nazim-elmas",
-        "isim": "Nazım ELMAS",
-        "parti": "AK Parti",
-        "skor": 91,
-        "rank": 339
-      },
-      {
-        "slug": "ali-temur",
-        "isim": "Ali TEMÜR",
-        "parti": "AK Parti",
-        "skor": 73,
-        "rank": 380
-      },
-      {
-        "slug": "ertugrul-gazi-konal",
-        "isim": "Ertuğrul Gazi KONAL",
-        "parti": "MHP",
-        "skor": 40,
-        "rank": 491
-      }
-    ]
-  },
-  "BOLU": {
-    "mv_sayisi": 3,
-    "toplam_skor": 805,
-    "mvler": [
-      {
-        "slug": "turker-ates",
-        "isim": "Türker ATEŞ",
-        "parti": "CHP",
-        "skor": 680,
-        "rank": 93
-      },
-      {
-        "slug": "ismail-akgul",
-        "isim": "İsmail AKGÜL",
-        "parti": "BAĞIMSIZ",
-        "skor": 67,
+        "skor": 77,
         "rank": 402
       },
       {
-        "slug": "yuksel-coskunyurek",
-        "isim": "Yüksel COŞKUNYÜREK",
+        "slug": "muammer-avci",
+        "isim": "Muammer AVCI",
         "parti": "AK Parti",
-        "skor": 58,
-        "rank": 430
+        "skor": 51,
+        "rank": 475
       }
     ]
   },
-  "TOKAT": {
-    "mv_sayisi": 5,
-    "toplam_skor": 935,
+  "BALIKESİR": {
+    "mv_sayisi": 9,
+    "toplam_skor": 2227,
     "mvler": [
       {
-        "slug": "kadim-durmaz",
-        "isim": "Kadim DURMAZ",
+        "slug": "serkan-sari",
+        "isim": "Serkan SARI",
         "parti": "CHP",
-        "skor": 663,
-        "rank": 98
+        "skor": 962,
+        "rank": 48
       },
       {
-        "slug": "mustafa-arslan",
-        "isim": "Mustafa ARSLAN",
+        "slug": "turhan-comez",
+        "isim": "Turhan ÇÖMEZ",
+        "parti": "İYİ Parti",
+        "skor": 739,
+        "rank": 83
+      },
+      {
+        "slug": "burak-dalgin",
+        "isim": "Burak DALGIN",
+        "parti": "İYİ Parti",
+        "skor": 176,
+        "rank": 268
+      },
+      {
+        "slug": "ensar-aytekin",
+        "isim": "Ensar AYTEKİN",
+        "parti": "CHP",
+        "skor": 96,
+        "rank": 358
+      },
+      {
+        "slug": "mustafa-canbey",
+        "isim": "Mustafa CANBEY",
         "parti": "AK Parti",
-        "skor": 134,
-        "rank": 266
+        "skor": 91,
+        "rank": 366
       },
       {
-        "slug": "cuneyt-aldemir",
-        "isim": "Cüneyt ALDEMİR",
+        "slug": "ismail-ok",
+        "isim": "İsmail OK",
         "parti": "AK Parti",
-        "skor": 71,
-        "rank": 387
+        "skor": 66,
+        "rank": 434
       },
       {
-        "slug": "yusuf-beyazit",
-        "isim": "Yusuf BEYAZIT",
+        "slug": "ali-taylan-oztaylan",
+        "isim": "Ali Taylan ÖZTAYLAN",
         "parti": "AK Parti",
-        "skor": 44,
-        "rank": 479
+        "skor": 48,
+        "rank": 483
       },
       {
-        "slug": "yucel-bulut",
-        "isim": "Yücel BULUT",
+        "slug": "ekrem-gokay-yuksel",
+        "isim": "Ekrem Gökay YÜKSEL",
         "parti": "MHP",
-        "skor": 23,
-        "rank": 554
-      }
-    ]
-  },
-  "BURDUR": {
-    "mv_sayisi": 3,
-    "toplam_skor": 859,
-    "mvler": [
-      {
-        "slug": "izzet-akbulut",
-        "isim": "İzzet AKBULUT",
-        "parti": "CHP",
-        "skor": 629,
-        "rank": 105
-      },
-      {
-        "slug": "mustafa-oguz",
-        "isim": "Mustafa OĞUZ",
-        "parti": "AK Parti",
-        "skor": 128,
-        "rank": 273
-      },
-      {
-        "slug": "adem-korkmaz",
-        "isim": "Adem KORKMAZ",
-        "parti": "AK Parti",
-        "skor": 102,
-        "rank": 310
-      }
-    ]
-  },
-  "KAYSERİ": {
-    "mv_sayisi": 10,
-    "toplam_skor": 1692,
-    "mvler": [
-      {
-        "slug": "askin-genc",
-        "isim": "Aşkın GENÇ",
-        "parti": "CHP",
-        "skor": 618,
-        "rank": 106
-      },
-      {
-        "slug": "ismail-ozdemir",
-        "isim": "İsmail ÖZDEMİR",
-        "parti": "MHP",
-        "skor": 310,
-        "rank": 203
-      },
-      {
-        "slug": "dursun-atas",
-        "isim": "Dursun ATAŞ",
-        "parti": "AK Parti",
-        "skor": 206,
-        "rank": 233
-      },
-      {
-        "slug": "mustafa-baki-ersoy",
-        "isim": "Mustafa Baki ERSOY",
-        "parti": "MHP",
-        "skor": 177,
-        "rank": 246
-      },
-      {
-        "slug": "sayin-bayar-ozsoy",
-        "isim": "Sayın Bayar ÖZSOY",
-        "parti": "AK Parti",
-        "skor": 127,
-        "rank": 274
-      },
-      {
-        "slug": "hulusi-akar",
-        "isim": "Hulusi AKAR",
-        "parti": "AK Parti",
-        "skor": 77,
-        "rank": 362
-      },
-      {
-        "slug": "murat-cahid-cingi",
-        "isim": "Murat Cahid CINGI",
-        "parti": "AK Parti",
-        "skor": 70,
-        "rank": 389
-      },
-      {
-        "slug": "mahmut-arikan",
-        "isim": "Mahmut ARIKAN",
-        "parti": "SAADET Partisi",
-        "skor": 44,
-        "rank": 478
-      },
-      {
-        "slug": "ayse-bohurler",
-        "isim": "Ayşe BÖHÜRLER",
-        "parti": "AK Parti",
-        "skor": 38,
-        "rank": 495
-      },
-      {
-        "slug": "saban-copuroglu",
-        "isim": "Şaban ÇOPUROĞLU",
-        "parti": "AK Parti",
-        "skor": 25,
-        "rank": 546
-      }
-    ]
-  },
-  "BARTIN": {
-    "mv_sayisi": 2,
-    "toplam_skor": 679,
-    "mvler": [
-      {
-        "slug": "aysu-bankoglu",
-        "isim": "Aysu BANKOĞLU",
-        "parti": "CHP",
-        "skor": 607,
-        "rank": 107
-      },
-      {
-        "slug": "yusuf-ziya-aldatmaz",
-        "isim": "Yusuf Ziya ALDATMAZ",
-        "parti": "AK Parti",
-        "skor": 72,
-        "rank": 385
-      }
-    ]
-  },
-  "RİZE": {
-    "mv_sayisi": 3,
-    "toplam_skor": 743,
-    "mvler": [
-      {
-        "slug": "tahsin-ocakli",
-        "isim": "Tahsin OCAKLI",
-        "parti": "CHP",
-        "skor": 602,
-        "rank": 110
-      },
-      {
-        "slug": "harun-mertoglu",
-        "isim": "Harun MERTOĞLU",
-        "parti": "AK Parti",
-        "skor": 124,
-        "rank": 277
-      },
-      {
-        "slug": "muhammed-avci",
-        "isim": "Muhammed AVCI",
-        "parti": "AK Parti",
-        "skor": 17,
-        "rank": 582
-      }
-    ]
-  },
-  "YALOVA": {
-    "mv_sayisi": 3,
-    "toplam_skor": 655,
-    "mvler": [
-      {
-        "slug": "tahsin-becan",
-        "isim": "Tahsin BECAN",
-        "parti": "CHP",
-        "skor": 555,
-        "rank": 122
-      },
-      {
-        "slug": "meliha-akyol",
-        "isim": "Meliha AKYOL",
-        "parti": "AK Parti",
-        "skor": 72,
-        "rank": 384
-      },
-      {
-        "slug": "ahmet-buyukgumus",
-        "isim": "Ahmet BÜYÜKGÜMÜŞ",
-        "parti": "AK Parti",
         "skor": 28,
-        "rank": 534
-      }
-    ]
-  },
-  "ARDAHAN": {
-    "mv_sayisi": 2,
-    "toplam_skor": 636,
-    "mvler": [
-      {
-        "slug": "ozgur-erdem-incesu",
-        "isim": "Özgür Erdem İNCESU",
-        "parti": "CHP",
-        "skor": 535,
-        "rank": 130
+        "rank": 540
       },
       {
-        "slug": "kaan-koc",
-        "isim": "Kaan KOÇ",
+        "slug": "belgin-uygur",
+        "isim": "Belgin UYGUR",
         "parti": "AK Parti",
-        "skor": 101,
-        "rank": 311
-      }
-    ]
-  },
-  "ISPARTA": {
-    "mv_sayisi": 4,
-    "toplam_skor": 780,
-    "mvler": [
-      {
-        "slug": "hikmet-yalim-halici",
-        "isim": "Hikmet Yalım HALICI",
-        "parti": "CHP",
-        "skor": 531,
-        "rank": 131
-      },
-      {
-        "slug": "osman-zabun",
-        "isim": "Osman ZABUN",
-        "parti": "AK Parti",
-        "skor": 141,
-        "rank": 262
-      },
-      {
-        "slug": "mehmet-ugur-gokgoz",
-        "isim": "Mehmet Uğur GÖKGÖZ",
-        "parti": "AK Parti",
-        "skor": 87,
-        "rank": 346
-      },
-      {
-        "slug": "hasan-basri-sonmez",
-        "isim": "Hasan Basri SÖNMEZ",
-        "parti": "BAĞIMSIZ",
         "skor": 21,
         "rank": 564
       }
     ]
   },
-  "EDİRNE": {
-    "mv_sayisi": 4,
-    "toplam_skor": 1402,
+  "MUĞLA": {
+    "mv_sayisi": 7,
+    "toplam_skor": 3747,
     "mvler": [
       {
-        "slug": "ahmet-baran-yazgan",
-        "isim": "Ahmet Baran YAZGAN",
-        "parti": "CHP",
-        "skor": 530,
-        "rank": 134
+        "slug": "selcuk-ozdag",
+        "isim": "Selçuk ÖZDAĞ",
+        "parti": "YENİ YOL",
+        "skor": 958,
+        "rank": 49
       },
       {
-        "slug": "mehmet-akalin",
-        "isim": "Mehmet AKALIN",
+        "slug": "cumhur-uzun",
+        "isim": "Cumhur UZUN",
+        "parti": "CHP",
+        "skor": 827,
+        "rank": 67
+      },
+      {
+        "slug": "gizem-ozcan",
+        "isim": "Gizem ÖZCAN",
+        "parti": "CHP",
+        "skor": 814,
+        "rank": 69
+      },
+      {
+        "slug": "metin-ergun",
+        "isim": "Metin ERGUN",
         "parti": "İYİ Parti",
-        "skor": 454,
-        "rank": 154
+        "skor": 607,
+        "rank": 114
       },
       {
-        "slug": "ediz-un",
-        "isim": "Ediz ÜN",
-        "parti": "BAĞIMSIZ",
-        "skor": 352,
-        "rank": 186
-      },
-      {
-        "slug": "fatma-aksal",
-        "isim": "Fatma AKSAL",
-        "parti": "AK Parti",
-        "skor": 66,
-        "rank": 406
-      }
-    ]
-  },
-  "KIRIKKALE": {
-    "mv_sayisi": 2,
-    "toplam_skor": 556,
-    "mvler": [
-      {
-        "slug": "halil-ozturk",
-        "isim": "Halil ÖZTÜRK",
-        "parti": "MHP",
-        "skor": 511,
-        "rank": 139
-      },
-      {
-        "slug": "mustafa-kaplan",
-        "isim": "Mustafa KAPLAN",
-        "parti": "AK Parti",
-        "skor": 45,
-        "rank": 474
-      }
-    ]
-  },
-  "KÜTAHYA": {
-    "mv_sayisi": 5,
-    "toplam_skor": 762,
-    "mvler": [
-      {
-        "slug": "ali-fazil-kasap",
-        "isim": "Ali Fazıl KASAP",
+        "slug": "sureyya-ones-derici",
+        "isim": "Süreyya ÖNEŞ DERİCİ",
         "parti": "CHP",
-        "skor": 449,
-        "rank": 155
+        "skor": 279,
+        "rank": 224
       },
       {
-        "slug": "mehmet-demir",
-        "isim": "Mehmet DEMİR",
+        "slug": "kadem-mete",
+        "isim": "Kadem METE",
         "parti": "AK Parti",
-        "skor": 107,
-        "rank": 301
+        "skor": 191,
+        "rank": 261
       },
       {
-        "slug": "ismail-caglar-bayirci",
-        "isim": "İsmail Çağlar BAYIRCI",
+        "slug": "yakup-otgoz",
+        "isim": "Yakup OTGÖZ",
         "parti": "AK Parti",
-        "skor": 73,
+        "skor": 71,
+        "rank": 417
+      }
+    ]
+  },
+  "MALATYA": {
+    "mv_sayisi": 6,
+    "toplam_skor": 1117,
+    "mvler": [
+      {
+        "slug": "veli-agbaba",
+        "isim": "Veli AĞBABA",
+        "parti": "CHP",
+        "skor": 931,
+        "rank": 54
+      },
+      {
+        "slug": "bulent-tufenkci",
+        "isim": "Bülent TÜFENKCİ",
+        "parti": "AK Parti",
+        "skor": 87,
         "rank": 377
       },
       {
-        "slug": "adil-bicer",
-        "isim": "Adil BİÇER",
+        "slug": "abdurrahman-babacan",
+        "isim": "Abdurrahman BABACAN",
         "parti": "AK Parti",
-        "skor": 69,
-        "rank": 394
+        "skor": 28,
+        "rank": 537
       },
       {
-        "slug": "ahmet-erbas",
-        "isim": "Ahmet ERBAŞ",
+        "slug": "inanc-sirac-kara-olmeztoprak",
+        "isim": "İnanç Siraç Kara ÖLMEZTOPRAK",
+        "parti": "AK Parti",
+        "skor": 28,
+        "rank": 538
+      },
+      {
+        "slug": "mehmet-celal-fendoglu",
+        "isim": "Mehmet Celal FENDOĞLU",
         "parti": "MHP",
-        "skor": 64,
-        "rank": 410
-      }
-    ]
-  },
-  "AMASYA": {
-    "mv_sayisi": 3,
-    "toplam_skor": 515,
-    "mvler": [
-      {
-        "slug": "resat-karagoz",
-        "isim": "Reşat KARAGÖZ",
-        "parti": "CHP",
-        "skor": 428,
-        "rank": 163
+        "skor": 23,
+        "rank": 558
       },
       {
-        "slug": "hasan-cilez",
-        "isim": "Hasan ÇİLEZ",
-        "parti": "AK Parti",
-        "skor": 67,
-        "rank": 400
-      },
-      {
-        "slug": "haluk-ipek",
-        "isim": "Haluk İPEK",
+        "slug": "ihsan-koca",
+        "isim": "İhsan KOCA",
         "parti": "AK Parti",
         "skor": 20,
         "rank": 568
       }
     ]
   },
-  "ELAZIĞ": {
-    "mv_sayisi": 5,
-    "toplam_skor": 843,
+  "BİNGÖL": {
+    "mv_sayisi": 3,
+    "toplam_skor": 1033,
     "mvler": [
       {
-        "slug": "gursel-erol",
-        "isim": "Gürsel EROL",
-        "parti": "CHP",
-        "skor": 412,
-        "rank": 169
+        "slug": "omer-faruk-hulaku",
+        "isim": "Ömer Faruk HÜLAKÜ",
+        "parti": "DEM PARTİ",
+        "skor": 914,
+        "rank": 56
       },
       {
-        "slug": "ejder-acikkapi",
-        "isim": "Ejder AÇIKKAPI",
+        "slug": "zeki-korkutata",
+        "isim": "Zeki KORKUTATA",
         "parti": "AK Parti",
-        "skor": 192,
-        "rank": 239
+        "skor": 84,
+        "rank": 384
       },
       {
-        "slug": "erol-keles",
-        "isim": "Erol KELEŞ",
+        "slug": "feyzi-berdibek",
+        "isim": "Feyzi BERDİBEK",
         "parti": "AK Parti",
-        "skor": 107,
-        "rank": 302
-      },
-      {
-        "slug": "semih-isikver",
-        "isim": "Semih IŞIKVER",
-        "parti": "MHP",
-        "skor": 74,
-        "rank": 375
-      },
-      {
-        "slug": "mahmut-ridvan-nazirli",
-        "isim": "Mahmut Rıdvan NAZIRLI",
-        "parti": "AK Parti",
-        "skor": 58,
-        "rank": 431
+        "skor": 35,
+        "rank": 516
       }
     ]
   },
-  "DÜZCE": {
+  "SİİRT": {
     "mv_sayisi": 3,
-    "toplam_skor": 520,
+    "toplam_skor": 1066,
     "mvler": [
       {
-        "slug": "talih-ozcan",
-        "isim": "Talih ÖZCAN",
+        "slug": "sabahat-erdogan-saritas",
+        "isim": "Sabahat ERDOĞAN SARITAŞ",
+        "parti": "DEM PARTİ",
+        "skor": 904,
+        "rank": 57
+      },
+      {
+        "slug": "mervan-gul",
+        "isim": "Mervan GÜL",
+        "parti": "AK Parti",
+        "skor": 97,
+        "rank": 355
+      },
+      {
+        "slug": "tuncer-bakirhan",
+        "isim": "Tuncer BAKIRHAN",
+        "parti": "DEM PARTİ",
+        "skor": 65,
+        "rank": 436
+      }
+    ]
+  },
+  "MANİSA": {
+    "mv_sayisi": 10,
+    "toplam_skor": 2586,
+    "mvler": [
+      {
+        "slug": "selma-aliye-kavaf",
+        "isim": "Selma Aliye KAVAF",
         "parti": "CHP",
-        "skor": 398,
-        "rank": 175
+        "skor": 881,
+        "rank": 58
       },
       {
-        "slug": "ercan-ozturk",
-        "isim": "Ercan ÖZTÜRK",
-        "parti": "AK Parti",
-        "skor": 100,
-        "rank": 313
+        "slug": "senol-sunat",
+        "isim": "Şenol SUNAT",
+        "parti": "İYİ Parti",
+        "skor": 666,
+        "rank": 103
       },
       {
-        "slug": "ayse-kesir",
-        "isim": "Ayşe KEŞİR",
+        "slug": "bekir-basevirgen",
+        "isim": "Bekir BAŞEVİRGEN",
+        "parti": "CHP",
+        "skor": 343,
+        "rank": 207
+      },
+      {
+        "slug": "ahmet-vehbi-bakirlioglu",
+        "isim": "Ahmet Vehbi BAKIRLIOĞLU",
+        "parti": "CHP",
+        "skor": 305,
+        "rank": 221
+      },
+      {
+        "slug": "ozgur-ozel",
+        "isim": "Özgür ÖZEL",
+        "parti": "CHP",
+        "skor": 194,
+        "rank": 260
+      },
+      {
+        "slug": "murat-baybatur",
+        "isim": "Murat BAYBATUR",
         "parti": "AK Parti",
-        "skor": 22,
-        "rank": 561
+        "skor": 59,
+        "rank": 448
+      },
+      {
+        "slug": "erkan-akcay",
+        "isim": "Erkan AKÇAY",
+        "parti": "MHP",
+        "skor": 47,
+        "rank": 489
+      },
+      {
+        "slug": "ahmet-mucahit-arinc",
+        "isim": "Ahmet Mücahit ARINÇ",
+        "parti": "AK Parti",
+        "skor": 33,
+        "rank": 519
+      },
+      {
+        "slug": "bahadir-nahit-yenisehirlioglu",
+        "isim": "Bahadır Nahit YENİŞEHİRLİOĞLU",
+        "parti": "AK Parti",
+        "skor": 33,
+        "rank": 524
+      },
+      {
+        "slug": "tamer-akkal",
+        "isim": "Tamer AKKAL",
+        "parti": "AK Parti",
+        "skor": 25,
+        "rank": 548
+      }
+    ]
+  },
+  "ORDU": {
+    "mv_sayisi": 6,
+    "toplam_skor": 1398,
+    "mvler": [
+      {
+        "slug": "seyit-torun",
+        "isim": "Seyit TORUN",
+        "parti": "CHP",
+        "skor": 868,
+        "rank": 60
+      },
+      {
+        "slug": "mustafa-adiguzel",
+        "isim": "Mustafa ADIGÜZEL",
+        "parti": "CHP",
+        "skor": 373,
+        "rank": 194
+      },
+      {
+        "slug": "mahmut-ozer",
+        "isim": "Mahmut ÖZER",
+        "parti": "AK Parti",
+        "skor": 66,
+        "rank": 435
+      },
+      {
+        "slug": "naci-sanliturk",
+        "isim": "Naci ŞANLITÜRK",
+        "parti": "MHP",
+        "skor": 37,
+        "rank": 511
+      },
+      {
+        "slug": "ibrahim-ufuk-kaynak",
+        "isim": "İbrahim Ufuk KAYNAK",
+        "parti": "AK Parti",
+        "skor": 27,
+        "rank": 543
+      },
+      {
+        "slug": "mustafa-hamarat",
+        "isim": "Mustafa HAMARAT",
+        "parti": "AK Parti",
+        "skor": 27,
+        "rank": 544
+      }
+    ]
+  },
+  "TEKİRDAĞ": {
+    "mv_sayisi": 8,
+    "toplam_skor": 2897,
+    "mvler": [
+      {
+        "slug": "selcan-tasci",
+        "isim": "Selcan TAŞCI",
+        "parti": "İYİ Parti",
+        "skor": 864,
+        "rank": 62
+      },
+      {
+        "slug": "ilhami-ozcan-aygun",
+        "isim": "İlhami Özcan AYGUN",
+        "parti": "CHP",
+        "skor": 664,
+        "rank": 104
+      },
+      {
+        "slug": "nurten-yontar",
+        "isim": "Nurten YONTAR",
+        "parti": "CHP",
+        "skor": 512,
+        "rank": 152
+      },
+      {
+        "slug": "cem-avsar",
+        "isim": "Cem AVŞAR",
+        "parti": "CHP",
+        "skor": 446,
+        "rank": 171
+      },
+      {
+        "slug": "faik-oztrak",
+        "isim": "Faik ÖZTRAK",
+        "parti": "CHP",
+        "skor": 159,
+        "rank": 280
+      },
+      {
+        "slug": "cigdem-koncagul",
+        "isim": "Çiğdem KONCAGÜL",
+        "parti": "AK Parti",
+        "skor": 118,
+        "rank": 317
+      },
+      {
+        "slug": "mestan-ozcan",
+        "isim": "Mestan ÖZCAN",
+        "parti": "AK Parti",
+        "skor": 107,
+        "rank": 337
+      },
+      {
+        "slug": "gokhan-diktas",
+        "isim": "Gökhan DİKTAŞ",
+        "parti": "AK Parti",
+        "skor": 27,
+        "rank": 545
+      }
+    ]
+  },
+  "SİVAS": {
+    "mv_sayisi": 5,
+    "toplam_skor": 1111,
+    "mvler": [
+      {
+        "slug": "ulas-karasu",
+        "isim": "Ulaş KARASU",
+        "parti": "CHP",
+        "skor": 861,
+        "rank": 63
+      },
+      {
+        "slug": "rukiye-toy",
+        "isim": "Rukiye TOY",
+        "parti": "AK Parti",
+        "skor": 110,
+        "rank": 331
+      },
+      {
+        "slug": "hakan-aksu",
+        "isim": "Hakan AKSU",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 404
+      },
+      {
+        "slug": "abdullah-guler",
+        "isim": "Abdullah GÜLER",
+        "parti": "AK Parti",
+        "skor": 43,
+        "rank": 496
+      },
+      {
+        "slug": "ahmet-ozyurek",
+        "isim": "Ahmet ÖZYÜREK",
+        "parti": "MHP",
+        "skor": 20,
+        "rank": 569
+      }
+    ]
+  },
+  "HATAY": {
+    "mv_sayisi": 10,
+    "toplam_skor": 3041,
+    "mvler": [
+      {
+        "slug": "nermin-yildirim-kara",
+        "isim": "Nermin YILDIRIM KARA",
+        "parti": "CHP",
+        "skor": 838,
+        "rank": 64
+      },
+      {
+        "slug": "servet-mullaoglu",
+        "isim": "Servet MULLAOĞLU",
+        "parti": "CHP",
+        "skor": 549,
+        "rank": 131
+      },
+      {
+        "slug": "mehmet-guzelmansur",
+        "isim": "Mehmet GÜZELMANSUR",
+        "parti": "CHP",
+        "skor": 536,
+        "rank": 138
+      },
+      {
+        "slug": "adnan-sefik-cirkin",
+        "isim": "Adnan Şefik ÇİRKİN",
+        "parti": "İYİ Parti",
+        "skor": 461,
+        "rank": 166
+      },
+      {
+        "slug": "necmettin-caliskan",
+        "isim": "Necmettin ÇALIŞKAN",
+        "parti": "YENİ YOL",
+        "skor": 334,
+        "rank": 214
+      },
+      {
+        "slug": "adem-yesildal",
+        "isim": "Adem YEŞİLDAL",
+        "parti": "AK Parti",
+        "skor": 107,
+        "rank": 338
+      },
+      {
+        "slug": "kemal-karahan",
+        "isim": "Kemal KARAHAN",
+        "parti": "AK Parti",
+        "skor": 85,
+        "rank": 378
+      },
+      {
+        "slug": "lutfi-kasikci",
+        "isim": "Lütfi KAŞIKÇI",
+        "parti": "MHP",
+        "skor": 69,
+        "rank": 423
+      },
+      {
+        "slug": "huseyin-yayman",
+        "isim": "Hüseyin YAYMAN",
+        "parti": "AK Parti",
+        "skor": 38,
+        "rank": 506
+      },
+      {
+        "slug": "abdulkadir-ozel",
+        "isim": "Abdulkadir ÖZEL",
+        "parti": "AK Parti",
+        "skor": 24,
+        "rank": 555
+      }
+    ]
+  },
+  "KIRKLARELİ": {
+    "mv_sayisi": 3,
+    "toplam_skor": 1272,
+    "mvler": [
+      {
+        "slug": "vecdi-gundogdu",
+        "isim": "Vecdi GÜNDOĞDU",
+        "parti": "CHP",
+        "skor": 783,
+        "rank": 72
+      },
+      {
+        "slug": "fahri-ozkan",
+        "isim": "Fahri ÖZKAN",
+        "parti": "CHP",
+        "skor": 462,
+        "rank": 165
+      },
+      {
+        "slug": "ahmet-gokhan-saricam",
+        "isim": "Ahmet Gökhan SARIÇAM",
+        "parti": "AK Parti",
+        "skor": 27,
+        "rank": 546
+      }
+    ]
+  },
+  "BURDUR": {
+    "mv_sayisi": 3,
+    "toplam_skor": 1060,
+    "mvler": [
+      {
+        "slug": "izzet-akbulut",
+        "isim": "İzzet AKBULUT",
+        "parti": "CHP",
+        "skor": 767,
+        "rank": 75
+      },
+      {
+        "slug": "mustafa-oguz",
+        "isim": "Mustafa OĞUZ",
+        "parti": "AK Parti",
+        "skor": 181,
+        "rank": 266
+      },
+      {
+        "slug": "adem-korkmaz",
+        "isim": "Adem KORKMAZ",
+        "parti": "AK Parti",
+        "skor": 112,
+        "rank": 326
+      }
+    ]
+  },
+  "KARABÜK": {
+    "mv_sayisi": 3,
+    "toplam_skor": 976,
+    "mvler": [
+      {
+        "slug": "cevdet-akay",
+        "isim": "Cevdet AKAY",
+        "parti": "CHP",
+        "skor": 762,
+        "rank": 77
+      },
+      {
+        "slug": "durmus-ali-keskinkilic",
+        "isim": "Durmuş Ali KESKİNKILIÇ",
+        "parti": "AK Parti",
+        "skor": 161,
+        "rank": 279
+      },
+      {
+        "slug": "cem-sahin",
+        "isim": "Cem ŞAHİN",
+        "parti": "AK Parti",
+        "skor": 53,
+        "rank": 471
+      }
+    ]
+  },
+  "TRABZON": {
+    "mv_sayisi": 6,
+    "toplam_skor": 1401,
+    "mvler": [
+      {
+        "slug": "yavuz-aydin",
+        "isim": "Yavuz AYDIN",
+        "parti": "İYİ Parti",
+        "skor": 743,
+        "rank": 81
+      },
+      {
+        "slug": "sibel-suicmez",
+        "isim": "Sibel SUİÇMEZ",
+        "parti": "CHP",
+        "skor": 489,
+        "rank": 159
+      },
+      {
+        "slug": "adil-karaismailoglu",
+        "isim": "Adil KARAİSMAİLOĞLU",
+        "parti": "AK Parti",
+        "skor": 69,
+        "rank": 425
+      },
+      {
+        "slug": "vehbi-koc",
+        "isim": "Vehbi KOÇ",
+        "parti": "AK Parti",
+        "skor": 54,
+        "rank": 465
+      },
+      {
+        "slug": "yilmaz-buyukaydin",
+        "isim": "Yılmaz BÜYÜKAYDIN",
+        "parti": "AK Parti",
+        "skor": 31,
+        "rank": 529
+      },
+      {
+        "slug": "mustafa-sen",
+        "isim": "Mustafa ŞEN",
+        "parti": "AK Parti",
+        "skor": 15,
+        "rank": 585
+      }
+    ]
+  },
+  "KAHRAMANMARAŞ": {
+    "mv_sayisi": 8,
+    "toplam_skor": 1377,
+    "mvler": [
+      {
+        "slug": "ali-oztunc",
+        "isim": "Ali ÖZTUNÇ",
+        "parti": "CHP",
+        "skor": 728,
+        "rank": 86
+      },
+      {
+        "slug": "zuhal-karakoc",
+        "isim": "Zuhal KARAKOÇ",
+        "parti": "MHP",
+        "skor": 171,
+        "rank": 271
+      },
+      {
+        "slug": "irfan-karatutlu",
+        "isim": "İrfan KARATUTLU",
+        "parti": "AK Parti",
+        "skor": 126,
+        "rank": 304
+      },
+      {
+        "slug": "mevlut-kurt",
+        "isim": "Mevlüt KURT",
+        "parti": "AK Parti",
+        "skor": 95,
+        "rank": 362
+      },
+      {
+        "slug": "omer-oruc-bilal-debgici",
+        "isim": "Ömer Oruç Bilal DEBGİCİ",
+        "parti": "AK Parti",
+        "skor": 90,
+        "rank": 368
+      },
+      {
+        "slug": "tuba-koksal",
+        "isim": "Tuba KÖKSAL",
+        "parti": "AK Parti",
+        "skor": 63,
+        "rank": 441
+      },
+      {
+        "slug": "vahit-kirisci",
+        "isim": "Vahit KİRİŞCİ",
+        "parti": "AK Parti",
+        "skor": 59,
+        "rank": 453
+      },
+      {
+        "slug": "mehmet-sahin",
+        "isim": "Mehmet ŞAHİN",
+        "parti": "AK Parti",
+        "skor": 45,
+        "rank": 494
+      }
+    ]
+  },
+  "GAZİANTEP": {
+    "mv_sayisi": 14,
+    "toplam_skor": 2912,
+    "mvler": [
+      {
+        "slug": "melih-meric",
+        "isim": "Melih MERİÇ",
+        "parti": "CHP",
+        "skor": 725,
+        "rank": 88
+      },
+      {
+        "slug": "hasan-ozturkmen",
+        "isim": "Hasan ÖZTÜRKMEN",
+        "parti": "CHP",
+        "skor": 510,
+        "rank": 153
+      },
+      {
+        "slug": "mehmet-mustafa-gurban",
+        "isim": "Mehmet Mustafa GÜRBAN",
+        "parti": "İYİ Parti",
+        "skor": 479,
+        "rank": 164
+      },
+      {
+        "slug": "sevda-karaca-demir",
+        "isim": "Sevda KARACA DEMİR",
+        "parti": "EMEP",
+        "skor": 293,
+        "rank": 223
+      },
+      {
+        "slug": "ertugrul-kaya",
+        "isim": "Ertuğrul KAYA",
+        "parti": "YENİ YOL",
+        "skor": 266,
+        "rank": 227
+      },
+      {
+        "slug": "derya-bakbak",
+        "isim": "Derya BAKBAK",
+        "parti": "AK Parti",
+        "skor": 116,
+        "rank": 320
+      },
+      {
+        "slug": "ali-sahin",
+        "isim": "Ali ŞAHİN",
+        "parti": "AK Parti",
+        "skor": 107,
+        "rank": 340
+      },
+      {
+        "slug": "mehmet-eyup-ozkececi",
+        "isim": "Mehmet Eyup ÖZKEÇECİ",
+        "parti": "AK Parti",
+        "skor": 84,
+        "rank": 382
+      },
+      {
+        "slug": "irfan-celikaslan",
+        "isim": "İrfan ÇELİKASLAN",
+        "parti": "AK Parti",
+        "skor": 83,
+        "rank": 390
+      },
+      {
+        "slug": "sahzade-demir",
+        "isim": "Şahzade DEMİR",
+        "parti": "HÜDA PAR",
+        "skor": 80,
+        "rank": 396
+      },
+      {
+        "slug": "bunyamin-bozgeyik",
+        "isim": "Bünyamin BOZGEYİK",
+        "parti": "AK Parti",
+        "skor": 67,
+        "rank": 432
+      },
+      {
+        "slug": "mesut-bozatli",
+        "isim": "Mesut BOZATLI",
+        "parti": "AK Parti",
+        "skor": 59,
+        "rank": 449
+      },
+      {
+        "slug": "abdulhamit-gul",
+        "isim": "Abdulhamit GÜL",
+        "parti": "AK Parti",
+        "skor": 27,
+        "rank": 542
+      },
+      {
+        "slug": "sermet-atay",
+        "isim": "Sermet ATAY",
+        "parti": "MHP",
+        "skor": 16,
+        "rank": 578
+      }
+    ]
+  },
+  "ESKİŞEHİR": {
+    "mv_sayisi": 6,
+    "toplam_skor": 2102,
+    "mvler": [
+      {
+        "slug": "utku-cakirozer",
+        "isim": "Utku ÇAKIRÖZER",
+        "parti": "CHP",
+        "skor": 724,
+        "rank": 89
+      },
+      {
+        "slug": "jale-nur-sullu",
+        "isim": "Jale Nur SÜLLÜ",
+        "parti": "CHP",
+        "skor": 718,
+        "rank": 92
+      },
+      {
+        "slug": "ibrahim-arslan",
+        "isim": "İbrahim ARSLAN",
+        "parti": "CHP",
+        "skor": 353,
+        "rank": 201
+      },
+      {
+        "slug": "fatih-donmez",
+        "isim": "Fatih DÖNMEZ",
+        "parti": "AK Parti",
+        "skor": 213,
+        "rank": 251
+      },
+      {
+        "slug": "idris-nebi-hatipoglu",
+        "isim": "İdris Nebi HATİPOĞLU",
+        "parti": "AK Parti",
+        "skor": 65,
+        "rank": 437
+      },
+      {
+        "slug": "aysen-gurcan",
+        "isim": "Ayşen GÜRCAN",
+        "parti": "AK Parti",
+        "skor": 29,
+        "rank": 536
+      }
+    ]
+  },
+  "TOKAT": {
+    "mv_sayisi": 5,
+    "toplam_skor": 1116,
+    "mvler": [
+      {
+        "slug": "kadim-durmaz",
+        "isim": "Kadim DURMAZ",
+        "parti": "CHP",
+        "skor": 714,
+        "rank": 94
+      },
+      {
+        "slug": "mustafa-arslan",
+        "isim": "Mustafa ARSLAN",
+        "parti": "AK Parti",
+        "skor": 204,
+        "rank": 255
+      },
+      {
+        "slug": "cuneyt-aldemir",
+        "isim": "Cüneyt ALDEMİR",
+        "parti": "AK Parti",
+        "skor": 89,
+        "rank": 373
+      },
+      {
+        "slug": "yusuf-beyazit",
+        "isim": "Yusuf BEYAZIT",
+        "parti": "AK Parti",
+        "skor": 84,
+        "rank": 385
+      },
+      {
+        "slug": "yucel-bulut",
+        "isim": "Yücel BULUT",
+        "parti": "MHP",
+        "skor": 25,
+        "rank": 552
+      }
+    ]
+  },
+  "BOLU": {
+    "mv_sayisi": 3,
+    "toplam_skor": 841,
+    "mvler": [
+      {
+        "slug": "turker-ates",
+        "isim": "Türker ATEŞ",
+        "parti": "CHP",
+        "skor": 710,
+        "rank": 96
+      },
+      {
+        "slug": "ismail-akgul",
+        "isim": "İsmail AKGÜL",
+        "parti": "BAĞIMSIZ",
+        "skor": 73,
+        "rank": 411
+      },
+      {
+        "slug": "yuksel-coskunyurek",
+        "isim": "Yüksel COŞKUNYÜREK",
+        "parti": "AK Parti",
+        "skor": 58,
+        "rank": 454
+      }
+    ]
+  },
+  "GİRESUN": {
+    "mv_sayisi": 4,
+    "toplam_skor": 939,
+    "mvler": [
+      {
+        "slug": "elvan-isik-gezmis",
+        "isim": "Elvan IŞIK GEZMİŞ",
+        "parti": "CHP",
+        "skor": 666,
+        "rank": 102
+      },
+      {
+        "slug": "nazim-elmas",
+        "isim": "Nazım ELMAS",
+        "parti": "AK Parti",
+        "skor": 113,
+        "rank": 325
+      },
+      {
+        "slug": "ali-temur",
+        "isim": "Ali TEMÜR",
+        "parti": "AK Parti",
+        "skor": 103,
+        "rank": 345
+      },
+      {
+        "slug": "ertugrul-gazi-konal",
+        "isim": "Ertuğrul Gazi KONAL",
+        "parti": "MHP",
+        "skor": 57,
+        "rank": 460
+      }
+    ]
+  },
+  "KAYSERİ": {
+    "mv_sayisi": 10,
+    "toplam_skor": 1815,
+    "mvler": [
+      {
+        "slug": "askin-genc",
+        "isim": "Aşkın GENÇ",
+        "parti": "CHP",
+        "skor": 593,
+        "rank": 116
+      },
+      {
+        "slug": "ismail-ozdemir",
+        "isim": "İsmail ÖZDEMİR",
+        "parti": "MHP",
+        "skor": 307,
+        "rank": 219
+      },
+      {
+        "slug": "mustafa-baki-ersoy",
+        "isim": "Mustafa Baki ERSOY",
+        "parti": "MHP",
+        "skor": 238,
+        "rank": 237
+      },
+      {
+        "slug": "dursun-atas",
+        "isim": "Dursun ATAŞ",
+        "parti": "AK Parti",
+        "skor": 207,
+        "rank": 254
+      },
+      {
+        "slug": "sayin-bayar-ozsoy",
+        "isim": "Sayın Bayar ÖZSOY",
+        "parti": "AK Parti",
+        "skor": 153,
+        "rank": 283
+      },
+      {
+        "slug": "hulusi-akar",
+        "isim": "Hulusi AKAR",
+        "parti": "AK Parti",
+        "skor": 123,
+        "rank": 311
+      },
+      {
+        "slug": "murat-cahid-cingi",
+        "isim": "Murat Cahid CINGI",
+        "parti": "AK Parti",
+        "skor": 80,
+        "rank": 395
+      },
+      {
+        "slug": "ayse-bohurler",
+        "isim": "Ayşe BÖHÜRLER",
+        "parti": "AK Parti",
+        "skor": 48,
+        "rank": 486
+      },
+      {
+        "slug": "mahmut-arikan",
+        "isim": "Mahmut ARIKAN",
+        "parti": "SAADET Partisi",
+        "skor": 43,
+        "rank": 498
+      },
+      {
+        "slug": "saban-copuroglu",
+        "isim": "Şaban ÇOPUROĞLU",
+        "parti": "AK Parti",
+        "skor": 23,
+        "rank": 557
+      }
+    ]
+  },
+  "BARTIN": {
+    "mv_sayisi": 2,
+    "toplam_skor": 658,
+    "mvler": [
+      {
+        "slug": "aysu-bankoglu",
+        "isim": "Aysu BANKOĞLU",
+        "parti": "CHP",
+        "skor": 586,
+        "rank": 119
+      },
+      {
+        "slug": "yusuf-ziya-aldatmaz",
+        "isim": "Yusuf Ziya ALDATMAZ",
+        "parti": "AK Parti",
+        "skor": 72,
+        "rank": 413
+      }
+    ]
+  },
+  "EDİRNE": {
+    "mv_sayisi": 4,
+    "toplam_skor": 1493,
+    "mvler": [
+      {
+        "slug": "ahmet-baran-yazgan",
+        "isim": "Ahmet Baran YAZGAN",
+        "parti": "CHP",
+        "skor": 558,
+        "rank": 128
+      },
+      {
+        "slug": "mehmet-akalin",
+        "isim": "Mehmet AKALIN",
+        "parti": "İYİ Parti",
+        "skor": 498,
+        "rank": 155
+      },
+      {
+        "slug": "ediz-un",
+        "isim": "Ediz ÜN",
+        "parti": "BAĞIMSIZ",
+        "skor": 341,
+        "rank": 209
+      },
+      {
+        "slug": "fatma-aksal",
+        "isim": "Fatma AKSAL",
+        "parti": "AK Parti",
+        "skor": 96,
+        "rank": 360
+      }
+    ]
+  },
+  "YALOVA": {
+    "mv_sayisi": 3,
+    "toplam_skor": 656,
+    "mvler": [
+      {
+        "slug": "tahsin-becan",
+        "isim": "Tahsin BECAN",
+        "parti": "CHP",
+        "skor": 548,
+        "rank": 132
+      },
+      {
+        "slug": "meliha-akyol",
+        "isim": "Meliha AKYOL",
+        "parti": "AK Parti",
+        "skor": 72,
+        "rank": 412
+      },
+      {
+        "slug": "ahmet-buyukgumus",
+        "isim": "Ahmet BÜYÜKGÜMÜŞ",
+        "parti": "AK Parti",
+        "skor": 36,
+        "rank": 514
       }
     ]
   },
   "AKSARAY": {
     "mv_sayisi": 4,
-    "toplam_skor": 723,
+    "toplam_skor": 1125,
     "mvler": [
-      {
-        "slug": "turan-yaldir",
-        "isim": "Turan YALDIR",
-        "parti": "İYİ Parti",
-        "skor": 393,
-        "rank": 177
-      },
       {
         "slug": "huseyin-altinsoy",
         "isim": "Hüseyin ALTINSOY",
         "parti": "AK Parti",
-        "skor": 246,
-        "rank": 216
+        "skor": 546,
+        "rank": 134
+      },
+      {
+        "slug": "turan-yaldir",
+        "isim": "Turan YALDIR",
+        "parti": "İYİ Parti",
+        "skor": 409,
+        "rank": 181
       },
       {
         "slug": "cengiz-aydogdu",
         "isim": "Cengiz AYDOĞDU",
         "parti": "AK Parti",
-        "skor": 56,
-        "rank": 437
+        "skor": 132,
+        "rank": 300
       },
       {
         "slug": "ramazan-kasli",
         "isim": "Ramazan KAŞLI",
         "parti": "BAĞIMSIZ",
-        "skor": 28,
-        "rank": 535
+        "skor": 38,
+        "rank": 508
+      }
+    ]
+  },
+  "ISPARTA": {
+    "mv_sayisi": 4,
+    "toplam_skor": 879,
+    "mvler": [
+      {
+        "slug": "hikmet-yalim-halici",
+        "isim": "Hikmet Yalım HALICI",
+        "parti": "CHP",
+        "skor": 536,
+        "rank": 139
+      },
+      {
+        "slug": "osman-zabun",
+        "isim": "Osman ZABUN",
+        "parti": "AK Parti",
+        "skor": 239,
+        "rank": 235
+      },
+      {
+        "slug": "mehmet-ugur-gokgoz",
+        "isim": "Mehmet Uğur GÖKGÖZ",
+        "parti": "AK Parti",
+        "skor": 85,
+        "rank": 379
+      },
+      {
+        "slug": "hasan-basri-sonmez",
+        "isim": "Hasan Basri SÖNMEZ",
+        "parti": "BAĞIMSIZ",
+        "skor": 19,
+        "rank": 570
+      }
+    ]
+  },
+  "ARDAHAN": {
+    "mv_sayisi": 2,
+    "toplam_skor": 634,
+    "mvler": [
+      {
+        "slug": "ozgur-erdem-incesu",
+        "isim": "Özgür Erdem İNCESU",
+        "parti": "CHP",
+        "skor": 531,
+        "rank": 143
+      },
+      {
+        "slug": "kaan-koc",
+        "isim": "Kaan KOÇ",
+        "parti": "AK Parti",
+        "skor": 103,
+        "rank": 344
+      }
+    ]
+  },
+  "ADIYAMAN": {
+    "mv_sayisi": 4,
+    "toplam_skor": 739,
+    "mvler": [
+      {
+        "slug": "resul-kurt",
+        "isim": "Resul KURT",
+        "parti": "AK Parti",
+        "skor": 520,
+        "rank": 147
+      },
+      {
+        "slug": "mustafa-alkayis",
+        "isim": "Mustafa ALKAYIŞ",
+        "parti": "AK Parti",
+        "skor": 109,
+        "rank": 335
+      },
+      {
+        "slug": "ishak-san",
+        "isim": "İshak ŞAN",
+        "parti": "AK Parti",
+        "skor": 57,
+        "rank": 457
+      },
+      {
+        "slug": "huseyin-ozhan",
+        "isim": "Hüseyin ÖZHAN",
+        "parti": "AK Parti",
+        "skor": 53,
+        "rank": 469
+      }
+    ]
+  },
+  "AMASYA": {
+    "mv_sayisi": 3,
+    "toplam_skor": 616,
+    "mvler": [
+      {
+        "slug": "resat-karagoz",
+        "isim": "Reşat KARAGÖZ",
+        "parti": "CHP",
+        "skor": 517,
+        "rank": 148
+      },
+      {
+        "slug": "hasan-cilez",
+        "isim": "Hasan ÇİLEZ",
+        "parti": "AK Parti",
+        "skor": 77,
+        "rank": 406
+      },
+      {
+        "slug": "haluk-ipek",
+        "isim": "Haluk İPEK",
+        "parti": "AK Parti",
+        "skor": 22,
+        "rank": 562
       }
     ]
   },
   "KONYA": {
     "mv_sayisi": 15,
-    "toplam_skor": 1751,
+    "toplam_skor": 2319,
     "mvler": [
+      {
+        "slug": "mustafa-kalayci",
+        "isim": "Mustafa KALAYCI",
+        "parti": "MHP",
+        "skor": 516,
+        "rank": 150
+      },
       {
         "slug": "baris-bektas",
         "isim": "Barış BEKTAŞ",
         "parti": "CHP",
-        "skor": 375,
-        "rank": 181
+        "skor": 397,
+        "rank": 187
       },
       {
         "slug": "unal-karaman",
         "isim": "Ünal KARAMAN",
         "parti": "AK Parti",
-        "skor": 312,
-        "rank": 201
+        "skor": 316,
+        "rank": 218
       },
       {
-        "slug": "mustafa-kalayci",
-        "isim": "Mustafa KALAYCI",
-        "parti": "MHP",
-        "skor": 186,
-        "rank": 242
+        "slug": "mehmet-baykan",
+        "isim": "Mehmet BAYKAN",
+        "parti": "AK Parti",
+        "skor": 229,
+        "rank": 241
       },
       {
         "slug": "ali-yuksel",
         "isim": "Ali YÜKSEL",
         "parti": "YENİDEN REFAH",
         "skor": 152,
-        "rank": 254
-      },
-      {
-        "slug": "mehmet-baykan",
-        "isim": "Mehmet BAYKAN",
-        "parti": "AK Parti",
-        "skor": 133,
-        "rank": 267
+        "rank": 284
       },
       {
         "slug": "mustafa-hakan-ozer",
         "isim": "Mustafa Hakan ÖZER",
         "parti": "AK Parti",
-        "skor": 121,
-        "rank": 279
+        "skor": 141,
+        "rank": 295
       },
       {
         "slug": "tahir-akyurek",
         "isim": "Tahir AKYÜREK",
         "parti": "AK Parti",
-        "skor": 88,
-        "rank": 343
-      },
-      {
-        "slug": "latif-selvi",
-        "isim": "Latif SELVİ",
-        "parti": "AK Parti",
-        "skor": 77,
-        "rank": 363
-      },
-      {
-        "slug": "konur-alp-kocak",
-        "isim": "Konur Alp KOÇAK",
-        "parti": "MHP",
-        "skor": 63,
-        "rank": 416
+        "skor": 114,
+        "rank": 323
       },
       {
         "slug": "ziya-altunyaldiz",
         "isim": "Ziya ALTUNYALDIZ",
         "parti": "AK Parti",
-        "skor": 51,
-        "rank": 451
+        "skor": 93,
+        "rank": 363
+      },
+      {
+        "slug": "latif-selvi",
+        "isim": "Latif SELVİ",
+        "parti": "AK Parti",
+        "skor": 83,
+        "rank": 389
+      },
+      {
+        "slug": "konur-alp-kocak",
+        "isim": "Konur Alp KOÇAK",
+        "parti": "MHP",
+        "skor": 67,
+        "rank": 431
       },
       {
         "slug": "hasan-ekici",
         "isim": "Hasan EKİCİ",
         "parti": "AK Parti",
-        "skor": 50,
-        "rank": 457
-      },
-      {
-        "slug": "meryem-goka",
-        "isim": "Meryem GÖKA",
-        "parti": "AK Parti",
-        "skor": 48,
-        "rank": 465
+        "skor": 56,
+        "rank": 461
       },
       {
         "slug": "selman-ozboyaci",
         "isim": "Selman ÖZBOYACI",
         "parti": "AK Parti",
-        "skor": 45,
-        "rank": 475
+        "skor": 51,
+        "rank": 476
+      },
+      {
+        "slug": "meryem-goka",
+        "isim": "Meryem GÖKA",
+        "parti": "AK Parti",
+        "skor": 50,
+        "rank": 480
       },
       {
         "slug": "orhan-erdem",
         "isim": "Orhan ERDEM",
         "parti": "AK Parti",
-        "skor": 31,
-        "rank": 524
+        "skor": 33,
+        "rank": 523
       },
       {
         "slug": "abdullah-agrali",
         "isim": "Abdullah AĞRALI",
         "parti": "AK Parti",
-        "skor": 19,
-        "rank": 570
+        "skor": 21,
+        "rank": 565
       }
     ]
   },
   "OSMANİYE": {
     "mv_sayisi": 4,
-    "toplam_skor": 684,
+    "toplam_skor": 1012,
     "mvler": [
-      {
-        "slug": "asu-kaya",
-        "isim": "Asu KAYA",
-        "parti": "CHP",
-        "skor": 365,
-        "rank": 183
-      },
       {
         "slug": "seydi-gulsoy",
         "isim": "Seydi GÜLSOY",
         "parti": "AK Parti",
-        "skor": 238,
-        "rank": 219
+        "skor": 489,
+        "rank": 160
+      },
+      {
+        "slug": "asu-kaya",
+        "isim": "Asu KAYA",
+        "parti": "CHP",
+        "skor": 366,
+        "rank": 196
       },
       {
         "slug": "derya-yanik",
         "isim": "Derya YANIK",
         "parti": "AK Parti",
-        "skor": 64,
-        "rank": 412
+        "skor": 142,
+        "rank": 293
       },
       {
         "slug": "devlet-bahceli",
         "isim": "Devlet BAHÇELİ",
         "parti": "MHP",
-        "skor": 17,
+        "skor": 15,
         "rank": 581
+      }
+    ]
+  },
+  "KIRIKKALE": {
+    "mv_sayisi": 2,
+    "toplam_skor": 530,
+    "mvler": [
+      {
+        "slug": "halil-ozturk",
+        "isim": "Halil ÖZTÜRK",
+        "parti": "MHP",
+        "skor": 485,
+        "rank": 161
+      },
+      {
+        "slug": "mustafa-kaplan",
+        "isim": "Mustafa KAPLAN",
+        "parti": "AK Parti",
+        "skor": 45,
+        "rank": 493
+      }
+    ]
+  },
+  "KÜTAHYA": {
+    "mv_sayisi": 5,
+    "toplam_skor": 878,
+    "mvler": [
+      {
+        "slug": "ali-fazil-kasap",
+        "isim": "Ali Fazıl KASAP",
+        "parti": "CHP",
+        "skor": 479,
+        "rank": 163
+      },
+      {
+        "slug": "ahmet-erbas",
+        "isim": "Ahmet ERBAŞ",
+        "parti": "MHP",
+        "skor": 152,
+        "rank": 285
+      },
+      {
+        "slug": "mehmet-demir",
+        "isim": "Mehmet DEMİR",
+        "parti": "AK Parti",
+        "skor": 109,
+        "rank": 334
+      },
+      {
+        "slug": "ismail-caglar-bayirci",
+        "isim": "İsmail Çağlar BAYIRCI",
+        "parti": "AK Parti",
+        "skor": 71,
+        "rank": 416
+      },
+      {
+        "slug": "adil-bicer",
+        "isim": "Adil BİÇER",
+        "parti": "AK Parti",
+        "skor": 67,
+        "rank": 429
       }
     ]
   },
   "KARAMAN": {
     "mv_sayisi": 3,
-    "toplam_skor": 460,
+    "toplam_skor": 549,
     "mvler": [
       {
         "slug": "ismail-atakan-unver",
         "isim": "İsmail Atakan ÜNVER",
         "parti": "CHP",
-        "skor": 360,
-        "rank": 185
+        "skor": 449,
+        "rank": 169
       },
       {
         "slug": "osman-saglam",
         "isim": "Osman SAĞLAM",
         "parti": "AK Parti",
-        "skor": 69,
-        "rank": 393
+        "skor": 67,
+        "rank": 428
       },
       {
         "slug": "selman-oguzhan-eser",
         "isim": "Selman Oğuzhan ESER",
         "parti": "AK Parti",
-        "skor": 31,
-        "rank": 523
+        "skor": 33,
+        "rank": 522
+      }
+    ]
+  },
+  "DÜZCE": {
+    "mv_sayisi": 3,
+    "toplam_skor": 561,
+    "mvler": [
+      {
+        "slug": "talih-ozcan",
+        "isim": "Talih ÖZCAN",
+        "parti": "CHP",
+        "skor": 429,
+        "rank": 174
+      },
+      {
+        "slug": "ercan-ozturk",
+        "isim": "Ercan ÖZTÜRK",
+        "parti": "AK Parti",
+        "skor": 102,
+        "rank": 346
+      },
+      {
+        "slug": "ayse-kesir",
+        "isim": "Ayşe KEŞİR",
+        "parti": "AK Parti",
+        "skor": 30,
+        "rank": 534
+      }
+    ]
+  },
+  "ELAZIĞ": {
+    "mv_sayisi": 5,
+    "toplam_skor": 1058,
+    "mvler": [
+      {
+        "slug": "gursel-erol",
+        "isim": "Gürsel EROL",
+        "parti": "CHP",
+        "skor": 406,
+        "rank": 182
+      },
+      {
+        "slug": "ejder-acikkapi",
+        "isim": "Ejder AÇIKKAPI",
+        "parti": "AK Parti",
+        "skor": 387,
+        "rank": 193
+      },
+      {
+        "slug": "erol-keles",
+        "isim": "Erol KELEŞ",
+        "parti": "AK Parti",
+        "skor": 111,
+        "rank": 329
+      },
+      {
+        "slug": "semih-isikver",
+        "isim": "Semih IŞIKVER",
+        "parti": "MHP",
+        "skor": 84,
+        "rank": 383
+      },
+      {
+        "slug": "mahmut-ridvan-nazirli",
+        "isim": "Mahmut Rıdvan NAZIRLI",
+        "parti": "AK Parti",
+        "skor": 70,
+        "rank": 420
       }
     ]
   },
   "SAKARYA": {
     "mv_sayisi": 8,
-    "toplam_skor": 985,
+    "toplam_skor": 1156,
     "mvler": [
-      {
-        "slug": "ayca-taskent",
-        "isim": "Ayça TAŞKENT",
-        "parti": "CHP",
-        "skor": 340,
-        "rank": 189
-      },
       {
         "slug": "ertugrul-kocacik",
         "isim": "Ertuğrul KOCACIK",
         "parti": "AK Parti",
-        "skor": 192,
-        "rank": 238
+        "skor": 350,
+        "rank": 205
+      },
+      {
+        "slug": "ayca-taskent",
+        "isim": "Ayça TAŞKENT",
+        "parti": "CHP",
+        "skor": 341,
+        "rank": 210
       },
       {
         "slug": "umit-dikbayir",
         "isim": "Ümit DİKBAYIR",
         "parti": "CHP",
-        "skor": 153,
-        "rank": 253
+        "skor": 155,
+        "rank": 281
       },
       {
         "slug": "lutfi-bayraktar",
         "isim": "Lütfi BAYRAKTAR",
         "parti": "AK Parti",
-        "skor": 91,
-        "rank": 335
+        "skor": 89,
+        "rank": 371
       },
       {
         "slug": "ali-inci",
         "isim": "Ali İNCİ",
         "parti": "AK Parti",
-        "skor": 83,
-        "rank": 351
+        "skor": 85,
+        "rank": 380
       },
       {
         "slug": "cigdem-erdogan",
         "isim": "Çiğdem ERDOĞAN",
         "parti": "AK Parti",
-        "skor": 51,
-        "rank": 454
+        "skor": 57,
+        "rank": 458
       },
       {
         "slug": "murat-kaya",
         "isim": "Murat KAYA",
         "parti": "AK Parti",
-        "skor": 49,
-        "rank": 462
+        "skor": 47,
+        "rank": 490
       },
       {
         "slug": "muhammed-levent-bulbul",
         "isim": "Muhammed Levent BÜLBÜL",
         "parti": "MHP",
-        "skor": 26,
-        "rank": 542
+        "skor": 32,
+        "rank": 526
+      }
+    ]
+  },
+  "KIRŞEHİR": {
+    "mv_sayisi": 2,
+    "toplam_skor": 670,
+    "mvler": [
+      {
+        "slug": "metin-ilhan",
+        "isim": "Metin İLHAN",
+        "parti": "CHP",
+        "skor": 342,
+        "rank": 208
+      },
+      {
+        "slug": "necmettin-erkan",
+        "isim": "Necmettin ERKAN",
+        "parti": "AK Parti",
+        "skor": 328,
+        "rank": 216
       }
     ]
   },
   "Bilinmiyor": {
     "mv_sayisi": 8,
-    "toplam_skor": 736,
+    "toplam_skor": 702,
     "mvler": [
       {
         "slug": "abdurrahman-tutdere",
         "isim": "Abdurrahman TUTDERE",
         "parti": "",
-        "skor": 323,
-        "rank": 198
+        "skor": 306,
+        "rank": 220
       },
       {
         "slug": "ahmet-onal",
         "isim": "Ahmet ÖNAL",
         "parti": "",
         "skor": 149,
-        "rank": 258
+        "rank": 289
       },
       {
         "slug": "burcu-koksal",
         "isim": "Burcu KÖKSAL",
         "parti": "",
-        "skor": 139,
-        "rank": 263
+        "skor": 130,
+        "rank": 301
       },
       {
         "slug": "hasan-baltaci",
         "isim": "Hasan BALTACI",
         "parti": "",
-        "skor": 46,
-        "rank": 470
+        "skor": 44,
+        "rank": 495
       },
       {
         "slug": "hasan-bitmez",
         "isim": "Hasan BİTMEZ",
         "parti": "",
         "skor": 28,
-        "rank": 533
+        "rank": 539
       },
       {
         "slug": "serafettin-can-atalay",
         "isim": "Şerafettin Can ATALAY",
         "parti": "",
-        "skor": 17,
+        "skor": 15,
         "rank": 595
       },
       {
         "slug": "murat-kurum",
         "isim": "Murat KURUM",
         "parti": "",
-        "skor": 17,
+        "skor": 15,
         "rank": 599
       },
       {
         "slug": "sirri-sureyya-onder",
         "isim": "Sırrı Süreyya ÖNDER",
         "parti": "",
-        "skor": 17,
+        "skor": 15,
         "rank": 600
-      }
-    ]
-  },
-  "KIRŞEHİR": {
-    "mv_sayisi": 2,
-    "toplam_skor": 484,
-    "mvler": [
-      {
-        "slug": "metin-ilhan",
-        "isim": "Metin İLHAN",
-        "parti": "CHP",
-        "skor": 322,
-        "rank": 199
-      },
-      {
-        "slug": "necmettin-erkan",
-        "isim": "Necmettin ERKAN",
-        "parti": "AK Parti",
-        "skor": 162,
-        "rank": 252
       }
     ]
   },
   "ERZİNCAN": {
     "mv_sayisi": 2,
-    "toplam_skor": 397,
+    "toplam_skor": 437,
     "mvler": [
       {
         "slug": "mustafa-sarigul",
         "isim": "Mustafa SARIGÜL",
         "parti": "CHP",
-        "skor": 320,
-        "rank": 200
+        "skor": 302,
+        "rank": 222
       },
       {
         "slug": "suleyman-karaman",
         "isim": "Süleyman KARAMAN",
         "parti": "AK Parti",
-        "skor": 77,
-        "rank": 365
-      }
-    ]
-  },
-  "ADIYAMAN": {
-    "mv_sayisi": 4,
-    "toplam_skor": 436,
-    "mvler": [
-      {
-        "slug": "resul-kurt",
-        "isim": "Resul KURT",
-        "parti": "AK Parti",
-        "skor": 241,
-        "rank": 218
-      },
-      {
-        "slug": "mustafa-alkayis",
-        "isim": "Mustafa ALKAYIŞ",
-        "parti": "AK Parti",
-        "skor": 95,
-        "rank": 329
-      },
-      {
-        "slug": "ishak-san",
-        "isim": "İshak ŞAN",
-        "parti": "AK Parti",
-        "skor": 53,
-        "rank": 442
-      },
-      {
-        "slug": "huseyin-ozhan",
-        "isim": "Hüseyin ÖZHAN",
-        "parti": "AK Parti",
-        "skor": 47,
-        "rank": 468
+        "skor": 135,
+        "rank": 299
       }
     ]
   },
   "YOZGAT": {
     "mv_sayisi": 4,
-    "toplam_skor": 402,
+    "toplam_skor": 452,
     "mvler": [
       {
         "slug": "lutfullah-kayalar",
         "isim": "Lütfullah KAYALAR",
         "parti": "İYİ Parti",
-        "skor": 220,
-        "rank": 226
+        "skor": 222,
+        "rank": 245
       },
       {
         "slug": "suleyman-sahan",
         "isim": "Süleyman ŞAHAN",
         "parti": "AK Parti",
-        "skor": 110,
-        "rank": 295
+        "skor": 150,
+        "rank": 287
       },
       {
         "slug": "ibrahim-ethem-sedef",
         "isim": "İbrahim Ethem SEDEF",
         "parti": "MHP",
-        "skor": 48,
-        "rank": 466
+        "skor": 50,
+        "rank": 481
       },
       {
         "slug": "abdulkadir-akgul",
         "isim": "Abdulkadir AKGÜL",
         "parti": "AK Parti",
-        "skor": 24,
-        "rank": 553
+        "skor": 30,
+        "rank": 533
       }
     ]
   },
   "KİLİS": {
     "mv_sayisi": 3,
-    "toplam_skor": 325,
+    "toplam_skor": 459,
     "mvler": [
       {
         "slug": "mustafa-demir",
         "isim": "Mustafa DEMİR",
         "parti": "BAĞIMSIZ",
-        "skor": 131,
-        "rank": 269
+        "skor": 181,
+        "rank": 264
       },
       {
         "slug": "mustafa-demir",
         "isim": "Mustafa DEMİR",
         "parti": "BAĞIMSIZ",
-        "skor": 131,
-        "rank": 270
+        "skor": 181,
+        "rank": 265
       },
       {
         "slug": "ahmet-salih-dal",
         "isim": "Ahmet Salih DAL",
         "parti": "AK Parti",
-        "skor": 63,
-        "rank": 414
-      }
-    ]
-  },
-  "SİNOP": {
-    "mv_sayisi": 2,
-    "toplam_skor": 161,
-    "mvler": [
-      {
-        "slug": "baris-karadeniz",
-        "isim": "Barış KARADENİZ",
-        "parti": "CHP",
-        "skor": 102,
-        "rank": 308
-      },
-      {
-        "slug": "nazim-mavis",
-        "isim": "Nazım MAVİŞ",
-        "parti": "AK Parti",
-        "skor": 59,
-        "rank": 427
+        "skor": 97,
+        "rank": 357
       }
     ]
   },
   "NEVŞEHİR": {
     "mv_sayisi": 3,
-    "toplam_skor": 224,
+    "toplam_skor": 243,
     "mvler": [
       {
         "slug": "emre-caliskan",
         "isim": "Emre ÇALIŞKAN",
         "parti": "AK Parti",
-        "skor": 98,
-        "rank": 319
+        "skor": 122,
+        "rank": 313
       },
       {
         "slug": "suleyman-ozgun",
         "isim": "Süleyman ÖZGÜN",
         "parti": "AK Parti",
-        "skor": 64,
-        "rank": 411
+        "skor": 62,
+        "rank": 443
       },
       {
         "slug": "filiz-kilic",
         "isim": "Filiz KILIÇ",
         "parti": "MHP",
-        "skor": 62,
-        "rank": 418
-      }
-    ]
-  },
-  "BAYBURT": {
-    "mv_sayisi": 1,
-    "toplam_skor": 82,
-    "mvler": [
-      {
-        "slug": "orhan-ates",
-        "isim": "Orhan ATEŞ",
-        "parti": "AK Parti",
-        "skor": 82,
-        "rank": 354
-      }
-    ]
-  },
-  "BİLECİK": {
-    "mv_sayisi": 2,
-    "toplam_skor": 116,
-    "mvler": [
-      {
-        "slug": "yasar-tuzun",
-        "isim": "Yaşar TÜZÜN",
-        "parti": "CHP",
-        "skor": 76,
-        "rank": 368
-      },
-      {
-        "slug": "halil-eldemir",
-        "isim": "Halil ELDEMİR",
-        "parti": "AK Parti",
-        "skor": 40,
-        "rank": 490
+        "skor": 59,
+        "rank": 447
       }
     ]
   },
   "KASTAMONU": {
     "mv_sayisi": 2,
-    "toplam_skor": 137,
+    "toplam_skor": 187,
     "mvler": [
       {
         "slug": "halil-uluay",
         "isim": "Halil ULUAY",
         "parti": "AK Parti",
-        "skor": 72,
-        "rank": 382
+        "skor": 120,
+        "rank": 316
       },
       {
         "slug": "fatma-serap-ekmekci",
         "isim": "Fatma Serap EKMEKCİ",
         "parti": "AK Parti",
-        "skor": 65,
-        "rank": 408
+        "skor": 67,
+        "rank": 430
+      }
+    ]
+  },
+  "SİNOP": {
+    "mv_sayisi": 2,
+    "toplam_skor": 192,
+    "mvler": [
+      {
+        "slug": "baris-karadeniz",
+        "isim": "Barış KARADENİZ",
+        "parti": "CHP",
+        "skor": 113,
+        "rank": 324
+      },
+      {
+        "slug": "nazim-mavis",
+        "isim": "Nazım MAVİŞ",
+        "parti": "AK Parti",
+        "skor": 79,
+        "rank": 397
+      }
+    ]
+  },
+  "BİLECİK": {
+    "mv_sayisi": 2,
+    "toplam_skor": 150,
+    "mvler": [
+      {
+        "slug": "yasar-tuzun",
+        "isim": "Yaşar TÜZÜN",
+        "parti": "CHP",
+        "skor": 90,
+        "rank": 370
+      },
+      {
+        "slug": "halil-eldemir",
+        "isim": "Halil ELDEMİR",
+        "parti": "AK Parti",
+        "skor": 60,
+        "rank": 446
+      }
+    ]
+  },
+  "BAYBURT": {
+    "mv_sayisi": 1,
+    "toplam_skor": 83,
+    "mvler": [
+      {
+        "slug": "orhan-ates",
+        "isim": "Orhan ATEŞ",
+        "parti": "AK Parti",
+        "skor": 83,
+        "rank": 388
+      }
+    ]
+  },
+  "ÇANKIRI": {
+    "mv_sayisi": 2,
+    "toplam_skor": 91,
+    "mvler": [
+      {
+        "slug": "pelin-yilik",
+        "isim": "Pelin YILIK",
+        "parti": "MHP",
+        "skor": 54,
+        "rank": 466
+      },
+      {
+        "slug": "muhammet-emin-akbasoglu",
+        "isim": "Muhammet Emin AKBAŞOĞLU",
+        "parti": "AK Parti",
+        "skor": 37,
+        "rank": 509
       }
     ]
   },
   "GÜMÜŞHANE": {
     "mv_sayisi": 2,
-    "toplam_skor": 79,
+    "toplam_skor": 77,
     "mvler": [
       {
         "slug": "celalettin-kose",
         "isim": "Celalettin KÖSE",
         "parti": "AK Parti",
-        "skor": 50,
-        "rank": 460
+        "skor": 48,
+        "rank": 484
       },
       {
         "slug": "musa-kucuk",
         "isim": "Musa KÜÇÜK",
         "parti": "MHP",
         "skor": 29,
-        "rank": 532
-      }
-    ]
-  },
-  "ÇANKIRI": {
-    "mv_sayisi": 2,
-    "toplam_skor": 71,
-    "mvler": [
-      {
-        "slug": "muhammet-emin-akbasoglu",
-        "isim": "Muhammet Emin AKBAŞOĞLU",
-        "parti": "AK Parti",
-        "skor": 39,
-        "rank": 493
-      },
-      {
-        "slug": "pelin-yilik",
-        "isim": "Pelin YILIK",
-        "parti": "MHP",
-        "skor": 32,
-        "rank": 522
+        "rank": 535
       }
     ]
   }

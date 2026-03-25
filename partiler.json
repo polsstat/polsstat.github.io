@@ -1,82 +1,82 @@
 {
-  "CHP": {
-    "mv_sayisi": 138,
-    "toplam_skor": 85343,
-    "ort_skor": 618
-  },
   "DEM PARTİ": {
     "mv_sayisi": 56,
-    "toplam_skor": 51058,
-    "ort_skor": 912
+    "toplam_skor": 51272,
+    "ort_skor": 916
+  },
+  "CHP": {
+    "mv_sayisi": 138,
+    "toplam_skor": 88340,
+    "ort_skor": 640
   },
   "İYİ Parti": {
     "mv_sayisi": 30,
-    "toplam_skor": 19332,
-    "ort_skor": 644
+    "toplam_skor": 21665,
+    "ort_skor": 722
   },
   "AK Parti": {
     "mv_sayisi": 274,
-    "toplam_skor": 22655,
-    "ort_skor": 83
+    "toplam_skor": 30297,
+    "ort_skor": 111
   },
   "YENİ YOL": {
     "mv_sayisi": 20,
-    "toplam_skor": 6883,
-    "ort_skor": 344
+    "toplam_skor": 7319,
+    "ort_skor": 366
   },
   "YENİDEN REFAH": {
     "mv_sayisi": 4,
-    "toplam_skor": 887,
-    "ort_skor": 222
+    "toplam_skor": 838,
+    "ort_skor": 210
   },
   "MHP": {
     "mv_sayisi": 46,
-    "toplam_skor": 3132,
-    "ort_skor": 68
-  },
-  "BAĞIMSIZ": {
-    "mv_sayisi": 10,
-    "toplam_skor": 1068,
-    "ort_skor": 107
-  },
-  "TİP": {
-    "mv_sayisi": 3,
-    "toplam_skor": 477,
-    "ort_skor": 159
-  },
-  "Bilinmiyor": {
-    "mv_sayisi": 8,
-    "toplam_skor": 736,
-    "ort_skor": 92
+    "toplam_skor": 4640,
+    "ort_skor": 101
   },
   "EMEP": {
     "mv_sayisi": 2,
-    "toplam_skor": 603,
-    "ort_skor": 302
+    "toplam_skor": 683,
+    "ort_skor": 342
+  },
+  "BAĞIMSIZ": {
+    "mv_sayisi": 10,
+    "toplam_skor": 1395,
+    "ort_skor": 140
+  },
+  "TİP": {
+    "mv_sayisi": 3,
+    "toplam_skor": 475,
+    "ort_skor": 158
+  },
+  "Bilinmiyor": {
+    "mv_sayisi": 8,
+    "toplam_skor": 702,
+    "ort_skor": 88
   },
   "DP": {
     "mv_sayisi": 1,
-    "toplam_skor": 232,
-    "ort_skor": 232
+    "toplam_skor": 226,
+    "ort_skor": 226
   },
   "HÜDA PAR": {
     "mv_sayisi": 4,
-    "toplam_skor": 294,
-    "ort_skor": 74
+    "toplam_skor": 292,
+    "ort_skor": 73
   },
   "DSP": {
     "mv_sayisi": 1,
-    "toplam_skor": 50,
-    "ort_skor": 50
+    "toplam_skor": 48,
+    "ort_skor": 48
   },
   "SAADET Partisi": {
     "mv_sayisi": 1,
-    "toplam_skor": 44,
-    "ort_skor": 44
+    "toplam_skor": 43,
+    "ort_skor": 43
   },
   "DBP": {
     "mv_sayisi": 2,
-    "toplam_skor": 47,
-    "ort_skor": 24
+    "toplam_skor": 42,
+    "ort_skor": 21
   }
 }
