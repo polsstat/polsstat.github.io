@@ -703,11 +703,12 @@ function openModal(slug){
     </div>
     <button class="modal-close" onclick="closeModal()">✕</button>`;
 
-  // Ağırlıklı max
+  // Ağırlıklı max — tüm faaliyetlerin ağırlıklı değerini kapsasın
   const maxAkt=Math.max(
     akt.yazili_soru||0,
     (akt.ilk_imza_kanun||0)*4,
     (akt.ilk_imza_arastirma||0)*3,
+    (akt.imzali_arastirma||0)*1,
     (akt.komisyon_konus||0)*3,
     1
   );
@@ -778,8 +779,10 @@ function openModal(slug){
     <div>${aktifRows.map(([lbl,val,renk2,weighted])=>`
       <div class="modal-akt-row">
         <span class="modal-akt-lbl">${lbl}</span>
-        <div class="modal-akt-bar"><div class="modal-akt-fill" style="width:${Math.round(weighted/maxAkt*100)}%;background:${renk2}"></div></div>
-        <span class="modal-akt-val">${val.toLocaleString('tr-TR')}</span>
+        <div class="modal-akt-bar" style="flex:1;min-width:0">
+          <div class="modal-akt-fill" style="width:${Math.min(100,Math.round(weighted/maxAkt*100))}%;background:${renk2}"></div>
+        </div>
+        <span class="modal-akt-val" style="flex-shrink:0;min-width:50px;text-align:right">${val.toLocaleString('tr-TR')}</span>
       </div>`).join('')}
     </div>
 
@@ -814,8 +817,6 @@ function renderPartiler(){
   const sorted=Object.entries(PARTI_DATA)
     .filter(([k])=>k!=='Bilinmiyor')
     .sort((a,b)=>b[1].toplam_skor-a[1].toplam_skor);
-  const maxOrt=Math.max(...sorted.map(([,d])=>d.ort_skor));
-  const maxT=sorted[0][1].toplam_skor;
   const grid=document.getElementById('partiler-grid');
   grid.className='parti-grid';
   grid.innerHTML=sorted.map(([p,d])=>{
@@ -833,24 +834,19 @@ function renderPartiler(){
         </div>
       </div>
       <div class="parti-body">
-        <div class="pstat-row"><span class="pstat-lbl">Ortalama skor</span><span class="pstat-val" style="color:${renk}">${d.ort_skor.toLocaleString('tr-TR')}</span></div>
-        <div class="pstat-row" style="border:none">
-          <span class="pstat-lbl">En aktif 3 MV</span>
+        <div class="pstat-row"><span class="pstat-lbl">MV başına ortalama</span><span class="pstat-val" style="color:${renk}">${d.ort_skor.toLocaleString('tr-TR')}</span></div>
+        <div class="pstat-row" style="border:none;padding-bottom:4px">
+          <span class="pstat-lbl">En aktif 3 milletvekili</span>
         </div>
         ${partiMVs.map((mv,i)=>`
-          <div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:11px;cursor:pointer" onclick="event.stopPropagation();openModal('${mv.slug}')">
-            <span style="color:var(--t4);font-weight:800;width:14px">${i+1}</span>
-            <span style="color:var(--t1);flex:1;font-weight:500">${mv.isim.split(' ').pop()}, ${mv.isim.split(' ')[0]}</span>
-            <span style="color:var(--t3)">${mv.skor.toLocaleString('tr-TR')}</span>
+          <div style="display:flex;align-items:center;gap:8px;padding:4px 0;font-size:11px;cursor:pointer;border-radius:6px;transition:background .1s" 
+               onclick="event.stopPropagation();openModal('${mv.slug}')"
+               onmouseover="this.style.background='var(--bg2)'"
+               onmouseout="this.style.background=''">
+            <span style="color:var(--t4);font-weight:700;width:16px;flex-shrink:0">${i+1}</span>
+            <span style="color:var(--t1);flex:1;font-weight:500">${mv.isim}</span>
+            <span style="color:var(--t3);font-size:10px">${mv.skor.toLocaleString('tr-TR')}</span>
           </div>`).join('')}
-        <div class="pbar-wrap" style="margin-top:12px">
-          <div class="pbar-label"><span>Toplam puan oranı</span><span>${Math.round(d.toplam_skor/maxT*100)}%</span></div>
-          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.toplam_skor/maxT*100)}%;background:${renk}"></div></div>
-        </div>
-        <div class="pbar-wrap" style="margin-top:8px">
-          <div class="pbar-label"><span>Ortalama skor oranı</span><span>${Math.round(d.ort_skor/maxOrt*100)}%</span></div>
-          <div class="pbar-bg"><div class="pbar-fill" style="width:${Math.round(d.ort_skor/maxOrt*100)}%;background:${renk};opacity:.5"></div></div>
-        </div>
       </div>
     </div>`}).join('');
 }
